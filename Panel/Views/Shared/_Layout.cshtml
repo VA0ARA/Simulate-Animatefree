@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/Samplemvc.styles.css" asp-append-version="true" /> *@
+
+    <link rel="stylesheet" href="~/css/fonts.css">
+    <link rel="stylesheet" href="~/css/boxicons.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <script  defer="" src="~/js/feather.min.js" ></script>
+    <script  defer="" src="~/js/font-awesome.min.js" ></script>
+  </head>
+  <body class="nav-fixed">
+
+  <nav class="is-rtl topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white" id="snavAccordion">
+    <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle">
+      <i class="bx bx-menu bx-sm"></i>
+    </button>
+    <a class="navbar-brand pe-3 ps-4 ps-lg-2">داشبورد مدیریتی</a>
+    <!--<form class="form-inline me-auto d-none d-lg-block me-3">
+      <div class="input-group input-group-joined input-group-solid">
+        <input class="form-control pe-0" type="search" placeholder="جستجو ..." aria-label="جستجو">
+        <div class="input-group-text"><i class="bx bx-search bx-sm"></i></div>
+      </div>
+    </form>
+  -->
+    <!-- Navbar Items-->
+    <ul class="navbar-nav align-items-center ms-auto">
+      <!-- Documentation Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="fw-500">راهنما</div>
+          <i class="bx bx-chevron-down bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-start py-0 ms-sm-n15 ms-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">راهنما</div>
+              نحوه استفاده از قالب
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">کامپوننت ها</div>
+              لیست تمام کامپوننت ها
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">لیست تغییرات</div>
+              بروزرسانی های صورت گرفته
+            </div>
+          </a>
+        </div>
+      </li>
+      <!-- Navbar Search Dropdown-->
+      <!-- * * Note: * * Visible only below the lg breakpoint-->
+      <!--
+      <li class="nav-item dropdown no-caret me-3 d-lg-none">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="searchDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-search bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end p-3 shadow animated--fade-in-up" aria-labelledby="searchDropdown">
+          <form class="form-inline me-auto w-100">
+            <div class="input-group input-group-joined input-group-solid">
+              <input class="form-control pe-0" type="text" placeholder="جستجو ..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-text"><i class="bx bx-search"></i></div>
+            </div>
+          </form>
+        </div>
+      </li>
+    -->
+      <!-- User Dropdown-->
+      <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="assets/img/profile-1.jpg"></a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
+          <h6 class="dropdown-header d-flex align-items-center">
+            <img class="dropdown-user-img" src="assets/img/profile-1.jpg">
+            <div class="dropdown-user-details">
+              <div class="dropdown-user-details-name">مرجان بابایی</div>
+              <div class="dropdown-user-details-email">مدیر سیستم</div>
+            </div>
+          </h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">
+            <div class="dropdown-item-icon"><i class="bx bx-user"></i></div>
+            حساب کاربری
+          </a>
+          <a class="dropdown-item" href="#">
+            <div class="dropdown-item-icon"><i class="bx bx-lock"></i></div>
+            تغییر کلمه عبور
+          </a>
+          <a class="dropdown-item" href="#">
+            <div class="dropdown-item-icon"><i class="bx bxs-file-txt"></i></div>
+            مشاهده لاگ سیستم
+          </a>
+          <a class="dropdown-item" href="#">
+            <div class="dropdown-item-icon"><i class="bx bx-log-out"></i></div>
+            خروج
+          </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+      <nav class="snav shadow-right snav-light">
+        <div class="snav-menu">
+          <div class="nav accordion" id="accordionSidenav">
+            <div class="snav-menu-heading">هسته</div>
+            <!-- پیشخوان -->
+            <a class="nav-link collapsed active" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-pulse"></i></div>
+              داشبورد
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPages">
+                <a class="nav-link" href="dashboard-default.html">
+                  وضعیت کاربران
+                </a>
+                <a class="nav-link active" href="dashboard-multi.html">چند منظوره</a>
+                <a class="nav-link" href="dashboard-affiliate.html">وضعیت اپ در کافه بازار</a>
+              </nav>
+            </div>
+            <div class="snav-menu-heading">کاربران پنل</div>
+            <!--  مدیران -->
+            <a class="nav-link collapsed pt-0" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+              <div class="nav-link-icon"><i class="bx bx-grid"></i></div>
+               مدیران
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+                <!-- راهنما -->
+                <a class="nav-link" asp-controller="Admin" asp-action="HelpMenu">راهنما</a>
+                <!-- پروفایل -->
+                <a class="nav-link" asp-controller="Admin" asp-action="AdminProfile">پروفایل</a>
+              </nav>
+            </div>
+            <!--  صاحب محصول -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
+              <div class="nav-link-icon"><i class="bx bx-globe"></i></div>
+               صاحب محصول
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
+                <!-- حذف و اضافه مدیران -->
+                <a class="nav-link" asp-controller="Owner"asp-action="ShowListOfAdmin">حذف و اضافه مدیران</a>
+                <!-- پروفایل -->
+                <a class="nav-link" asp-controller="Owner" asp-action="OwnerProfile">پروفایل</a>
+              </nav>
+            </div>
+            <div class="snav-menu-heading">  سرویس ها</div>
+            <!--  کاربران اپلیکیشن -->
+            <a class="nav-link collapsed " href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+              <div class="nav-link-icon"><i class="bx bx-layout"></i></div>
+               کاربران اپلیکیشن
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavLayout">
+                <!--  مشخصات کاربران -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavVariations" aria-expanded="false" aria-controls="collapseLayoutSidenavVariations">
+                   مشخصات کاربران
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavVariations" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="pages/layout/static.html">کاربر (عادی)</a>
+                    <a class="nav-link" href="pages/layout/dark.html"> کاربر(شرکت کننده در مسابقه)</a>
+                  </nav>
+                </div>
+                <!-- داوری مسابقات  -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavOption" aria-expanded="false" aria-controls="collapseLayoutSidenavOption">
+                  داوری مسابقات 
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavOption" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="pages/layout/layout-boxed.html"> امتیازدهی</a>
+                    <a class="nav-link" href="pages/layout/layout-fluid.html">اهدای جوایز</a>
+                    <a class="nav-link" href="pages/layout/layout-fluid.html">برترین ها</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            <!--  مدیریت فایلها -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseComponents" aria-expanded="false" aria-controls="collapseComponents">
+              <div class="nav-link-icon"><i class="bx bx-package"></i></div>
+               مدیریت فایلها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseComponents" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav">
+                <a class="nav-link" href="pages/components/alerts.html">Assets</a>
+                <a class="nav-link" asp-controller="Avatar"asp-action="ListOfAvatars">Avatars</a>
+                <a class="nav-link" asp-controller="VersionOfAPK"asp-action="ListOfVersionOfAPK">Version Of App</a>
+              </nav>
+            </div>
+
+            <!--  طراحی مسابقات و جوایز -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+               طراحی مسابقات و جوایز
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionUtilitiesPages">
+                <a class="nav-link" href="pages/utilities/animations.html">ساخت مسابقه</a>
+                <a class="nav-link" href="pages/utilities/background.html">ساخت هدیه</a>
+                <a class="nav-link" asp-controller="School"asp-action="ListOfSchool">ساخت مدرسه</a>
+              </nav>
+            </div>
+            <div class="snav-menu-heading">گراف ها </div>
+<!-- نمودارها -->
+            <a class="nav-link pt-0" href="pages/charts.html">
+              <div class="nav-link-icon"><i class="bx bx-bar-chart"></i></div>
+              نمودارها
+            </a>
+            <!-- جدول -->
+            <a class="nav-link" href="pages/tables.html">
+              <div class="nav-link-icon"><i class="bx bx-table"></i></div>
+              جدول
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="layoutSidenav_content">
+      @RenderBody()
+      @await RenderSectionAsync("Scripts", required: false)
+      <footer class="footer-admin mt-auto footer-light is-rtl">
+        <div class="container-xl px-4">
+          <div class="row">
+            <div class="col-md-6 small">  لطفا در پاک کردن اطلاعات، دقت لازم را داشته باشید </div>
+            <div class="col-md-6 text-md-end small">
+              <a href="#!">قوانین و مقررات</a>
+              <a href="#!">لایسنس ها</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="~/js/bootstrap.bundle.min.js" ></script>
+  <script src="~/js/scripts.js"></script>
+
+  <!-- chartsJs -->
+  @* <script src="~/js/chart/Chart.min.js" ></script>
+  <script src="~/js/chart/chart-area.js" ></script>
+  <script src="~/js/chart/chart-pie.js" ></script> *@
+
+
+  <!-- #region  #-->
+   <script src="~/js/scripts.js"></script>
+  <script src="~/js/jquery.js"></script>
+  <script src="~/js/bootstrap.bundle.min.js"></script>
+  <script src="~/js/simple-datatables@latest.js"></script>
+  <script src="~/js/simple-datatables@demo.js"></script>
+  <script src="~/js/scripts.js"></script>
+  <script src="~/lib/jquery/dist/jquery.min.js"></script>
+  <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="~/js/site.js" asp-append-version="true"></script>
+  @await RenderSectionAsync("Scripts", required: false)
+
+  </body>
+</html>

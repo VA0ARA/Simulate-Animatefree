@@ -1,0 +1,99 @@
+2024-10-21 17:00:04.239 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - null null
+2024-10-21 17:00:04.260 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-21 17:00:04.265 +03:30 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 17:00:04.279 +03:30 [INF] Executing ViewResult, running view Register.
+2024-10-21 17:00:04.414 +03:30 [INF] Executed ViewResult - view Register executed in 137.2697ms.
+2024-10-21 17:00:04.415 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern) in 148.8792ms
+2024-10-21 17:00:04.415 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-21 17:00:04.415 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - 200 null text/html; charset=utf-8 176.4006ms
+2024-10-21 17:02:41.740 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-21 17:02:42.342 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-21 17:02:42.349 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-21 17:02:42.350 +03:30 [INF] Hosting environment: Development
+2024-10-21 17:02:42.351 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-21 17:02:43.051 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-21 17:02:43.073 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-21 17:02:43.765 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:43.807 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-21 17:02:43.835 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-21 17:02:44.124 +03:30 [INF] Executed ViewResult - view Index executed in 290.6114ms.
+2024-10-21 17:02:44.139 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 330.6706ms
+2024-10-21 17:02:44.140 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:44.154 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 1107.8691ms
+2024-10-21 17:02:50.589 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Logout - null null
+2024-10-21 17:02:50.724 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:50.747 +03:30 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 17:02:50.762 +03:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-21 17:02:50.767 +03:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-21 17:02:50.768 +03:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-21 17:02:50.770 +03:30 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2024-10-21 17:02:50.771 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern) in 23.0867ms
+2024-10-21 17:02:50.771 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:50.773 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Logout - 302 0 null 183.5385ms
+2024-10-21 17:02:50.785 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login - null null
+2024-10-21 17:02:50.802 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:50.806 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 17:02:50.812 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-21 17:02:51.122 +03:30 [INF] Executed ViewResult - view Login executed in 311.8957ms.
+2024-10-21 17:02:51.122 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 315.3361ms
+2024-10-21 17:02:51.122 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:51.122 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login - 200 null text/html; charset=utf-8 337.8286ms
+2024-10-21 17:02:55.411 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Account/Login - application/x-www-form-urlencoded 236
+2024-10-21 17:02:55.414 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:55.457 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(APAF.Domain.Core.Dtos.Account.LoginDTO, System.String) on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 17:02:57.776 +03:30 [INF] Executed DbCommand (83ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-21 17:02:58.418 +03:30 [INF] Executed DbCommand (25ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-21 17:02:58.542 +03:30 [INF] Executed DbCommand (32ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-21 17:02:58.597 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-21 17:02:58.684 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-21 17:02:58.706 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-21 17:02:58.720 +03:30 [INF] Executing RedirectResult, redirecting to /.
+2024-10-21 17:02:58.723 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 3265.7381ms
+2024-10-21 17:02:58.725 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:58.746 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Account/Login - 302 0 null 3334.7777ms
+2024-10-21 17:02:58.747 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-21 17:02:58.755 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:58.757 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-21 17:02:58.758 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-21 17:02:58.762 +03:30 [INF] Executed ViewResult - view Index executed in 4.6906ms.
+2024-10-21 17:02:58.763 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 5.4779ms
+2024-10-21 17:02:58.763 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 17:02:58.763 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 16.4259ms
+2024-10-21 17:03:02.149 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - null null
+2024-10-21 17:03:02.154 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-21 17:03:02.160 +03:30 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 17:03:02.164 +03:30 [INF] Executing ViewResult, running view Register.
+2024-10-21 17:03:02.284 +03:30 [INF] Executed ViewResult - view Register executed in 122.1034ms.
+2024-10-21 17:03:02.285 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern) in 124.2585ms
+2024-10-21 17:03:02.285 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-21 17:03:02.285 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - 200 null text/html; charset=utf-8 136.5414ms
+2024-10-21 17:03:13.654 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/login/basic.html - null null
+2024-10-21 17:03:13.660 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/login/basic.html - 404 0 null 6.4372ms
+2024-10-21 17:03:13.662 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/login/basic.html, Response status code: 404
+2024-10-21 17:03:13.725 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/login/basic.html - null null
+2024-10-21 17:03:13.729 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/login/basic.html - 404 0 null 3.1121ms
+2024-10-21 17:03:13.729 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/login/basic.html, Response status code: 404
+2024-10-21 17:03:15.814 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - null null
+2024-10-21 17:03:15.816 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-21 17:03:15.817 +03:30 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 17:03:15.817 +03:30 [INF] Executing ViewResult, running view Register.
+2024-10-21 17:03:15.825 +03:30 [INF] Executed ViewResult - view Register executed in 7.8844ms.
+2024-10-21 17:03:15.826 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern) in 9.084ms
+2024-10-21 17:03:15.826 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-21 17:03:15.828 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - 200 null text/html; charset=utf-8 12.8768ms

@@ -1,0 +1,119 @@
+2024-10-28 10:39:35.736 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-28 10:39:35.865 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-28 10:39:36.395 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-28 10:39:36.405 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-28 10:39:36.407 +03:30 [INF] Hosting environment: Development
+2024-10-28 10:39:36.408 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-28 10:40:14.556 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-28 10:40:14.865 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 313.3095ms
+2024-10-28 10:40:15.358 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-10-28 10:40:15.483 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-28 10:40:15.520 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-28 10:40:15.521 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 499 665 image/png 162.9025ms
+2024-10-28 10:40:15.789 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 305.5638ms
+2024-10-28 10:41:10.694 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login - null null
+2024-10-28 10:41:10.776 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-28 10:41:11.148 +03:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:41:11.149 +03:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:41:11.150 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login - 405 0 null 455.9926ms
+2024-10-28 10:41:46.226 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - null null
+2024-10-28 10:41:46.306 +03:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:41:46.306 +03:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:41:46.380 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - 405 0 null 115.6267ms
+2024-10-28 10:41:55.244 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - null null
+2024-10-28 10:41:55.252 +03:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:41:55.252 +03:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:41:55.252 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - 405 0 null 8.03ms
+2024-10-28 10:43:02.705 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - null null
+2024-10-28 10:43:02.921 +03:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:13:02 AM'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-28 10:43:02.926 +03:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:13:02 AM'.
+2024-10-28 10:43:02.926 +03:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:43:02.927 +03:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-10-28 10:43:02.927 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - 405 0 null 221.862ms
+2024-10-28 10:44:18.427 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - null 0
+2024-10-28 10:44:18.433 +03:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:14:18 AM'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-28 10:44:18.435 +03:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:14:18 AM'.
+2024-10-28 10:44:18.435 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-28 10:44:18.510 +03:30 [INF] Route matched with {action = "Login", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhoneNumberRequest, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-28 10:44:19.042 +03:30 [INF] log int he index controller
+2024-10-28 10:44:21.372 +03:30 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE 0 = 1
+2024-10-28 10:44:21.486 +03:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary'.
+2024-10-28 10:44:21.520 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity) in 3004.5312ms
+2024-10-28 10:44:21.521 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-28 10:44:21.546 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login/?PhoneNumber=09151589629 - 401 null application/json; charset=utf-8 3121.8784ms
+2024-10-28 10:45:05.213 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login/ - null 0
+2024-10-28 10:45:05.258 +03:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:15:05 AM'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-28 10:45:05.302 +03:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:15:05 AM'.
+2024-10-28 10:45:05.303 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-28 10:45:05.307 +03:30 [INF] Route matched with {action = "Login", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhoneNumberRequest, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-28 10:45:05.318 +03:30 [INF] log int he index controller
+2024-10-28 10:45:05.666 +03:30 [INF] Executed DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE 0 = 1
+2024-10-28 10:45:05.669 +03:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary'.
+2024-10-28 10:45:05.671 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity) in 361.9797ms
+2024-10-28 10:45:05.672 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-28 10:45:05.673 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login/ - 401 null application/json; charset=utf-8 460.4716ms
+2024-10-28 10:45:41.760 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login/ - multipart/form-data; boundary=--------------------------048427033849120750381766 177
+2024-10-28 10:45:41.801 +03:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:15:41 AM'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-28 10:45:41.802 +03:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/16/2024 8:49:14 PM', Current time (UTC): '10/28/2024 7:15:41 AM'.
+2024-10-28 10:45:41.802 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-28 10:45:41.803 +03:30 [INF] Route matched with {action = "Login", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhoneNumberRequest, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-28 10:45:41.885 +03:30 [INF] log int he index controller
+2024-10-28 10:45:42.196 +03:30 [INF] Executed DbCommand (137ms) [Parameters=[@__phone_0='?' (Size = 11)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[PhoneNumber] = @__phone_0
+2024-10-28 10:45:42.399 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-28 10:45:42.430 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity) in 626.7053ms
+2024-10-28 10:45:42.430 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-28 10:45:42.430 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login/ - 200 null application/json; charset=utf-8 670.0743ms

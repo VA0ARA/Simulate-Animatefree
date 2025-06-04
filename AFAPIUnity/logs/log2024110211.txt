@@ -1,0 +1,68 @@
+2024-11-02 11:42:45.743 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 11:42:45.864 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 11:42:46.444 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 11:42:46.453 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 11:42:46.454 +03:30 [INF] Hosting environment: Development
+2024-11-02 11:42:46.454 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-02 11:43:02.682 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-11-02 11:43:02.856 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 178.2543ms
+2024-11-02 11:43:02.874 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-11-02 11:43:03.078 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 203.1765ms
+2024-11-02 11:43:05.814 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-11-02 11:43:06.094 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 280.3871ms
+2024-11-02 11:47:29.481 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 11:47:29.601 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 11:47:30.068 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 11:47:30.079 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 11:47:30.080 +03:30 [INF] Hosting environment: Development
+2024-11-02 11:47:30.081 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity

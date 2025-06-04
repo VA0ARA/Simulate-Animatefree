@@ -1,0 +1,647 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAPIUnity\\AFAPIUnity.csproj": {}
+  },
+  "projects": {
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAP.EndPointMVCPattern\\AFAP.EndPointMVCPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAP.EndPointMVCPattern\\AFAP.EndPointMVCPattern.csproj",
+        "projectName": "AFAP.EndPointMVCPattern",
+        "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAP.EndPointMVCPattern\\AFAP.EndPointMVCPattern.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAP.EndPointMVCPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\APAF.Redis.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\APAF.Redis.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\APAF.Services.Domain.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\APAF.Services.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAPIUnity\\AFAPIUnity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAPIUnity\\AFAPIUnity.csproj",
+        "projectName": "AFAPIUnity",
+        "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAPIUnity\\AFAPIUnity.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAPIUnity\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAP.EndPointMVCPattern\\AFAP.EndPointMVCPattern.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AFAP.EndPointMVCPattern\\AFAP.EndPointMVCPattern.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\APAF.Services.Domain.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\APAF.Services.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[8.0.7, 8.0.7]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[8.0.7, 8.0.7]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[8.0.7, 8.0.7]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\APAF.Redis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\APAF.Redis.csproj",
+        "projectName": "APAF.Redis",
+        "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\APAF.Redis.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj",
+        "projectName": "APAF.AppServices.Domain",
+        "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj",
+        "projectName": "APAF.Domain.Core",
+        "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj",
+        "projectName": "APAF.Infrastructure.EFCore",
+        "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\APAF.Redis.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\AP.AF.Redis\\APAF.Redis.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Domain.Core\\APAF.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\APAF.Services.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\APAF.Services.Domain.csproj",
+        "projectName": "APAF.Services.Domain",
+        "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\APAF.Services.Domain.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Services.Doamin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.AppServices.Domain\\APAF.AppServices.Domain.csproj"
+              },
+              "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Project\\1\\adminpanelofanimatefree-master\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

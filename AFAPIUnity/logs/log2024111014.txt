@@ -1,0 +1,49 @@
+2024-11-10 14:14:29.947 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-10 14:14:30.111 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-10 14:14:30.600 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-10 14:14:30.609 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-10 14:14:30.610 +03:30 [INF] Hosting environment: Development
+2024-11-10 14:14:30.610 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-10 14:14:46.195 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-11-10 14:14:46.381 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 189.4125ms
+2024-11-10 14:14:46.410 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-11-10 14:14:46.612 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 201.7312ms
+2024-11-10 14:14:46.724 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - null null
+2024-11-10 14:14:46.747 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-bundle.js - null null
+2024-11-10 14:14:46.805 +03:30 [INF] The file /swagger-ui-bundle.js was not modified
+2024-11-10 14:14:46.854 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-standalone-preset.js - null null
+2024-11-10 14:14:46.856 +03:30 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-11-10 14:14:46.857 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-standalone-preset.js - 304 null text/javascript 2.6242ms
+2024-11-10 14:14:46.856 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-bundle.js - 304 null text/javascript 109.1683ms
+2024-11-10 14:14:47.154 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-10 14:14:47.159 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - 200 143943 text/css 434.715ms
+2024-11-10 14:14:47.367 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-11-10 14:14:47.369 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-11-10 14:14:47.369 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 200 665 image/png 1.8456ms
+2024-11-10 14:14:47.440 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-11-10 14:14:47.659 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 219.5715ms

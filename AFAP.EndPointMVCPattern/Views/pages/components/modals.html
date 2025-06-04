@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="fa" class="overflow-unset">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SB Admin pro - قالب داشبورد مدیریت بوت‌استرپ - مودال‌ها</title>
+
+    <link rel="stylesheet" href="../../assets/css/fonts.css">
+    <link rel="stylesheet" href="../../assets/css/boxicons.css">
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/persian-datepicker.css" />
+
+  </head>
+  <body class="nav-fixed">
+
+  <nav class="is-rtl topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white" id="snavAccordion">
+    <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle">
+      <i class="bx bx-menu bx-sm"></i>
+    </button>
+    <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="../../index.html">داشبورد مدیریتی</a>
+    <form class="form-inline me-auto d-none d-lg-block me-3">
+      <div class="input-group input-group-joined input-group-solid">
+        <input class="form-control pe-0" type="search" placeholder="جستجو ..." aria-label="جستجو">
+        <div class="input-group-text"><i class="bx bx-search bx-sm"></i></div>
+      </div>
+    </form>
+
+    <!-- Navbar Items-->
+    <ul class="navbar-nav align-items-center ms-auto">
+
+      <!-- Documentation Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="fw-500">راهنما</div>
+          <i class="bx bx-chevron-down bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-start py-0 ms-sm-n15 ms-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">راهنما</div>
+              نحوه استفاده از قالب
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">کامپوننت ها</div>
+              لیست تمام کامپوننت ها
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">لیست تغییرات</div>
+              بروزرسانی های صورت گرفته
+            </div>
+          </a>
+        </div>
+      </li>
+
+
+      <!-- Navbar Search Dropdown-->
+      <!-- * * Note: * * Visible only below the lg breakpoint-->
+      <li class="nav-item dropdown no-caret me-3 d-lg-none">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="searchDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-search bx-sm"></i>
+        </a>
+        <!-- Dropdown - Search-->
+        <div class="dropdown-menu dropdown-menu-end p-3 shadow animated--fade-in-up" aria-labelledby="searchDropdown">
+          <form class="form-inline me-auto w-100">
+            <div class="input-group input-group-joined input-group-solid">
+              <input class="form-control pe-0" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-text"><i data-feather="search"></i></div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Alerts Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownAlerts" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-bell bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownAlerts">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-bell me-2"></i>
+            اعلان‌ها
+          </h6>
+          <div class="dropdown-div">
+
+            <!-- اعلان 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-warning"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-info"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-success"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-danger"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+
+          </div>
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه اعلان ها</a>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-envelope bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownMessages">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-message me-2"></i>
+            پیام ها
+          </h6>
+
+          <div class="dropdown-div">
+
+            <!-- پیام 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-1.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مرجان بابایی</small>
+              </div>
+            </a>
+
+            <!-- پیام 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-2.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی </p>
+                <small class="text-muted">سهیلا طاهری</small>
+              </div>
+            </a>
+
+            <!-- پیام 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-3.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">عسل شمس</small>
+              </div>
+            </a>
+
+            <!-- پیام 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-4.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مجید احمدی</small>
+              </div>
+            </a>
+          </div>
+
+
+          <!-- Footer Link-->
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه پیام ها</a>
+        </div>
+      </li>
+      <!-- User Dropdown-->
+      <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="../../assets/img/profile-1.jpg"></a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
+          <h6 class="dropdown-header d-flex align-items-center">
+            <img class="dropdown-user-img" src="../../assets/img/profile-1.jpg">
+            <div class="dropdown-user-details">
+              <div class="dropdown-user-details-name">مرجان بابایی</div>
+              <div class="dropdown-user-details-email">مدیر سیستم</div>
+            </div>
+          </h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-user"></i></div>
+            حساب کاربری
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-lock"></i></div>
+            تغییر کلمه عبور
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bxs-file-txt"></i></div>
+            مشاهده لاگ سیستم
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-log-out"></i></div>
+            خروج
+          </a>
+        </div>
+      </li>
+
+    </ul>
+  </nav>
+  <div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+      <nav class="snav shadow-right snav-light">
+        <div class="snav-menu">
+          <div class="nav accordion" id="accordionSidenav">
+
+
+            <div class="snav-menu-heading d-sm-none">حساب کاربری</div>
+
+            <!-- اعلان ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-bell "></i></div>
+              اعلان ها
+              <span class="badge bg-warning-soft text-warning ms-auto">4 جدید!</span>
+            </a>
+
+            <!-- پیام ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-envelope"></i></div>
+              پیام ها
+              <span class="badge bg-success-soft text-success ms-auto">2 جدید!</span>
+            </a>
+            
+
+            <div class="snav-menu-heading">هسته</div>
+<!-- پیشخوان -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-pulse"></i></div>
+              داشبورد
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPages">
+                <a class="nav-link" href="../../dashboard-default.html">
+                  پیشفرض
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="../../dashboard-multi.html">چند منظوره</a>
+                <a class="nav-link" href="../../dashboard-affiliate.html">بازاریابی</a>
+              </nav>
+            </div>
+
+            
+
+            <div class="snav-menu-heading">سفارشی</div>
+<!-- برگه ها -->
+            <a class="nav-link collapsed pt-0" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+              <div class="nav-link-icon"><i class="bx bx-grid"></i></div>
+              برگه ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
+
+
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+
+                <!-- حساب کاربری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAccount" aria-expanded="false" aria-controls="pagesCollapseAccount">
+                  حساب کاربری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../account/profile.html">پروفایل</a>
+                    <a class="nav-link" href="../account/profile-billing.html">صورتحساب</a>
+                    <a class="nav-link" href="../account/profile-security.html">امنیت</a>
+                    <a class="nav-link" href="../account/profile-notifications.html">اعلان ها</a>
+                  </nav>
+                </div>
+
+                <!-- احراز هویت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                  احراز هویت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAuth" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesAuth">
+
+                    <!-- ثبت نام -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthRegister" aria-expanded="false" aria-controls="pagesCollapseAuthRegister">
+                      ثبت نام
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthRegister" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/register/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/register/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/stepbystep.html">چند مرحله ای</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- ورود -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthLogin" aria-expanded="false" aria-controls="pagesCollapseAuthLogin">
+                      ورود
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthLogin" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/login/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/login/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/login/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- شبکه های اجتماعی -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthSocial" aria-expanded="false" aria-controls="pagesCollapseAuthSocial">
+                      شبکه های اجتماعی
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthSocial" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/social/login.html">ورود</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/register.html">ثبت نام</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/forget-password.html">فراموشی رمزعبور</a>
+                      </nav>
+                    </div>
+
+                    <!-- فراموشی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthForgetwd" aria-expanded="false" aria-controls="pagesCollapseAuthForgetwd">
+                      فراموشی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthForgetwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/forgetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- بازنشانی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthResetPwd" aria-expanded="false" aria-controls="pagesCollapseAuthResetPwd">
+                      بازنشانی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthResetPwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- تایید ایمیل -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthEmail" aria-expanded="false" aria-controls="pagesCollapseAuthEmail">
+                      تایید ایمیل
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthEmail" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/email/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/email/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- دو مرحله ای -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth2fa" aria-expanded="false" aria-controls="pagesCollapseAuth2fa">
+                      دو مرحله ای
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuth2fa" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/2fa/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/2fa/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                  </nav>
+                </div>
+
+                <!-- خطاها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                  خطاها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseError" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../error/400.html">400</a>
+                    <a class="nav-link" href="../error/401.html">401</a>
+                    <a class="nav-link" href="../error/403.html">403</a>
+                    <a class="nav-link" href="../error/404-1.html">404 طرح 1</a>
+                    <a class="nav-link" href="../error/404-2.html">404 طرح 2</a>
+                    <a class="nav-link" href="../error/500.html">500</a>
+                    <a class="nav-link" href="../error/503.html">503</a>
+                    <a class="nav-link" href="../error/504.html">504</a>
+                  </nav>
+                </div>
+
+                <!-- تعرفه ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapsePrice" aria-expanded="true" aria-controls="pagesCollapsePrice">
+                  تعرفه ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapsePrice" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../pricing/pricing-1.html">طرح شماره 1</a>
+                    <a class="nav-link" href="../pricing/pricing-2.html">طرح شماره 2</a>
+                    <a class="nav-link" href="../pricing/pricing-3.html">طرح شماره 3</a>
+                  </nav>
+                </div>
+                <!-- فاکتور -->
+                <a class="nav-link" href="../invoice.html">فاکتور</a>
+              </nav>
+            </div>
+
+            <!-- نرم افزارها -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
+              <div class="nav-link-icon"><i class="bx bx-globe"></i></div>
+              نرم افزارها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
+
+                <!-- مقالات -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseKnowledgeBase" aria-expanded="false" aria-controls="appsCollapseKnowledgeBase">
+                  مقالات
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseKnowledgeBase" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../articles/tarh-1.html">طرح یک</a>
+                    <a class="nav-link" href="../articles/tarh-2.html">طرح دو</a>
+                    <a class="nav-link" href="../articles/category.html">دسته بندی</a>
+                    <a class="nav-link" href="../articles/base.html">مطالب</a>
+                  </nav>
+                </div>
+
+                <!-- کاربران -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseUserManagement" aria-expanded="false" aria-controls="appsCollapseUserManagement">
+                  کاربران
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseUserManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../users/list.html">لیست</a>
+                    <a class="nav-link" href="../users/edit.html">ویرایش کاربر</a>
+                    <a class="nav-link" href="../users/add.html">ایجاد کاربر</a>
+                    <a class="nav-link" href="../users/groups-list.html">فهرست گروهی</a>
+                    <a class="nav-link" href="../users/org-details.html">مشخصات سازمانی</a>
+                  </nav>
+                </div>
+                <!-- مدیریت پست ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapsePostsManagement" aria-expanded="false" aria-controls="appsCollapsePostsManagement">
+                  مدیریت پست ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapsePostsManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../posts/list.html">لیست</a>
+                    <a class="nav-link" href="../posts/create.html">ایجاد مطلب</a>
+                    <a class="nav-link" href="../posts/edit.html">ویرایش مطلب</a>
+                    <a class="nav-link" href="../posts/admin.html">فهرست مطالب مدیر</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            
+            <!-- فرم چند مرحله -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseMulti" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              فرم چند مرحله
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseMulti" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionMultiPages">
+                <a class="nav-link" href="../flows/multi-select.html">ثبت نام چندتایی</a>
+                <a class="nav-link" href="../flows/multi-wizard.html">فرم گام به گام مرحله ای</a>
+
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">ابزارهای رابط کاربری</div>
+
+<!-- طرح ها -->
+            <a class="nav-link collapsed " href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+              <div class="nav-link-icon"><i class="bx bx-layout"></i></div>
+              طرح ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavLayout">
+                <!-- ناوبری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavVariations" aria-expanded="false" aria-controls="collapseLayoutSidenavVariations">
+                  ناوبری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavVariations" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/static.html">استاتیک</a>
+                                        <a class="nav-link" href="../layout/dark.html">تم تاریک</a>
+                    <a class="nav-link active" href="../layout/ltr.html">صفحه چپ به راست</a>
+                  </nav>
+                </div>
+                <!-- تنظیمات Container -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavOption" aria-expanded="false" aria-controls="collapseLayoutSidenavOption">
+                  تنظیمات Container
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavOption" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/layout-boxed.html">باکس - Boxed Layout</a>
+                    <a class="nav-link" href="../layout/layout-fluid.html">سیال - Fluid Layout</a>
+                  </nav>
+                </div>
+
+                <!-- هدر سایت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsPageHeaders" aria-expanded="false" aria-controls="collapseLayoutsPageHeaders">
+                  هدر سایت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsPageHeaders" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../header/simplified.html">ساده</a>
+                    <a class="nav-link" href="../header/compact.html">کامپکت</a>
+                    <a class="nav-link" href="../header/overlap.html">همپوشانی</a>
+                    <a class="nav-link" href="../header/breadcrumbs.html">نمایش مسیر صفحات</a>
+                    <a class="nav-link" href="../header/light.html">تم روشن</a>
+                  </nav>
+                </div>
+                <!-- طرح بندی اصلی -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsStarterTemplates" aria-expanded="false" aria-controls="collapseLayoutsStarterTemplates">
+                  طرح بندی اصلی
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsStarterTemplates" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../starter/default.html">پیشفرض</a>
+                    <a class="nav-link" href="../starter/minimal.html">مینیمال</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            
+<!-- رابط کاربری -->
+            <a class="nav-link collapsed active" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseComponents" aria-expanded="false" aria-controls="collapseComponents">
+              <div class="nav-link-icon"><i class="bx bx-package"></i></div>
+              رابط کاربری
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseComponents" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav">
+                <a class="nav-link" href="alerts.html">هشدارها</a>
+                <a class="nav-link" href="avatars.html">آواتار</a>
+                <a class="nav-link" href="badges.html">نشان‌ها</a>
+                <a class="nav-link" href="buttons.html">دکمه‌ها</a>
+                <a class="nav-link" href="cards.html">
+                  کارت
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="dropdowns.html">کشویی</a>
+                <a class="nav-link" href="forms.html">
+                  فرم‌ها<span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link active" href="modals.html">مودال‌ها</a>
+                <a class="nav-link" href="navigation.html">نوار ناوبری</a>
+                <a class="nav-link" href="progress.html">درصد پیشرفت</a>
+                                <a class="nav-link" href="step.html">گام به گام</a>
+				<a class="nav-link" href="spinners.html">چرخنده</a>
+                <a class="nav-link" href="timeline.html">خط زمانی</a>
+                <a class="nav-link" href="toasts.html">اعلان های Toasts</a>
+                <a class="nav-link" href="tooltips.html">تولتیپ ها</a>
+              </nav>
+            </div>
+
+            <!-- برنامه‌های سودمند -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              برنامه‌های سودمند
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionUtilitiesPages">
+                <a class="nav-link" href="../utilities/animations.html">انیمیشن</a>
+                <a class="nav-link" href="../utilities/background.html">پس‌زمینه</a>
+                <a class="nav-link" href="../utilities/borders.html">حاشیه</a>
+                <a class="nav-link" href="../utilities/lift.html">افکت Lift</a>
+                <a class="nav-link" href="../utilities/shadows.html">سایه‌ها</a>
+                <a class="nav-link" href="../utilities/typography.html">تایپوگرافی</a>
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">پلاگین</div>
+<!-- نمودارها -->
+            <a class="nav-link pt-0" href="../charts.html">
+              <div class="nav-link-icon"><i class="bx bx-bar-chart"></i></div>
+              نمودارها
+            </a>
+            <!-- جدول -->
+            <a class="nav-link" href="../tables.html">
+              <div class="nav-link-icon"><i class="bx bx-table"></i></div>
+              جدول
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="layoutSidenav_content">
+      <main class="is-rtl">
+        <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+          <div class="container-xl px-4">
+            <div class="page-header-content pt-4">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-auto mt-4">
+                  <h1 class="page-header-title">
+                    <div class="page-header-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></div>
+                    مودال‌ها
+                  </h1>
+                  <div class="page-header-subtitle">کادرهای گفتگو برای نمایش لایت باکس، اعلان ها یا سایر محتوای سفارشی</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Main page content-->
+        <div class="container-xl px-4 mt-n10">
+          <div class="row">
+            <div class="col-lg-9">
+              <!-- Default Bootstrap Modal-->
+              <div id="default">
+                <div class="card mb-4">
+                  <div class="card-header">مودال‌های بوت‌استرپ پیشفرض</div>
+                  <div class="card-body">
+                    <h6 class="small text-muted fw-500">مودال پایه:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview mb-4">
+                      <div class="sbp-preview-content">
+                        <!-- Button trigger modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">مشاهده دمو</button>
+                        <!-- Modal-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">مودال‌ بوت‌استرپ پیشفرض</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="fبستن"></button>
+                              </div>
+                              <div class="modal-body">این پنجره مودال همراه با چارچوب بوت استرپ است. استایل برای تم SB Admin Pro تغییر کرده است.</div>
+                              <div class="modal-footer">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">بستن</button>
+                                <button class="btn btn-primary" type="button">ذخیره تغییرات</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="modalDefaultTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="modalDefaultHtmlTab" data-bs-toggle="tab" href="#modalDefaultHtml" role="tab" aria-controls="modalDefaultHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="modalDefaultPugTab" data-bs-toggle="tab" href="#modalDefaultPug" role="tab" aria-controls="modalDefaultPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="modalDefaultHtml" role="tabpanel" aria-labelledby="modalDefaultHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModal<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalLabel<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalLabel<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مودال‌ بوت‌استرپ پیشفرض</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-secondary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">ذخیره تغییرات</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="modalDefaultPug" role="tabpanel" aria-labelledby="modalDefaultPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Button trigger modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#exampleModal'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token punctuation">|</span> <span class="plain-text">مشاهده دمو</span>
+<span class="token comment">//- Modal</span>
+<span class="token tag">#exampleModal.modal.fade<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleModalLabel'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5#exampleModalLabel.modal-title</span> <span class="token plain-text">مودال‌ بوت‌استرپ پیشفرض</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token punctuation">|</span> <span class="token punctuation">...</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-secondary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">ذخیره تغییرات</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">حالت پیش‌فرض Bootstrap برای تم SB Admin Pro تغییر شکل داده شده است.</div>
+                    </div>
+                    <h6 class="small text-muted fw-500">پس زمینه استاتیک:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <!-- Button trigger modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">مشاهده دمو</button>
+                        <!-- Modal-->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">پس زمینه استاتیک مودال</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="fبستن"></button>
+                              </div>
+                              <div class="modal-body">
+                                زمانیکه
+                                <code>data-bs-backdrop='static'</code>
+                                ویژگی با یک پنجره مودال، کاربر نمی تواند با کلیک کردن در خارج از پنجره مدال، مودال را رد کند.
+                              </div>
+                              <div class="modal-footer">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">بستن</button>
+                                <button class="btn btn-primary" type="button">فهمیدم</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="modalDefaultStaticTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="modalDefaultStaticHtmlTab" data-bs-toggle="tab" href="#modalDefaultStaticHtml" role="tab" aria-controls="modalDefaultStaticHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="modalDefaultStaticPugTab" data-bs-toggle="tab" href="#modalDefaultStaticPug" role="tab" aria-controls="modalDefaultStaticPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="modalDefaultStaticHtml" role="tabpanel" aria-labelledby="modalDefaultStaticHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#staticBackdrop<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مشاهده دمو</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>staticBackdrop<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-backdrop</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>static<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>staticBackdropLabel<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>staticBackdropLabel<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">پس زمینه استاتیک</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-secondary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">فهمیدم</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="modalDefaultStaticPug" role="tabpanel" aria-labelledby="modalDefaultStaticPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Button trigger modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#staticBackdrop'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token punctuation">|</span> <span class="plain-text">مشاهده دمو</span>
+<span class="token comment">//- Modal</span>
+<span class="token tag">#staticBackdrop.modal.fade<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-bs-backdrop</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'static'</span></span><span class="token punctuation">,</span> <span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'staticBackdropLabel'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5#staticBackdropLabel.modal-title</span> <span class="token plain-text">پس زمینه استاتیک</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token punctuation">|</span> <span class="token punctuation">...</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-secondary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">فهمیدم</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">گزینه static backdrop modal را نمی توان با کلیک کردن در خارج از پنجره مودال رد کرد. در عوض، کاربر باید مودال را با استفاده از دکمه بستن در پنجره مودال رد کند.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Scrollable Bootstrap Modal-->
+              <div id="scrollable">
+                <div class="card mb-4">
+                  <div class="card-header">مودال اسکرول شونده بوت استرپ</div>
+                  <div class="card-body">
+                    <h6 class="small text-muted fw-500">صفحه اسکرول طولانی معین:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview mb-4">
+                      <div class="sbp-preview-content">
+                        <!-- Button trigger modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalLong">مشاهده دمو</button>
+                        <!-- Modal-->
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">مودال طولانی با پیشمایش صفحه</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="fبستن"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p class="mb-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در فارسی ایجاد کرد.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">بستن</button>
+                                <button class="btn btn-primary" type="button">ذخیره تغییرات</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="modalScrollingTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="modalScrollingHtmlTab" data-bs-toggle="tab" href="#modalScrollingHtml" role="tab" aria-controls="modalScrollingHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="modalScrollingPugTab" data-bs-toggle="tab" href="#modalScrollingPug" role="tab" aria-controls="modalScrollingPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="modalScrollingHtml" role="tabpanel" aria-labelledby="modalScrollingHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModalLong<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مشاهده دمو</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalLong<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalLongTitle<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalLongTitle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">صفحه اسکرول طولانی معین</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                ...
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-secondary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">ذخیره تغییرات</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="modalScrollingPug" role="tabpanel" aria-labelledby="modalScrollingPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Button trigger modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#exampleModalLong'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token punctuation">|</span> <span class="plain-text">مشاهده دمو</span>
+<span class="token comment">//- Modal</span>
+<span class="token tag">#exampleModalLong.modal.fade<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleModalLongTitle'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5#exampleModalLongTitle.modal-title</span> <span class="token plain-text">صفحه اسکرول طولانی معین</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token punctuation">|</span> <span class="token punctuation">...</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-secondary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">ذخیره تغییرات</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">به‌طور پیش‌فرض، اگر محتوا بیش از حد طولانی باشد، محتوای یک مدال مستقل از صفحه حرکت می‌کند. اگر نمی خواهید صفحه اسکرول شود، از گزینه بعدی استفاده کنید.</div>
+                    </div>
+                    <h6 class="small text-muted fw-500">مودال ثابت با محتوای اسکرول شونده:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <!-- Button trigger modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable">مشاهده دمو</button>
+                        <!-- Modal-->
+                        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalScrollableTitle">عنوان مودال</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="fبستن"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو ایجاد کرد.</p>
+                                <p class="mb-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در فارسی ایجاد کرد.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">بستن</button>
+                                <button class="btn btn-primary" type="button">ذخیره تغییرات</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="modalScrollingDialogTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="modalScrollingDialogHtmlTab" data-bs-toggle="tab" href="#modalScrollingDialogHtml" role="tab" aria-controls="modalScrollingDialogHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="modalScrollingDialogPugTab" data-bs-toggle="tab" href="#modalScrollingDialogPug" role="tab" aria-controls="modalScrollingDialogPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="modalScrollingDialogHtml" role="tabpanel" aria-labelledby="modalScrollingDialogHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Button modal trigger --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModalScrollable<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مشاهده دمو</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalScrollable<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalScrollableTitle<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog modal-dialog-scrollable<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalScrollableTitle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">عنوان مودال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                ...
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-secondary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">ذخیره تغییرات</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="modalScrollingDialogPug" role="tabpanel" aria-labelledby="modalScrollingDialogPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Button trigger modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#exampleModalScrollable'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token punctuation">|</span> <span class="plain-text">مشاهده دمو</span>
+<span class="token comment">//- Modal</span>
+<span class="token tag">#exampleModalScrollable.modal.fade<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleModalScrollableTitle'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog.modal-dialog-scrollable<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5#exampleModalScrollableTitle.modal-title</span> <span class="token plain-text">عنوان مودال</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token punctuation">|</span> <span class="token punctuation">...</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-secondary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">ذخیره تغییرات</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        کلاس
+                        <code>.modal-dialog-scrollable</code>
+                        به
+                        <code>.modal-dialog</code>
+                        اضافه کنید،
+                        اگر محتوا طولانی تر از ارتفاع درگاه دید باشد، محتوای مودال طولانی تر را در بدنه مدال اسکرول کنید.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Vertically Centered Bootstrap Modal-->
+              <div id="centered">
+                <div class="card mb-4">
+                  <div class="card-header">مودال بوت استرپ در مرکز عمودی</div>
+                  <div class="card-body">
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <!-- Button trigger modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">مودال در مرکز عمودی اجرا کنید</button>
+                        <!-- Modal-->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">مودال در مرکز عمودی</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="fبستن"></button>
+                              </div>
+                              <div class="modal-body">مودال با مرکز عمودی، دیالوگ مدال را در مرکز صفحه قرار می دهد.</div>
+                              <div class="modal-footer">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">بستن</button>
+                                <button class="btn btn-primary" type="button">ذخیره تغییرات</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="modalCenteredTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="modalCenteredHtmlTab" data-bs-toggle="tab" href="#modalCenteredHtml" role="tab" aria-controls="modalCenteredHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="modalCenteredPugTab" data-bs-toggle="tab" href="#modalCenteredPug" role="tab" aria-controls="modalCenteredPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="modalCenteredHtml" role="tabpanel" aria-labelledby="modalCenteredHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModalCenter<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مشاهده دمو</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalCenter<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalCenterTitle<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog modal-dialog-centered<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalCenterTitle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مودال بوت استرپ در مرکز عمودی</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-secondary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">ذخیره تغییرات</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="modalCenteredPug" role="tabpanel" aria-labelledby="modalCenteredPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Button trigger modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#exampleModalCenter'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token punctuation">|</span> <span class="plain-text">مشاهده دمو</span>
+<span class="token comment">//- Modal</span>
+<span class="token tag">#exampleModalCenter.modal.fade<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleModalCenterTitle'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog.modal-dialog-centered<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5#exampleModalCenterTitle.modal-title</span> <span class="token plain-text">مودال بوت استرپ در مرکز عمودی</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token punctuation">|</span> <span class="token punctuation">...</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-secondary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        کلاس
+                        <code>.modal-dialog-centered</code>
+                        به
+                        <code>.modal-dialog</code>
+                        اضافه کنید.
+                        برای قرار گرفتن مودال بصورت عمودی هنگامی که پنجره مودال ظاهر می شود.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal Sizing-->
+              <div id="sizing">
+                <div class="card mb-4">
+                  <div class="card-header">اندازه های مودال</div>
+                  <div class="card-body">
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <!-- Extra large modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalXl">فوق العاده بزرگ</button>
+                        <div class="modal fade" id="exampleModalXl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-xl" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title">مدال فوق العاده بزرگ</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="بستن"></button>
+                              </div>
+                              <div class="modal-body"><p>این یک نمونه از مودال فوق العاده بزرگ است!</p></div>
+                              <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">بستن</button></div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Large modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalLg">بزرگ</button>
+                        <div class="modal fade" id="exampleModalLg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title">مودال بزرگ</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="fبستن"></button>
+                              </div>
+                              <div class="modal-body"><p>این نمونه ای از مودال بزرگ است.</p></div>
+                              <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">بستن</button></div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Small modal-->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalSm">کوچک</button>
+                        <div class="modal fade" id="exampleModalSm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-sm" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title">مودال کوچک</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="fبستن"></button>
+                              </div>
+                              <div class="modal-body"><p>این نمونه ای از مودال کوچک است.</p></div>
+                              <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">بستن</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="modalSizingTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="modalSizingHtmlTab" data-bs-toggle="tab" href="#modalSizingHtml" role="tab" aria-controls="modalSizingHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="modalSizingPugTab" data-bs-toggle="tab" href="#modalSizingPug" role="tab" aria-controls="modalSizingPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="modalSizingHtml" role="tabpanel" aria-labelledby="modalSizingHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Extra large modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModalXl<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Extra Large<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalXl<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>myExtraLargeModalLabel<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>display: none;<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog modal-xl<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مودال خیلی بزرگ</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="plain-text">این یک نمونه از مودال فوق العاده بزرگ است!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Large modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModalLg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Large<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalLg<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>myLargeModalLabel<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog modal-lg<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مودال بزرگ</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="plain-text">این یک نمونه از مودال بزرگ است!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Small modal --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModalSm<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Small<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal fade<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleModalSm<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mySmallModalLabel<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-dialog modal-sm<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-title<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">مودال کوچک</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">بستن</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="plain-text">این یک نمونه از مودال کوچک است!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">بستن</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="modalSizingPug" role="tabpanel" aria-labelledby="modalSizingPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Extra large modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#exampleModalXl'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">Extra Large</span>
+<span class="token tag">.modal.fade#exampleModalXl<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'myExtraLargeModalLabel'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog.modal-xl<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5.modal-title</span> <span class="token plain-text">مودال خیلی بزرگ</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token tag">p</span> <span class="token plain-text">این یک نمونه از مودال فوق العاده بزرگ است!</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span>
+<span class="token comment">//- Large modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#exampleModalLg'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">Large</span>
+<span class="token tag">.modal.fade#exampleModalLg<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'myLargeModalLabel'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog.modal-lg<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5.modal-title</span> <span class="token plain-text">مودال بزرگ</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token tag">p</span> <span class="token plain-text">این یک نمونه از مودال بزرگ است!</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span>
+<span class="token comment">//- Small modal</span>
+<span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-toggle</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-target</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#exampleModalSm'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">Small</span>
+<span class="token tag">.modal.fade#exampleModalSm<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'dialog'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-labelledby</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'mySmallModalLabel'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-hidden</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.modal-dialog.modal-sm<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'document'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.modal-content</span>
+            <span class="token tag">.modal-header</span>
+                <span class="token tag">h5.modal-title</span> <span class="token plain-text">مودال کوچک</span>
+                <span class="token tag">button.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'بستن'</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">.modal-body</span>
+                <span class="token tag">p</span> <span class="token plain-text">این یک نمونه از مودال کوچک است!</span>
+            <span class="token tag">.modal-footer</span>
+                <span class="token tag">button.btn.btn-primary<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'modal'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">بستن</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        کلاس
+                        <code>.modal-xl</code>
+                        ,
+                        <code>.modal-lg</code>
+                        , یا
+                        <code>.modal-sm</code>
+                        به کلاس
+                        <code>.modal-dialog</code>
+                        برای تنظیم اندازه مدال های مختلف، اضافه کنید.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap Docs Link-->
+              <div class="card card-icon mb-4">
+                <div class="row g-0">
+                  <div class="col-auto card-icon-aside bg-secondary"><svg class="svg-inline--fa fa-bootstrap me-1 text-white-50" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="bootstrap" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z"></path></svg><!-- <i class="me-1 text-white-50 fab fa-bootstrap"></i> Font Awesome fontawesome.com --></div>
+                  <div class="col">
+                    <div class="card-body py-5">
+                      <h5 class="card-title">مستندات بوت استرپ موجود است</h5>
+                      <p class="card-text">مودال‌ها یک کامپوننت پیش‌فرض است که در فریمورک بوت استرپ گنجانده شده است. برای کسب اطلاعات بیشتر در مورد پیاده سازی، اصلاح و گسترش استفاده از مدال ها در پروژه خود، از صفحه مستندات مدال رسمی بوت استرپ دیدن کنید.</p>
+                      <a class="btn btn-secondary btn-sm" href="https://getbootstrap.com/docs/4.4/components/modal/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link me-1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        از Bootstrap Modal Docs دیدن کنید
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sticky Navigation-->
+            <div class="col-lg-3">
+              <div class="nav-sticky">
+                <div class="card">
+                  <div class="card-body">
+                    <ul class="nav flex-column" id="stickyNav">
+                      <li class="nav-item"><a class="nav-link" href="#default">پیشفرض</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#scrollable">اسکرول شونده</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#centered">اسکرول شونده عمودی</a></li>
+                      <li class="nav-item"><a class="nav-link active" href="#sizing">اندازه ها</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer-admin mt-auto footer-light is-rtl">
+        <div class="container-xl px-4">
+          <div class="row">
+            <div class="col-md-6 small">طراحی شده با ❤️ ارائه شده در وب‌سایت راست‌چین</div>
+            <div class="col-md-6 text-md-end small">
+              <a href="#!">قوانین و مقررات</a>
+              ·
+              <a href="#!">لایسنس ها</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../../assets/js/bootstrap.bundle.min.js" ></script>
+  <script src="../../assets/js/scripts.js"></script>
+  <script src="../../assets/js/jquery.js"></script>
+
+  <script src="../../assets/js/persian-date.js"></script>
+  <script src="../../assets/js/persian-datepicker.js"></script>
+
+  <script src="../../assets/js/state-city.js"></script>
+
+  <script>
+
+
+    // Toggle the side navigation
+    $(document).ready(function () {
+
+      $('#inputDate').persianDatepicker({
+        format: 'YYYY/MM/DD',
+        autoClose: true
+      });
+
+    });
+
+  </script>
+  </body>
+</html>

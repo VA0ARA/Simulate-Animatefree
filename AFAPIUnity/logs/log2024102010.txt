@@ -1,0 +1,40 @@
+2024-10-20 10:24:12.014 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-20 10:24:12.132 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-20 10:24:12.562 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-20 10:24:12.571 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 10:24:12.572 +03:30 [INF] Hosting environment: Development
+2024-10-20 10:24:12.572 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-20 10:24:27.179 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-10-20 10:24:27.367 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 188.2344ms
+2024-10-20 10:24:27.456 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-20 10:24:27.661 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 205.9421ms
+2024-10-20 10:24:28.366 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-10-20 10:24:28.404 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-20 10:24:28.405 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 499 665 image/png 38.7451ms
+2024-10-20 10:24:28.422 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-20 10:24:28.649 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 226.861ms

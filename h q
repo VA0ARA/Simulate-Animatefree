@@ -1,0 +1,35 @@
+[33mcommit 8fc6562ec842136181cb11d3dd3c57902e695bbe[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: VA0ARA <vahidaara@gmail.com>
+Date:   Mon Jul 22 08:02:19 2024 +0330
+
+    compelete Relation configuration in database
+
+[33mcommit 9749f4ac20a10b3ef1cd443e22b40bb1f119f6db[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: VA0ARA <vahidaara@gmail.com>
+Date:   Wed Jul 17 15:32:57 2024 +0330
+
+     add some reposetory class
+
+[33mcommit d8c551f043bdae3bb54e885e127121ad678977a5[m
+Author: VA0ARA <vahidaara@gmail.com>
+Date:   Sun Jul 14 14:55:50 2024 +0330
+
+    Configure flunt API for Admin-Match-APK
+
+[33mcommit d9e1e9a493144cf2f84c9aa68b400f2376e5ae09[m
+Author: VA0ARA <vahidaara@gmail.com>
+Date:   Sat Jul 13 12:33:32 2024 +0330
+
+    remove Base Entits Id
+
+[33mcommit bf0bef275653dc6c28ae77b628f3e3f580f6629a[m
+Author: VA0ARA <vahidaara@gmail.com>
+Date:   Wed Jul 10 14:40:23 2024 +0330
+
+    revise Entities
+
+[33mcommit 01bd510baabc391fd3b434f71a4cb092adcbb303[m
+Author: VA0ARA <vahidaara@gmail.com>
+Date:   Wed Jul 10 14:00:51 2024 +0330
+
+    Set onion Architecture and entities

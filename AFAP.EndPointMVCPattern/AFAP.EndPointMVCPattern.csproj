@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Views\pages\starter\starter-page.cshtml" />
+    <Content Remove="Views\pages\users\add.cshtml" />
+	<Content Remove="Views\pages\users\ShowDetailPanel.cshtml" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.6">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.7" />
+		<PackageReference Include="Rotativa.AspNetCore" Version="1.2.0" />
+		<PackageReference Include="Serilog" Version="4.0.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+		<PackageReference Include="Serilog.Sinks.MSSqlServer" Version="6.6.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\AP.AF.Redis\APAF.Redis.csproj" />
+		<ProjectReference Include="..\APAF.AppServices.Domain\APAF.AppServices.Domain.csproj" />
+		<ProjectReference Include="..\APAF.Domain.Core\APAF.Domain.Core.csproj" />
+		<ProjectReference Include="..\APAF.Infrustructuer.EFCore\APAF.Infrastructure.EFCore.csproj" />
+		<ProjectReference Include="..\APAF.Services.Doamin\APAF.Services.Domain.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="logs\" />
+	  <Folder Include="wwwroot/js/" />
+	  <Folder Include="wwwroot\File\AssetBundelBanner\" />
+	  <Folder Include="wwwroot\File\AssetBundelanim\" />
+	  <Folder Include="wwwroot\File\AvatrFile\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="Views\Account\Register.cshtml" />
+	  <None Include="Views\pages\starter\starter-page.cshtml" />
+	</ItemGroup>
+</Project>

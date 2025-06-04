@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SB Admin pro - قالب داشبورد مدیریت بوت‌استرپ - کد یکبار مصرف</title>
+    <link rel="stylesheet" href="../../../assets/css/fonts.css">
+    <link rel="stylesheet" href="../../../assets/css/boxicons.css">
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+
+  </head>
+  <body>
+
+  <div id="layoutAuthentication">
+    <div id="layoutAuthentication_content">
+      <main>
+        <div class="container-xl px-4 is-rtl">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+
+              <div class="card shadow-lg border-0 rounded-lg mt-10">
+                <div class="card-header justify-content-center"><h3 class="fw-light my-2 text-center">اعتبار سنجی</h3></div>
+                <div class="card-body">
+
+                  <form id="formAuthentication" action="basic.html" method="post">
+                    <div class="desc">
+                        لطفا کد اعتبارسنجی ارسال شده به موبایل خود را در کادر زیر وارد نمایید.
+                    </div>
+                    <div class="mb-3 mt-5">
+                      <input class="form-control code-confirm-input" name="inputOtp" id="inputOtp" type="tel" maxlength="6" placeholder="">
+                      <div class="resend-verification">
+                        <span id="verification-countdown"></span>
+                        <span id="resend-verification" class="d-none">ارسال مجدد کد</span>
+                      </div>
+                    </div>
+
+
+                    <div class="action-link" data-action="confirm-reset" data-type="Mobile">
+                      فراموشی رمز عبور
+                      <i class="bx bx-left-arrow-alt"></i>
+                    </div>
+
+                    <a class="btn btn-primary btn-block w-100" href="#">تایید</a>
+                    <br>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div id="layoutAuthentication_footer">
+      <footer class="footer-admin mt-auto is-rtl">
+        <div class="container-xl px-4">
+          <div class="row">
+            <div class="col-md-6 small">طراحی شده با ❤️ ارائه شده در وب‌سایت راست‌چین</div>
+            <div class="col-md-6 text-md-end small">
+              <a href="#!">قوانین و مقررات</a>
+              ·
+              <a href="#!">لایسنس ها</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="../../../assets/js/bootstrap.bundle.min.js" ></script>
+  <script src="../../../assets/js/scripts.js"></script>
+  <script src="../../../assets/js/jquery.js"></script>
+  <script src="../../../assets/js/auth-mobile.js"></script>
+
+  </body>
+</html>

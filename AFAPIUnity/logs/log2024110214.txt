@@ -1,0 +1,320 @@
+2024-11-02 14:13:55.391 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 14:13:55.518 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 14:13:55.966 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 14:13:56.042 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 14:13:56.043 +03:30 [INF] Hosting environment: Development
+2024-11-02 14:13:56.043 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-02 14:14:15.025 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-11-02 14:14:15.150 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 126.6205ms
+2024-11-02 14:14:15.161 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-11-02 14:14:15.302 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 141.0635ms
+2024-11-02 14:14:15.416 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - null null
+2024-11-02 14:14:15.466 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-02 14:14:15.466 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - 499 143943 text/css 54.2782ms
+2024-11-02 14:14:15.857 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-11-02 14:14:15.860 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-11-02 14:14:15.860 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 499 665 image/png 3.0243ms
+2024-11-02 14:14:15.971 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-11-02 14:14:16.166 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.9926ms
+2024-11-02 14:14:29.036 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - multipart/form-data; boundary=---------------------------53805629125387660484239014217 189
+2024-11-02 14:14:29.067 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-11-02 14:14:29.556 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-11-02 14:14:29.625 +03:30 [INF] Route matched with {action = "Login", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhoneNumberRequest, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-11-02 14:14:30.202 +03:30 [INF] log int he index controller
+2024-11-02 14:14:32.961 +03:30 [INF] Executed DbCommand (145ms) [Parameters=[@__phone_0='?' (Size = 11)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[PhoneNumber] = @__phone_0
+2024-11-02 14:14:33.226 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-02 14:14:33.254 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity) in 3622.3513ms
+2024-11-02 14:14:33.255 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-11-02 14:14:33.278 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - 200 null application/json; charset=utf-8 4241.9415ms
+2024-11-02 14:14:58.221 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/GetShopAsssetOfAnimator - multipart/form-data; boundary=---------------------------96059844742277118742720059527 292
+2024-11-02 14:14:58.405 +03:30 [INF] Authorization failed. These requirements were not met:
+UserOnlyAttribute
+2024-11-02 14:14:58.420 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-02 14:14:58.420 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/GetShopAsssetOfAnimator - 401 0 null 199.5808ms
+2024-11-02 14:17:32.728 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 14:17:32.847 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 14:17:33.306 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 14:17:33.368 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 14:17:33.370 +03:30 [INF] Hosting environment: Development
+2024-11-02 14:17:33.370 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-02 14:17:44.643 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-11-02 14:17:44.986 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 348.2991ms
+2024-11-02 14:17:45.439 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-11-02 14:17:45.722 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 283.6986ms
+2024-11-02 14:17:55.972 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - multipart/form-data; boundary=---------------------------216658556216009608843705491245 191
+2024-11-02 14:17:55.996 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-11-02 14:17:56.384 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-11-02 14:17:56.449 +03:30 [INF] Route matched with {action = "Login", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhoneNumberRequest, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-11-02 14:17:57.146 +03:30 [INF] log int he index controller
+2024-11-02 14:17:59.478 +03:30 [INF] Executed DbCommand (108ms) [Parameters=[@__phone_0='?' (Size = 11)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[PhoneNumber] = @__phone_0
+2024-11-02 14:17:59.721 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-02 14:17:59.747 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity) in 3292.8741ms
+2024-11-02 14:17:59.748 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-11-02 14:17:59.763 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - 200 null application/json; charset=utf-8 3790.9708ms
+2024-11-02 14:20:53.382 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 14:20:53.509 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 14:20:53.916 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 14:20:53.925 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 14:20:53.926 +03:30 [INF] Hosting environment: Development
+2024-11-02 14:20:53.927 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-02 14:21:04.197 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-11-02 14:21:04.647 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 454.0311ms
+2024-11-02 14:21:05.065 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-11-02 14:21:05.359 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 293.5113ms
+2024-11-02 14:21:21.518 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/GetEditProfile - multipart/form-data; boundary=---------------------------7947388093752326331303971348 168
+2024-11-02 14:21:21.536 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-11-02 14:21:21.939 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetEditProfile (AFAPIUnity)'
+2024-11-02 14:21:22.003 +03:30 [INF] Route matched with {action = "GetEditProfile", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEditProfile(Int64, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-11-02 14:21:25.350 +03:30 [INF] Executed DbCommand (148ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-11-02 14:21:25.577 +03:30 [INF] Executing OkObjectResult, writing value of type 'APAF.Domain.Core.Dtos.Animators.AnimatorDTos'.
+2024-11-02 14:21:25.646 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GetEditProfile (AFAPIUnity) in 3636.7602ms
+2024-11-02 14:21:25.647 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetEditProfile (AFAPIUnity)'
+2024-11-02 14:21:25.661 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/GetEditProfile - 200 null application/json; charset=utf-8 4142.3069ms
+2024-11-02 14:26:02.599 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 14:26:02.718 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 14:26:03.191 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 14:26:03.201 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 14:26:03.202 +03:30 [INF] Hosting environment: Development
+2024-11-02 14:26:03.203 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-02 14:41:43.991 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 14:41:44.106 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 14:41:44.605 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 14:41:44.613 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 14:41:44.615 +03:30 [INF] Hosting environment: Development
+2024-11-02 14:41:44.615 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-02 14:42:06.546 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-11-02 14:42:06.695 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 152.1196ms
+2024-11-02 14:42:06.712 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-11-02 14:42:06.931 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 218.6551ms
+2024-11-02 14:42:06.975 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - null null
+2024-11-02 14:42:06.990 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-bundle.js - null null
+2024-11-02 14:42:07.111 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-standalone-preset.js - null null
+2024-11-02 14:42:07.581 +03:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-02 14:42:07.581 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-02 14:42:07.620 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-02 14:42:07.623 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-bundle.js - 200 1096145 text/javascript 633.4293ms
+2024-11-02 14:42:07.624 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - 200 143943 text/css 648.591ms
+2024-11-02 14:42:07.623 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui-standalone-preset.js - 200 339486 text/javascript 512.0429ms
+2024-11-02 14:42:08.101 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-11-02 14:42:08.165 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-32x32.png - null null
+2024-11-02 14:42:08.187 +03:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-02 14:42:08.191 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-32x32.png - 200 628 image/png 25.845ms
+2024-11-02 14:42:08.400 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 298.043ms
+2024-11-02 14:42:32.244 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - multipart/form-data; boundary=----WebKitFormBoundaryANSvFfz0BBWPfBOw 153
+2024-11-02 14:42:32.263 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-11-02 14:42:32.673 +03:30 [INF] Authorization failed. These requirements were not met:
+Authorize
+2024-11-02 14:42:32.684 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-02 14:42:32.685 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - 401 0 null 440.647ms
+2024-11-02 14:42:49.709 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - multipart/form-data; boundary=----WebKitFormBoundaryAqv3SDucET1yJxrY 153
+2024-11-02 14:42:49.728 +03:30 [INF] Authorization failed. These requirements were not met:
+Authorize
+2024-11-02 14:42:49.729 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-02 14:42:49.730 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - 401 0 null 20.7467ms
+2024-11-02 14:43:22.626 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - multipart/form-data; boundary=----WebKitFormBoundary3yPZFNPEA2512dMu 153
+2024-11-02 14:43:22.699 +03:30 [INF] Authorization failed. These requirements were not met:
+Authorize
+2024-11-02 14:43:22.700 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-02 14:43:22.701 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - 401 0 null 74.3975ms
+2024-11-02 14:43:38.664 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - multipart/form-data; boundary=----WebKitFormBoundarywVanLQDnUBSRnqwj 134
+2024-11-02 14:43:38.738 +03:30 [INF] Authorization failed. These requirements were not met:
+UserOnlyAttribute
+2024-11-02 14:43:38.738 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-02 14:43:38.739 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - 401 0 null 75.5984ms
+2024-11-02 14:44:20.019 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/PostEditeprofile - multipart/form-data; boundary=----WebKitFormBoundaryfZKKwHZ8cMSYtHGv 937
+2024-11-02 14:44:20.026 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.PostEditProfile (AFAPIUnity)'
+2024-11-02 14:44:20.101 +03:30 [INF] Route matched with {action = "PostEditProfile", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostEditProfile(AFAPIUnity.Dtos.AnimatorDtoEdit, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-11-02 14:44:23.388 +03:30 [INF] Executed DbCommand (97ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-11-02 14:44:23.798 +03:30 [INF] Executed DbCommand (21ms) [Parameters=[@p3='?' (DbType = Int64), @p0='?' (DbType = Int64), @p1='?' (Size = 90), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Animators] SET [AvatarId] = @p0, [FullName] = @p1, [VersionAPK] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2024-11-02 14:44:23.857 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType7`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-02 14:44:23.882 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.PostEditProfile (AFAPIUnity) in 3769.7665ms
+2024-11-02 14:44:23.883 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.PostEditProfile (AFAPIUnity)'
+2024-11-02 14:44:23.905 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/PostEditeprofile - 200 null application/json; charset=utf-8 3886.2195ms
+2024-11-02 14:47:38.508 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-11-02 14:47:38.625 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-11-02 14:47:39.026 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-11-02 14:47:39.035 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 14:47:39.041 +03:30 [INF] Hosting environment: Development
+2024-11-02 14:47:39.041 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-11-02 14:48:06.398 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-11-02 14:48:06.577 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 182.0474ms
+2024-11-02 14:48:06.682 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-11-02 14:48:06.909 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 227.3395ms
+2024-11-02 14:48:07.030 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - null null
+2024-11-02 14:48:07.157 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-02 14:48:07.157 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger-ui.css - 499 143943 text/css 127.5045ms
+2024-11-02 14:48:07.409 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-11-02 14:48:07.708 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 298.9703ms
+2024-11-02 14:48:48.192 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/PostEditeprofile - multipart/form-data; boundary=---------------------------232461326129361337531500659973 1139
+2024-11-02 14:48:48.210 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-11-02 14:48:48.655 +03:30 [INF] Authorization failed. These requirements were not met:
+UserOnlyAttribute
+2024-11-02 14:48:48.672 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-02 14:48:48.673 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/PostEditeprofile - 401 0 null 481.5756ms

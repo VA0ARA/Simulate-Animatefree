@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SB Admin pro - قالب داشبورد مدیریت بوت‌استرپ - ثبت نام چند مرحله ای</title>
+    <link rel="stylesheet" href="../../../assets/css/fonts.css">
+    <link rel="stylesheet" href="../../../assets/css/boxicons.css">
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+
+  </head>
+  <body class="bg-white">
+
+  <div id="layoutAuthentication">
+    <div id="layoutAuthentication_content">
+      <main>
+        <div class="container-xl px-4 is-rtl">
+          <div class="row justify-content-center">
+            <div class="d-none d-lg-flex col-lg-4 col-xl-4 align-items-center">
+              <div class="flex-row text-center mx-auto">
+                <img src="../../../assets/img/register-cover.jpg" alt="Auth Cover Bg color" width="520" class="img-fluid authentication-cover-img" data-app-light-img="pages/register-light.png" data-app-dark-img="pages/register-dark.png">
+                <div class="mx-auto">
+                  <h3>چند کلیک تا شروع</h3>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم  <br>
+                    از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 border-start-gray border-start">
+
+              <div class="nav nav-pills nav-justified flex-column flex-xl-row nav-wizard  pt-10" id="cardTab" role="tablist">
+                <!-- مرحله 1-->
+                <a class="nav-item nav-link active" id="wizard1-tab" href="#wizard1" data-bs-toggle="tab" role="tab" aria-controls="wizard1" aria-selected="true">
+                  <div class="wizard-step-icon">1</div>
+                  <div class="wizard-step-text">
+                    <div class="wizard-step-text-name">حساب</div>
+                    <div class="wizard-step-text-details">جرئیات حساب</div>
+                  </div>
+                </a>
+                <!-- مرحله 2-->
+                <a class="nav-item nav-link" id="wizard2-tab" href="#wizard2" data-bs-toggle="tab" role="tab" aria-controls="wizard2" aria-selected="false">
+                  <div class="wizard-step-icon">2</div>
+                  <div class="wizard-step-text">
+                    <div class="wizard-step-text-name">ارتباط</div>
+                    <div class="wizard-step-text-details">مشخصات تماس</div>
+                  </div>
+                </a>
+                <!-- مرحله 3-->
+                <a class="nav-item nav-link" id="wizard3-tab" href="#wizard3" data-bs-toggle="tab" role="tab" aria-controls="wizard3" aria-selected="false">
+                  <div class="wizard-step-icon">3</div>
+                  <div class="wizard-step-text">
+                    <div class="wizard-step-text-name">سفارشی سازی</div>
+                    <div class="wizard-step-text-details">تنظیمات اضافی</div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div class="card-body">
+                <div class="tab-content" id="cardTabContent">
+                  <!-- Wizard 1-->
+                  <div class="tab-pane py-3 py-xl-5 fade active show" id="wizard1" role="tabpanel" aria-labelledby="wizard1-tab">
+                    <div class="row justify-content-center">
+                      <div class="col-xxl-12 col-xl-12">
+                        <h3 class="text-primary">اطلاعات حساب</h3>
+                        <h5 class="card-title mb-4">مشخصات خود را وارد کنید</h5>
+                        <form>
+
+                          <div class="row gx-3">
+                            <div class="mb-3 col-md-6">
+                              <label class="small mb-1" for="inputFirstName">نام کاربری</label>
+                              <input class="form-control" id="inputFirstName" type="text" placeholder="نام کاربری خود را وارد کنید" value="">
+                            </div>
+                            <div class="mb-3 col-md-6">
+                              <label class="small mb-1" for="inputLastName">ایمیل</label>
+                              <input class="form-control is-rtl text-start" id="inputLastName" type="email" placeholder="ایمیل خود را وارد کنید" value="">
+                            </div>
+                          </div>
+                          <div class="row gx-3">
+                            <div class="col-md-6 mb-md-0">
+                              <label class="small mb-1" for="inputPassword">رمز عبور</label>
+                              <input class="form-control" id="inputPassword" type="password" placeholder="" value="">
+                            </div>
+                            <div class="col-md-6 mb-md-0">
+                              <label class="small mb-1" for="inputPassword2">تکرار رمز عبور</label>
+                              <input class="form-control" id="inputPassword2" type="password" placeholder="" value="">
+                            </div>
+                          </div>
+
+                          <hr class="my-4">
+                          <div class="d-flex justify-content-between">
+                            <button class="btn btn-light disabled" type="button" disabled="">قبلی</button>
+                            <button class="btn btn-primary" type="button">بعدی</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Wizard 2-->
+                  <div class="tab-pane py-3 py-xl-5 fade" id="wizard2" role="tabpanel" aria-labelledby="wizard2-tab">
+                    <div class="row justify-content-center">
+                      <div class="col-xxl-12 col-xl-12">
+                        <h3 class="text-primary">ارتباطات</h3>
+                        <h5 class="card-title mb-4">مشخصات تماس خود را وارد کنید</h5>
+                        <form>
+                          <div class="row gx-3 mb-4">
+                            <div class="col-md-6 mb-md-0">
+                              <label class="small mb-1" for="inputPhone">شماره همراه</label>
+                              <input class="form-control  is-rtl text-start" id="inputPhone" type="tel" placeholder="شماره همراه خود را وارد کنید" value="">
+                            </div>
+                            <div class="col-md-6 mb-md-0">
+                              <label class="small mb-1" for="inputTel">تلفن ثابت</label>
+                              <input class="form-control  is-rtl text-start" id="inputTel" type="tel" placeholder="شماره ثابت خود را وارد کنید" value="">
+                            </div>
+                          </div>
+                          <div class="mb-md-0">
+                            <label class="small mb-1" for="inputAddress">آدرس</label>
+                            <textarea class="form-control" id="inputAddress" type="text" placeholder="" ></textarea>
+                          </div>
+                          <hr class="my-4">
+                          <div class="d-flex justify-content-between">
+                            <button class="btn btn-light" type="button">قبلی</button>
+                            <button class="btn btn-primary" type="button">بعدی</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Wizard 3-->
+                  <div class="tab-pane py-3 py-xl-5 fade" id="wizard3" role="tabpanel" aria-labelledby="wizard3-tab">
+                    <div class="row justify-content-center">
+                      <div class="col-xxl-12 col-xl-12">
+                        <h3 class="text-primary">سفارشی سازی حساب کاربری</h3>
+                        <h5 class="card-title mb-4">نوع دریافت اعلان ها رو مشخص کنید</h5>
+                        <form>
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" id="checkAccountChanges" type="checkbox" checked="">
+                            <label class="form-check-label" for="checkAccountChanges">زمانی که دستگاه جدید وارد شد</label>
+                          </div>
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" id="checkAccountGroups" type="checkbox" checked="">
+                            <label class="form-check-label" for="checkAccountGroups">بروزرسانی ها اطلاع رسانی شود</label>
+                          </div>
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" id="checkProductUpdates" type="checkbox" checked="">
+                            <label class="form-check-label" for="checkProductUpdates">زمانی که محصول جدید تخفیف دار شد</label>
+                          </div>
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" id="checkProductNew" type="checkbox" checked="">
+                            <label class="form-check-label" for="checkProductNew">پیشنهادهای شگفت انگیز</label>
+                          </div>
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" id="checkPromotional" type="checkbox">
+                            <label class="form-check-label" for="checkPromotional">تخفیفات بالای 50درصد</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" id="checkSecurity" type="checkbox" checked="" disabled="">
+                            <label class="form-check-label" for="checkSecurity">هشدار های امنیتی</label>
+                          </div>
+                          <hr class="my-4">
+                          <div class="d-flex justify-content-between">
+                            <button class="btn btn-light" type="button">قبلی</button>
+                            <button class="btn btn-primary" type="button">عضویت</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div id="layoutAuthentication_footer">
+      <footer class="footer-admin mt-auto is-rtl">
+        <div class="container-xl px-4">
+          <div class="row">
+            <div class="col-md-6 small">طراحی شده با ❤️ ارائه شده در وب‌سایت راست‌چین</div>
+            <div class="col-md-6 text-md-end small">
+              <a href="#!">قوانین و مقررات</a>
+              ·
+              <a href="#!">لایسنس ها</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="../../../assets/js/bootstrap.bundle.min.js" ></script>
+  <script src="../../../assets/js/scripts.js"></script>
+  <script src="../../../assets/js/jquery.js"></script>
+
+
+
+  </body>
+</html>

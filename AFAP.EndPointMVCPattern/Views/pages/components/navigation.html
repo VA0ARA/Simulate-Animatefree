@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="fa" class="overflow-unset">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SB Admin pro - قالب داشبورد مدیریت بوت‌استرپ - نوار ناوبری</title>
+
+    <link rel="stylesheet" href="../../assets/css/fonts.css">
+    <link rel="stylesheet" href="../../assets/css/boxicons.css">
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/persian-datepicker.css" />
+
+  </head>
+  <body class="nav-fixed">
+
+  <nav class="is-rtl topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white" id="snavAccordion">
+    <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle">
+      <i class="bx bx-menu bx-sm"></i>
+    </button>
+    <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="../../index.html">داشبورد مدیریتی</a>
+    <form class="form-inline me-auto d-none d-lg-block me-3">
+      <div class="input-group input-group-joined input-group-solid">
+        <input class="form-control pe-0" type="search" placeholder="جستجو ..." aria-label="جستجو">
+        <div class="input-group-text"><i class="bx bx-search bx-sm"></i></div>
+      </div>
+    </form>
+
+    <!-- Navbar Items-->
+    <ul class="navbar-nav align-items-center ms-auto">
+
+      <!-- Documentation Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="fw-500">راهنما</div>
+          <i class="bx bx-chevron-down bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-start py-0 ms-sm-n15 ms-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">راهنما</div>
+              نحوه استفاده از قالب
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">کامپوننت ها</div>
+              لیست تمام کامپوننت ها
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">لیست تغییرات</div>
+              بروزرسانی های صورت گرفته
+            </div>
+          </a>
+        </div>
+      </li>
+
+
+      <!-- Navbar Search Dropdown-->
+      <!-- * * Note: * * Visible only below the lg breakpoint-->
+      <li class="nav-item dropdown no-caret me-3 d-lg-none">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="searchDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-search bx-sm"></i>
+        </a>
+        <!-- Dropdown - Search-->
+        <div class="dropdown-menu dropdown-menu-end p-3 shadow animated--fade-in-up" aria-labelledby="searchDropdown">
+          <form class="form-inline me-auto w-100">
+            <div class="input-group input-group-joined input-group-solid">
+              <input class="form-control pe-0" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-text"><i data-feather="search"></i></div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Alerts Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownAlerts" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-bell bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownAlerts">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-bell me-2"></i>
+            اعلان‌ها
+          </h6>
+          <div class="dropdown-div">
+
+            <!-- اعلان 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-warning"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-info"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-success"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-danger"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+
+          </div>
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه اعلان ها</a>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-envelope bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownMessages">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-message me-2"></i>
+            پیام ها
+          </h6>
+
+          <div class="dropdown-div">
+
+            <!-- پیام 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-1.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مرجان بابایی</small>
+              </div>
+            </a>
+
+            <!-- پیام 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-2.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی </p>
+                <small class="text-muted">سهیلا طاهری</small>
+              </div>
+            </a>
+
+            <!-- پیام 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-3.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">عسل شمس</small>
+              </div>
+            </a>
+
+            <!-- پیام 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-4.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مجید احمدی</small>
+              </div>
+            </a>
+          </div>
+
+
+          <!-- Footer Link-->
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه پیام ها</a>
+        </div>
+      </li>
+      <!-- User Dropdown-->
+      <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="../../assets/img/profile-1.jpg"></a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
+          <h6 class="dropdown-header d-flex align-items-center">
+            <img class="dropdown-user-img" src="../../assets/img/profile-1.jpg">
+            <div class="dropdown-user-details">
+              <div class="dropdown-user-details-name">مرجان بابایی</div>
+              <div class="dropdown-user-details-email">مدیر سیستم</div>
+            </div>
+          </h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-user"></i></div>
+            حساب کاربری
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-lock"></i></div>
+            تغییر کلمه عبور
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bxs-file-txt"></i></div>
+            مشاهده لاگ سیستم
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-log-out"></i></div>
+            خروج
+          </a>
+        </div>
+      </li>
+
+    </ul>
+  </nav>
+  <div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+      <nav class="snav shadow-right snav-light">
+        <div class="snav-menu">
+          <div class="nav accordion" id="accordionSidenav">
+
+
+            <div class="snav-menu-heading d-sm-none">حساب کاربری</div>
+
+            <!-- اعلان ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-bell "></i></div>
+              اعلان ها
+              <span class="badge bg-warning-soft text-warning ms-auto">4 جدید!</span>
+            </a>
+
+            <!-- پیام ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-envelope"></i></div>
+              پیام ها
+              <span class="badge bg-success-soft text-success ms-auto">2 جدید!</span>
+            </a>
+            
+
+            <div class="snav-menu-heading">هسته</div>
+<!-- پیشخوان -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-pulse"></i></div>
+              داشبورد
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPages">
+                <a class="nav-link" href="../../dashboard-default.html">
+                  پیشفرض
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="../../dashboard-multi.html">چند منظوره</a>
+                <a class="nav-link" href="../../dashboard-affiliate.html">بازاریابی</a>
+              </nav>
+            </div>
+
+            
+
+            <div class="snav-menu-heading">سفارشی</div>
+<!-- برگه ها -->
+            <a class="nav-link collapsed pt-0" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+              <div class="nav-link-icon"><i class="bx bx-grid"></i></div>
+              برگه ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
+
+
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+
+                <!-- حساب کاربری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAccount" aria-expanded="false" aria-controls="pagesCollapseAccount">
+                  حساب کاربری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../account/profile.html">پروفایل</a>
+                    <a class="nav-link" href="../account/profile-billing.html">صورتحساب</a>
+                    <a class="nav-link" href="../account/profile-security.html">امنیت</a>
+                    <a class="nav-link" href="../account/profile-notifications.html">اعلان ها</a>
+                  </nav>
+                </div>
+
+                <!-- احراز هویت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                  احراز هویت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAuth" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesAuth">
+
+                    <!-- ثبت نام -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthRegister" aria-expanded="false" aria-controls="pagesCollapseAuthRegister">
+                      ثبت نام
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthRegister" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/register/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/register/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/stepbystep.html">چند مرحله ای</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- ورود -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthLogin" aria-expanded="false" aria-controls="pagesCollapseAuthLogin">
+                      ورود
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthLogin" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/login/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/login/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/login/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- شبکه های اجتماعی -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthSocial" aria-expanded="false" aria-controls="pagesCollapseAuthSocial">
+                      شبکه های اجتماعی
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthSocial" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/social/login.html">ورود</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/register.html">ثبت نام</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/forget-password.html">فراموشی رمزعبور</a>
+                      </nav>
+                    </div>
+
+                    <!-- فراموشی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthForgetwd" aria-expanded="false" aria-controls="pagesCollapseAuthForgetwd">
+                      فراموشی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthForgetwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/forgetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- بازنشانی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthResetPwd" aria-expanded="false" aria-controls="pagesCollapseAuthResetPwd">
+                      بازنشانی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthResetPwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- تایید ایمیل -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthEmail" aria-expanded="false" aria-controls="pagesCollapseAuthEmail">
+                      تایید ایمیل
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthEmail" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/email/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/email/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- دو مرحله ای -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth2fa" aria-expanded="false" aria-controls="pagesCollapseAuth2fa">
+                      دو مرحله ای
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuth2fa" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/2fa/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/2fa/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                  </nav>
+                </div>
+
+                <!-- خطاها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                  خطاها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseError" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../error/400.html">400</a>
+                    <a class="nav-link" href="../error/401.html">401</a>
+                    <a class="nav-link" href="../error/403.html">403</a>
+                    <a class="nav-link" href="../error/404-1.html">404 طرح 1</a>
+                    <a class="nav-link" href="../error/404-2.html">404 طرح 2</a>
+                    <a class="nav-link" href="../error/500.html">500</a>
+                    <a class="nav-link" href="../error/503.html">503</a>
+                    <a class="nav-link" href="../error/504.html">504</a>
+                  </nav>
+                </div>
+
+                <!-- تعرفه ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapsePrice" aria-expanded="true" aria-controls="pagesCollapsePrice">
+                  تعرفه ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapsePrice" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../pricing/pricing-1.html">طرح شماره 1</a>
+                    <a class="nav-link" href="../pricing/pricing-2.html">طرح شماره 2</a>
+                    <a class="nav-link" href="../pricing/pricing-3.html">طرح شماره 3</a>
+                  </nav>
+                </div>
+                <!-- فاکتور -->
+                <a class="nav-link" href="../invoice.html">فاکتور</a>
+              </nav>
+            </div>
+
+            <!-- نرم افزارها -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
+              <div class="nav-link-icon"><i class="bx bx-globe"></i></div>
+              نرم افزارها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
+
+                <!-- مقالات -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseKnowledgeBase" aria-expanded="false" aria-controls="appsCollapseKnowledgeBase">
+                  مقالات
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseKnowledgeBase" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../articles/tarh-1.html">طرح یک</a>
+                    <a class="nav-link" href="../articles/tarh-2.html">طرح دو</a>
+                    <a class="nav-link" href="../articles/category.html">دسته بندی</a>
+                    <a class="nav-link" href="../articles/base.html">مطالب</a>
+                  </nav>
+                </div>
+
+                <!-- کاربران -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseUserManagement" aria-expanded="false" aria-controls="appsCollapseUserManagement">
+                  کاربران
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseUserManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../users/list.html">لیست</a>
+                    <a class="nav-link" href="../users/edit.html">ویرایش کاربر</a>
+                    <a class="nav-link" href="../users/add.html">ایجاد کاربر</a>
+                    <a class="nav-link" href="../users/groups-list.html">فهرست گروهی</a>
+                    <a class="nav-link" href="../users/org-details.html">مشخصات سازمانی</a>
+                  </nav>
+                </div>
+                <!-- مدیریت پست ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapsePostsManagement" aria-expanded="false" aria-controls="appsCollapsePostsManagement">
+                  مدیریت پست ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapsePostsManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../posts/list.html">لیست</a>
+                    <a class="nav-link" href="../posts/create.html">ایجاد مطلب</a>
+                    <a class="nav-link" href="../posts/edit.html">ویرایش مطلب</a>
+                    <a class="nav-link" href="../posts/admin.html">فهرست مطالب مدیر</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            
+            <!-- فرم چند مرحله -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseMulti" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              فرم چند مرحله
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseMulti" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionMultiPages">
+                <a class="nav-link" href="../flows/multi-select.html">ثبت نام چندتایی</a>
+                <a class="nav-link" href="../flows/multi-wizard.html">فرم گام به گام مرحله ای</a>
+
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">ابزارهای رابط کاربری</div>
+
+<!-- طرح ها -->
+            <a class="nav-link collapsed " href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+              <div class="nav-link-icon"><i class="bx bx-layout"></i></div>
+              طرح ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavLayout">
+                <!-- ناوبری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavVariations" aria-expanded="false" aria-controls="collapseLayoutSidenavVariations">
+                  ناوبری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavVariations" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/static.html">استاتیک</a>
+                                        <a class="nav-link" href="../layout/dark.html">تم تاریک</a>
+                    <a class="nav-link active" href="../layout/ltr.html">صفحه چپ به راست</a>
+                  </nav>
+                </div>
+                <!-- تنظیمات Container -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavOption" aria-expanded="false" aria-controls="collapseLayoutSidenavOption">
+                  تنظیمات Container
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavOption" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/layout-boxed.html">باکس - Boxed Layout</a>
+                    <a class="nav-link" href="../layout/layout-fluid.html">سیال - Fluid Layout</a>
+                  </nav>
+                </div>
+
+                <!-- هدر سایت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsPageHeaders" aria-expanded="false" aria-controls="collapseLayoutsPageHeaders">
+                  هدر سایت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsPageHeaders" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../header/simplified.html">ساده</a>
+                    <a class="nav-link" href="../header/compact.html">کامپکت</a>
+                    <a class="nav-link" href="../header/overlap.html">همپوشانی</a>
+                    <a class="nav-link" href="../header/breadcrumbs.html">نمایش مسیر صفحات</a>
+                    <a class="nav-link" href="../header/light.html">تم روشن</a>
+                  </nav>
+                </div>
+                <!-- طرح بندی اصلی -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsStarterTemplates" aria-expanded="false" aria-controls="collapseLayoutsStarterTemplates">
+                  طرح بندی اصلی
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsStarterTemplates" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../starter/default.html">پیشفرض</a>
+                    <a class="nav-link" href="../starter/minimal.html">مینیمال</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            
+<!-- رابط کاربری -->
+            <a class="nav-link collapsed active" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseComponents" aria-expanded="false" aria-controls="collapseComponents">
+              <div class="nav-link-icon"><i class="bx bx-package"></i></div>
+              رابط کاربری
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseComponents" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav">
+                <a class="nav-link" href="alerts.html">هشدارها</a>
+                <a class="nav-link" href="avatars.html">آواتار</a>
+                <a class="nav-link" href="badges.html">نشان‌ها</a>
+                <a class="nav-link" href="buttons.html">دکمه‌ها</a>
+                <a class="nav-link" href="cards.html">
+                  کارت
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="dropdowns.html">کشویی</a>
+                <a class="nav-link" href="forms.html">
+                  فرم‌ها<span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="modals.html">مودال‌ها</a>
+                <a class="nav-link active" href="navigation.html">نوار ناوبری</a>
+                <a class="nav-link" href="progress.html">درصد پیشرفت</a>
+                                <a class="nav-link" href="step.html">گام به گام</a>
+				<a class="nav-link" href="spinners.html">چرخنده</a>
+                <a class="nav-link" href="timeline.html">خط زمانی</a>
+                <a class="nav-link" href="toasts.html">اعلان های Toasts</a>
+                <a class="nav-link" href="tooltips.html">تولتیپ ها</a>
+              </nav>
+            </div>
+
+            <!-- برنامه‌های سودمند -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              برنامه‌های سودمند
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionUtilitiesPages">
+                <a class="nav-link" href="../utilities/animations.html">انیمیشن</a>
+                <a class="nav-link" href="../utilities/background.html">پس‌زمینه</a>
+                <a class="nav-link" href="../utilities/borders.html">حاشیه</a>
+                <a class="nav-link" href="../utilities/lift.html">افکت Lift</a>
+                <a class="nav-link" href="../utilities/shadows.html">سایه‌ها</a>
+                <a class="nav-link" href="../utilities/typography.html">تایپوگرافی</a>
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">پلاگین</div>
+<!-- نمودارها -->
+            <a class="nav-link pt-0" href="../charts.html">
+              <div class="nav-link-icon"><i class="bx bx-bar-chart"></i></div>
+              نمودارها
+            </a>
+            <!-- جدول -->
+            <a class="nav-link" href="../tables.html">
+              <div class="nav-link-icon"><i class="bx bx-table"></i></div>
+              جدول
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="layoutSidenav_content">
+      <main class="is-rtl">
+        <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+          <div class="container-xl px-4">
+            <div class="page-header-content pt-4">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-auto mt-4">
+                  <h1 class="page-header-title">
+                    <div class="page-header-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
+                    نوار ناوبری
+                  </h1>
+                  <div class="page-header-subtitle">اجزای ناوبری برای کمک به کاربران برای یافتن محتوای درون برنامه شما</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Main page content-->
+        <div class="container-xl px-4 mt-n10">
+          <div class="row">
+            <div class="col-lg-9">
+              <div id="navBordersComponent">
+                <div class="card mb-4">
+                  <div class="card-header">زیرخط دار</div>
+                  <div class="card-body">
+                    <!-- Component Preview-->
+                    <h6 class="small text-muted fw-500" id="navBordersComponentHorizontal">افقی:</h6>
+                    <div class="sbp-preview mb-4">
+                      <div class="sbp-preview-content">
+                        <!-- Nav Borders Variation-->
+                        <nav class="nav nav-borders">
+                          <a class="nav-link active" href="#!">فعال</a>
+                          <a class="nav-link" href="#!">لینک</a>
+                          <a class="nav-link" href="#!">لینک</a>
+                          <a class="nav-link disabled" href="#!" tabindex="-1" aria-disabled="true">غیرفعال</a>
+                        </nav>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="navBordersHorizontalTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link me-1 active" id="navBordersHorizontalHtmlTab" data-bs-toggle="tab" href="#navBordersHorizontalHtml" role="tab" aria-controls="navBordersHorizontalHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="navBordersHorizontalPugTab" data-bs-toggle="tab" href="#navBordersHorizontalPug" role="tab" aria-controls="navBordersHorizontalPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="navBordersHorizontalHtml" role="tabpanel" aria-labelledby="navBordersHorizontalHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav nav-borders<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link active<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">فعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">لینک</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">لینک</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link disabled<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-disabled</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">غیرفعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="navBordersHorizontalPug" role="tabpanel" aria-labelledby="navBordersHorizontalPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">nav.nav.nav-borders</span>
+    <span class="token tag">a.nav-link.active<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">فعال</span>
+    <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">لینک</span>
+    <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">لینک</span>
+    <span class="token tag">a.nav-link.disabled<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">,</span> <span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-disabled</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">غیرفعال</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        کلاس
+                        <code>.nav-borders</code>
+                        کامپوننت یک تغییر سفارشی از کامپوننت nav Bootstrap است که برای SB Admin Pro ساخته شده است. شما می توانید از هر گونه ابزار justify flex برای تغییر تراز افقی ناو استفاده کنید، و همچنین می توانید از این جزء nav در قالب لیست نامرتب استفاده کنید.
+                      </div>
+                    </div>
+                    <!-- Component Preview-->
+                    <h6 class="small text-muted fw-500" id="navBordersComponentVertical">عمودی:</h6>
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <div style="max-width: 10rem">
+                          <nav class="nav nav-borders flex-column">
+                            <a class="nav-link active" href="#!">فعال</a>
+                            <a class="nav-link" href="#!">لینک</a>
+                            <a class="nav-link" href="#!">لینک</a>
+                            <a class="nav-link disabled" href="#!" tabindex="-1" aria-disabled="true">غیرفعال</a>
+                          </nav>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="navBordersVerticalTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="navBordersVerticalHtmlTab" data-bs-toggle="tab" href="#navBordersVerticalHtml" role="tab" aria-controls="navBordersVerticalHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="navBordersVerticalPugTab" data-bs-toggle="tab" href="#navBordersVerticalPug" role="tab" aria-controls="navBordersVerticalPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="navBordersVerticalHtml" role="tabpanel" aria-labelledby="navBordersVerticalHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav nav-borders flex-column<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link active<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">فعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">لینک</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">لینک</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link disabled<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-disabled</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">غیرفعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="navBordersVerticalPug" role="tabpanel" aria-labelledby="navBordersVerticalPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">nav.nav.nav-borders.flex-column</span>
+    <span class="token tag">a.nav-link.active<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">فعال</span>
+    <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">لینک</span>
+    <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">لینک</span>
+    <span class="token tag">a.nav-link.disabled<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">,</span> <span class="token attr-name">tabindex</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'-1'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-disabled</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">غیرفعال</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        شما همچنین می توانید از نوع مرزهای nav در هنگام استفاده از
+                        <code>.flex column</code>
+                        ابزاری برای ایجاد یک ناوبری عمودی. حاشیه ها از پایین پیوندهای ناو به سمت راست حرکت می کنند. در این مثال، ما حداکثر عرض 10 rem را برای ظرفی که این nav در آن استفاده می شود، تعیین کرده ایم.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Custom Side Navigation Component-->
+              <div id="sidenavComponent">
+                <div class="card mb-4">
+                  <div class="card-header">کامپوننت ناوبری جانبی سفارشی</div>
+                  <div class="card-body">
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <nav class="snav snav-light">
+                          <div class="snav-menu">
+                            <div class="nav">
+                              <div class="snav-menu-heading">سربرگ</div>
+                              <a class="nav-link" href="#!">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg></div>
+                                لینک
+                              </a>
+                              <a class="nav-link" href="#!">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg></div>
+                                لینک دیگر
+                              </a>
+                              <a class="nav-link disabled" href="#!">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg></div>
+                                لینک دیگر
+                              </a>
+                            </div>
+                          </div>
+                          <div class="snav-footer">فوتر ناوربری </div>
+                        </nav>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="navSidenavTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="navSidenavHtmlTab" data-bs-toggle="tab" href="#navSidenavHtml" role="tab" aria-controls="navSidenavHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="navSidenavPugTab" data-bs-toggle="tab" href="#navSidenavPug" role="tab" aria-controls="navSidenavPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="navSidenavHtml" role="tabpanel" aria-labelledby="navSidenavHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>snav snav-light<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>snav-menu<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>snav-menu-heading<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">سربرگ</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link-icon<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>feather<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="plain-text">لینک</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link-icon<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>feather<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="plain-text">لینک دیگر</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link disabled<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link-icon<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>feather<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="plain-text">لینک دیگر</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>snav-footer<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">فوتر ناوبری</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="navSidenavPug" role="tabpanel" aria-labelledby="navSidenavPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">nav.snav.snav-light</span>
+    <span class="token tag">.snav-menu</span>
+        <span class="token tag">.nav</span>
+            <span class="token tag">.snav-menu-heading</span> <span class="token plain-text">سربرگ</span>
+            <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span>
+                <span class="token tag">.nav-link-icon</span>
+                    <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'feather'</span></span><span class="token punctuation">)</span></span></span>
+                <span class="token punctuation">|</span> <span class="plain-text">لینک</span>
+            <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span>
+                <span class="token tag">.nav-link-icon</span>
+                    <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'feather'</span></span><span class="token punctuation">)</span></span></span>
+                <span class="token punctuation">|</span> <span class="plain-text">لینک</span>
+            <span class="token tag">a.nav-link.disabled<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#!'</span></span><span class="token punctuation">)</span></span></span>
+                <span class="token tag">.nav-link-icon</span>
+                    <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'feather'</span></span><span class="token punctuation">)</span></span></span>
+                <span class="token punctuation">|</span> <span class="plain-text">لینک</span>
+    <span class="token tag">.snav-footer</span>
+        <span class="token punctuation">|</span> <span class="plain-text">فوتر ناوبری</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        کلاس
+                        <code>.snav</code>
+                        کامپوننت مولفه پیش‌فرض بوت استرپ ناوبری را گسترش می‌دهد. یک نمونه کار از snav سفارشی را می توان در طرح داشبورد تم SB Admin Pro مشاهده کرد. نوار کناری که در طرح داشبورد استفاده می شود دارای یک ظرف با رفتارهای واکنشی خاص است، اما خود جزء می تواند به صورت مستقل استفاده شود.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Custom Sticky Nav Component-->
+              <div id="stickNavComponent">
+                <div class="card mb-4">
+                  <div class="card-header">کامپوننت منوی چسبان سفارشی</div>
+                  <div class="card-body">
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">منو کناری این صفحه یک منوی چسبان سفارشی است</div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="navigationStickyTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="navigationStickyHtmlTab" data-bs-toggle="tab" href="#navigationStickyHtml" role="tab" aria-controls="navigationStickyHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="navigationStickyPugTab" data-bs-toggle="tab" href="#navigationStickyPug" role="tab" aria-controls="navigationStickyPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="navigationStickyHtml" role="tabpanel" aria-labelledby="navigationStickyHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>container-fluid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token comment">&lt;!-- Content --&gt;</span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col-lg-9<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>navAnchor1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">محتوای نمونه 1</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>navAnchor2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">محتوای نمونه 2</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>navAnchorNested<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">محتوای زیر منو نمونه</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+        <span class="token comment">&lt;!-- Sticky Navigation --&gt;</span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col-lg-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-sticky<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>card<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>card-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                        <span class="token comment">&lt;!-- Nav menu --&gt;</span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav flex-column<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stickyNav<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                            <span class="token comment">&lt;!-- Nav item --&gt;</span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#navAnchor1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه 1</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token comment">&lt;!-- Nav item (with nested items) --&gt;</span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#navAnchor2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه 2</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token comment">&lt;!-- Nested nav menu --&gt;</span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav flex-column ml-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                    <span class="token comment">&lt;!-- Nested nav menu item --&gt;</span>
+                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#navAnchorNested<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">زیر منو نمونه</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="navigationStickyPug" role="tabpanel" aria-labelledby="navigationStickyPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">.container-xl.px-4-fluid</span>
+    <span class="token tag">.row</span>
+        <span class="token comment">//- Content</span>
+        <span class="token tag">.col-lg-9</span>
+            <span class="token tag">h2#navAnchor1</span>
+                <span class="token punctuation">|</span> <span class="plain-text">محتوای نمونه 1</span>
+            <span class="token tag">h2#navAnchor2</span>
+                <span class="token punctuation">|</span> <span class="plain-text">محتوای نمونه 2</span>
+            <span class="token tag">h3#navAnchorNested</span>
+                <span class="token punctuation">|</span> <span class="plain-text">محتوای زیرمنو نمونه 1</span>
+
+        <span class="token comment">// Sticky Navigation</span>
+        <span class="token tag">.col-lg-3</span>
+            <span class="token tag">.nav-sticky</span>
+                <span class="token tag">.card</span>
+                    <span class="token tag">.card-body</span>
+                        <span class="token comment">//- Nav menu</span>
+                        <span class="token tag">ul.nav.flex-column#stickyNav</span>
+                            <span class="token comment">//- Nav item</span>
+                            <span class="token tag">li.nav-item</span>
+                                <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#navAnchor1'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">نمونه 1</span>
+                            <span class="token comment">//- Nav item (with nested items)</span>
+                            <span class="token tag">li.nav-item</span>
+                                <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#navAnchor2'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">نمونه 2</span>
+                                <span class="token comment">//- Nested nav menu</span>
+                                <span class="token tag">ul.nav.flex-column.ms-3</span>
+                                    <span class="token comment">//- Nested nav menu item</span>
+                                    <span class="token tag">li.nav-item</span>
+                                        <span class="token tag">a.nav-link<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'#navAnchorNested'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">زیر منو نمونه</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        <p>
+                          کامپوننت
+                          <code>.nav-sticky</code>
+                          از عملکرد Scrollspy Bootstrap همراه با یک استایل سفارشی برای ایجاد یک جزء ناوبری چسبنده استفاده می کند که می توانید در صفحات داخلی برنامه خود از آن استفاده کنید. منوی سمت چپ صفحات مرجع سبک همگی نمونه هایی از ناوبری چسبنده هستند که استفاده می شود. می توانید افست و رفتار اسکرول این منو را در فایل
+
+                          <code>../assets/js/scripts.js</code>
+                           تنظیم کنید.
+                        </p>
+                        <p class="mb-0">
+                          مثال کد بالا نیاز به استفاده از JS دارد که به طور پیش فرض در کد فایل زیر موجود است
+                          <code>scripts.js</code>
+                          در مثال بالا نیز از یک
+                          <code>.container-xl.px-4-fluid</code>
+                          استفاده شده است
+                          اگر طرح بندی صفحه شما قبلاً حاوی یک ظرف باشد، ممکن است ضروری نباشد.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap Docs Link-->
+              <div class="card card-icon mb-4">
+                <div class="row g-0">
+                  <div class="col-auto card-icon-aside bg-secondary"><svg class="svg-inline--fa fa-bootstrap me-1 text-white-50" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="bootstrap" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z"></path></svg><!-- <i class="me-1 text-white-50 fab fa-bootstrap"></i> Font Awesome fontawesome.com --></div>
+                  <div class="col">
+                    <div class="card-body py-5">
+                      <h5 class="card-title">مستندات بوت استرپ موجود است</h5>
+                      <p class="card-text">Navs یک مؤلفه پیش فرض است که در چارچوب Bootstrap گنجانده شده است. برای اطلاعات بیشتر در مورد پیاده سازی، اصلاح و گسترش استفاده از مؤلفه های ناوبری بوت استرپ در پروژه خود، به صفحه مستندات ناوبری بوت استرپ رسمی مراجعه کنید.</p>
+                      <a class="btn btn-secondary btn-sm" href="https://getbootstrap.com/docs/4.4/components/navs/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link me-1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        از Bootstrap Navs Docs دیدن کنید
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sticky Navigation-->
+            <div class="col-lg-3">
+              <div class="nav-sticky">
+                <div class="card">
+                  <div class="card-body">
+                    <ul class="nav flex-column" id="stickyNav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#navBordersComponent">
+                          <div class="d-flex align-items-center justify-content-between">
+                            زیر خط دار
+                            <span class="badge bg-primary-soft text-primary">جدید</span>
+                          </div>
+                        </a>
+                        <ul class="nav flex-column ms-3">
+                          <li class="nav-item"><a class="nav-link" href="#navBordersComponentHorizontal">افقی</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#navBordersComponentVertical">عمودی</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="#sidenavComponent">ناوبری کناره</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#stickNavComponent">ناوبری چسبان</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer-admin mt-auto footer-light is-rtl">
+        <div class="container-xl px-4">
+          <div class="row">
+            <div class="col-md-6 small">طراحی شده با ❤️ ارائه شده در وب‌سایت راست‌چین</div>
+            <div class="col-md-6 text-md-end small">
+              <a href="#!">قوانین و مقررات</a>
+              ·
+              <a href="#!">لایسنس ها</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../../assets/js/bootstrap.bundle.min.js" ></script>
+  <script src="../../assets/js/scripts.js"></script>
+  <script src="../../assets/js/jquery.js"></script>
+
+  </body>
+</html>

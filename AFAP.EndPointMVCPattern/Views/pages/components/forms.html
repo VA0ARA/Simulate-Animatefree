@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="fa" class="overflow-unset">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SB Admin pro - قالب داشبورد مدیریت بوت‌استرپ - فرم‌ها</title>
+
+    <link rel="stylesheet" href="../../assets/css/fonts.css">
+    <link rel="stylesheet" href="../../assets/css/boxicons.css">
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/persian-datepicker.css" />
+
+  </head>
+  <body class="nav-fixed">
+
+  <nav class="is-rtl topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white" id="snavAccordion">
+    <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle">
+      <i class="bx bx-menu bx-sm"></i>
+    </button>
+    <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="../../index.html">داشبورد مدیریتی</a>
+    <form class="form-inline me-auto d-none d-lg-block me-3">
+      <div class="input-group input-group-joined input-group-solid">
+        <input class="form-control pe-0" type="search" placeholder="جستجو ..." aria-label="جستجو">
+        <div class="input-group-text"><i class="bx bx-search bx-sm"></i></div>
+      </div>
+    </form>
+
+    <!-- Navbar Items-->
+    <ul class="navbar-nav align-items-center ms-auto">
+
+      <!-- Documentation Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="fw-500">راهنما</div>
+          <i class="bx bx-chevron-down bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-start py-0 ms-sm-n15 ms-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">راهنما</div>
+              نحوه استفاده از قالب
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">کامپوننت ها</div>
+              لیست تمام کامپوننت ها
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">لیست تغییرات</div>
+              بروزرسانی های صورت گرفته
+            </div>
+          </a>
+        </div>
+      </li>
+
+
+      <!-- Navbar Search Dropdown-->
+      <!-- * * Note: * * Visible only below the lg breakpoint-->
+      <li class="nav-item dropdown no-caret me-3 d-lg-none">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="searchDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-search bx-sm"></i>
+        </a>
+        <!-- Dropdown - Search-->
+        <div class="dropdown-menu dropdown-menu-end p-3 shadow animated--fade-in-up" aria-labelledby="searchDropdown">
+          <form class="form-inline me-auto w-100">
+            <div class="input-group input-group-joined input-group-solid">
+              <input class="form-control pe-0" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-text"><i data-feather="search"></i></div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Alerts Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownAlerts" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-bell bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownAlerts">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-bell me-2"></i>
+            اعلان‌ها
+          </h6>
+          <div class="dropdown-div">
+
+            <!-- اعلان 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-warning"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-info"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-success"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-danger"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+
+          </div>
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه اعلان ها</a>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-envelope bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownMessages">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-message me-2"></i>
+            پیام ها
+          </h6>
+
+          <div class="dropdown-div">
+
+            <!-- پیام 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-1.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مرجان بابایی</small>
+              </div>
+            </a>
+
+            <!-- پیام 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-2.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی </p>
+                <small class="text-muted">سهیلا طاهری</small>
+              </div>
+            </a>
+
+            <!-- پیام 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-3.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">عسل شمس</small>
+              </div>
+            </a>
+
+            <!-- پیام 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-4.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مجید احمدی</small>
+              </div>
+            </a>
+          </div>
+
+
+          <!-- Footer Link-->
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه پیام ها</a>
+        </div>
+      </li>
+      <!-- User Dropdown-->
+      <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="../../assets/img/profile-1.jpg"></a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
+          <h6 class="dropdown-header d-flex align-items-center">
+            <img class="dropdown-user-img" src="../../assets/img/profile-1.jpg">
+            <div class="dropdown-user-details">
+              <div class="dropdown-user-details-name">مرجان بابایی</div>
+              <div class="dropdown-user-details-email">مدیر سیستم</div>
+            </div>
+          </h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-user"></i></div>
+            حساب کاربری
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-lock"></i></div>
+            تغییر کلمه عبور
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bxs-file-txt"></i></div>
+            مشاهده لاگ سیستم
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-log-out"></i></div>
+            خروج
+          </a>
+        </div>
+      </li>
+
+    </ul>
+  </nav>
+  <div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+      <nav class="snav shadow-right snav-light">
+        <div class="snav-menu">
+          <div class="nav accordion" id="accordionSidenav">
+
+
+            <div class="snav-menu-heading d-sm-none">حساب کاربری</div>
+
+            <!-- اعلان ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-bell "></i></div>
+              اعلان ها
+              <span class="badge bg-warning-soft text-warning ms-auto">4 جدید!</span>
+            </a>
+
+            <!-- پیام ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-envelope"></i></div>
+              پیام ها
+              <span class="badge bg-success-soft text-success ms-auto">2 جدید!</span>
+            </a>
+            
+
+            <div class="snav-menu-heading">هسته</div>
+<!-- پیشخوان -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-pulse"></i></div>
+              داشبورد
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPages">
+                <a class="nav-link" href="../../dashboard-default.html">
+                  پیشفرض
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="../../dashboard-multi.html">چند منظوره</a>
+                <a class="nav-link" href="../../dashboard-affiliate.html">بازاریابی</a>
+              </nav>
+            </div>
+
+            
+
+            <div class="snav-menu-heading">سفارشی</div>
+<!-- برگه ها -->
+            <a class="nav-link collapsed pt-0" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+              <div class="nav-link-icon"><i class="bx bx-grid"></i></div>
+              برگه ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
+
+
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+
+                <!-- حساب کاربری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAccount" aria-expanded="false" aria-controls="pagesCollapseAccount">
+                  حساب کاربری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../account/profile.html">پروفایل</a>
+                    <a class="nav-link" href="../account/profile-billing.html">صورتحساب</a>
+                    <a class="nav-link" href="../account/profile-security.html">امنیت</a>
+                    <a class="nav-link" href="../account/profile-notifications.html">اعلان ها</a>
+                  </nav>
+                </div>
+
+                <!-- احراز هویت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                  احراز هویت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAuth" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesAuth">
+
+                    <!-- ثبت نام -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthRegister" aria-expanded="false" aria-controls="pagesCollapseAuthRegister">
+                      ثبت نام
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthRegister" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/register/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/register/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/stepbystep.html">چند مرحله ای</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- ورود -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthLogin" aria-expanded="false" aria-controls="pagesCollapseAuthLogin">
+                      ورود
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthLogin" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/login/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/login/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/login/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- شبکه های اجتماعی -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthSocial" aria-expanded="false" aria-controls="pagesCollapseAuthSocial">
+                      شبکه های اجتماعی
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthSocial" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/social/login.html">ورود</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/register.html">ثبت نام</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/forget-password.html">فراموشی رمزعبور</a>
+                      </nav>
+                    </div>
+
+                    <!-- فراموشی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthForgetwd" aria-expanded="false" aria-controls="pagesCollapseAuthForgetwd">
+                      فراموشی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthForgetwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/forgetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- بازنشانی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthResetPwd" aria-expanded="false" aria-controls="pagesCollapseAuthResetPwd">
+                      بازنشانی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthResetPwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- تایید ایمیل -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthEmail" aria-expanded="false" aria-controls="pagesCollapseAuthEmail">
+                      تایید ایمیل
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthEmail" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/email/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/email/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- دو مرحله ای -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth2fa" aria-expanded="false" aria-controls="pagesCollapseAuth2fa">
+                      دو مرحله ای
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuth2fa" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/2fa/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/2fa/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                  </nav>
+                </div>
+
+                <!-- خطاها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                  خطاها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseError" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../error/400.html">400</a>
+                    <a class="nav-link" href="../error/401.html">401</a>
+                    <a class="nav-link" href="../error/403.html">403</a>
+                    <a class="nav-link" href="../error/404-1.html">404 طرح 1</a>
+                    <a class="nav-link" href="../error/404-2.html">404 طرح 2</a>
+                    <a class="nav-link" href="../error/500.html">500</a>
+                    <a class="nav-link" href="../error/503.html">503</a>
+                    <a class="nav-link" href="../error/504.html">504</a>
+                  </nav>
+                </div>
+
+                <!-- تعرفه ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapsePrice" aria-expanded="true" aria-controls="pagesCollapsePrice">
+                  تعرفه ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapsePrice" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../pricing/pricing-1.html">طرح شماره 1</a>
+                    <a class="nav-link" href="../pricing/pricing-2.html">طرح شماره 2</a>
+                    <a class="nav-link" href="../pricing/pricing-3.html">طرح شماره 3</a>
+                  </nav>
+                </div>
+                <!-- فاکتور -->
+                <a class="nav-link" href="../invoice.html">فاکتور</a>
+              </nav>
+            </div>
+
+            <!-- نرم افزارها -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
+              <div class="nav-link-icon"><i class="bx bx-globe"></i></div>
+              نرم افزارها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
+
+                <!-- مقالات -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseKnowledgeBase" aria-expanded="false" aria-controls="appsCollapseKnowledgeBase">
+                  مقالات
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseKnowledgeBase" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../articles/tarh-1.html">طرح یک</a>
+                    <a class="nav-link" href="../articles/tarh-2.html">طرح دو</a>
+                    <a class="nav-link" href="../articles/category.html">دسته بندی</a>
+                    <a class="nav-link" href="../articles/base.html">مطالب</a>
+                  </nav>
+                </div>
+
+                <!-- کاربران -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseUserManagement" aria-expanded="false" aria-controls="appsCollapseUserManagement">
+                  کاربران
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseUserManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../users/list.html">لیست</a>
+                    <a class="nav-link" href="../users/edit.html">ویرایش کاربر</a>
+                    <a class="nav-link" href="../users/add.html">ایجاد کاربر</a>
+                    <a class="nav-link" href="../users/groups-list.html">فهرست گروهی</a>
+                    <a class="nav-link" href="../users/org-details.html">مشخصات سازمانی</a>
+                  </nav>
+                </div>
+                <!-- مدیریت پست ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapsePostsManagement" aria-expanded="false" aria-controls="appsCollapsePostsManagement">
+                  مدیریت پست ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapsePostsManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../posts/list.html">لیست</a>
+                    <a class="nav-link" href="../posts/create.html">ایجاد مطلب</a>
+                    <a class="nav-link" href="../posts/edit.html">ویرایش مطلب</a>
+                    <a class="nav-link" href="../posts/admin.html">فهرست مطالب مدیر</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            
+
+            
+            <!-- فرم چند مرحله -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseMulti" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              فرم چند مرحله
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseMulti" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionMultiPages">
+                <a class="nav-link" href="../flows/multi-select.html">ثبت نام چندتایی</a>
+                <a class="nav-link" href="../flows/multi-wizard.html">فرم گام به گام مرحله ای</a>
+
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">ابزارهای رابط کاربری</div>
+
+<!-- طرح ها -->
+            <a class="nav-link collapsed " href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+              <div class="nav-link-icon"><i class="bx bx-layout"></i></div>
+              طرح ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavLayout">
+                <!-- ناوبری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavVariations" aria-expanded="false" aria-controls="collapseLayoutSidenavVariations">
+                  ناوبری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavVariations" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/static.html">استاتیک</a>
+                                        <a class="nav-link" href="../layout/dark.html">تم تاریک</a>
+                    <a class="nav-link active" href="../layout/ltr.html">صفحه چپ به راست</a>
+                  </nav>
+                </div>
+                <!-- تنظیمات Container -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavOption" aria-expanded="false" aria-controls="collapseLayoutSidenavOption">
+                  تنظیمات Container
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavOption" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/layout-boxed.html">باکس - Boxed Layout</a>
+                    <a class="nav-link" href="../layout/layout-fluid.html">سیال - Fluid Layout</a>
+                  </nav>
+                </div>
+
+                <!-- هدر سایت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsPageHeaders" aria-expanded="false" aria-controls="collapseLayoutsPageHeaders">
+                  هدر سایت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsPageHeaders" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../header/simplified.html">ساده</a>
+                    <a class="nav-link" href="../header/compact.html">کامپکت</a>
+                    <a class="nav-link" href="../header/overlap.html">همپوشانی</a>
+                    <a class="nav-link" href="../header/breadcrumbs.html">نمایش مسیر صفحات</a>
+                    <a class="nav-link" href="../header/light.html">تم روشن</a>
+                  </nav>
+                </div>
+                <!-- طرح بندی اصلی -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsStarterTemplates" aria-expanded="false" aria-controls="collapseLayoutsStarterTemplates">
+                  طرح بندی اصلی
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsStarterTemplates" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../starter/default.html">پیشفرض</a>
+                    <a class="nav-link" href="../starter/minimal.html">مینیمال</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            <!-- رابط کاربری -->
+            <a class="nav-link collapsed active" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseComponents" aria-expanded="false" aria-controls="collapseComponents">
+              <div class="nav-link-icon"><i class="bx bx-package"></i></div>
+              رابط کاربری
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseComponents" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav">
+                <a class="nav-link" href="alerts.html">هشدارها</a>
+                <a class="nav-link" href="avatars.html">آواتار</a>
+                <a class="nav-link" href="badges.html">نشان‌ها</a>
+                <a class="nav-link" href="buttons.html">دکمه‌ها</a>
+                <a class="nav-link" href="cards.html">
+                  کارت
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="dropdowns.html">کشویی</a>
+                <a class="nav-link active" href="forms.html">
+                  فرم‌ها<span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="modals.html">مودال‌ها</a>
+                <a class="nav-link" href="navigation.html">نوار ناوبری</a>
+                <a class="nav-link" href="progress.html">درصد پیشرفت</a>
+                                <a class="nav-link" href="step.html">گام به گام</a>
+				<a class="nav-link" href="spinners.html">چرخنده</a>
+                <a class="nav-link" href="timeline.html">خط زمانی</a>
+                <a class="nav-link" href="toasts.html">اعلان های Toasts</a>
+                <a class="nav-link" href="tooltips.html">تولتیپ ها</a>
+              </nav>
+            </div>
+
+            <!-- برنامه‌های سودمند -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              برنامه‌های سودمند
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionUtilitiesPages">
+                <a class="nav-link" href="../utilities/animations.html">انیمیشن</a>
+                <a class="nav-link" href="../utilities/background.html">پس‌زمینه</a>
+                <a class="nav-link" href="../utilities/borders.html">حاشیه</a>
+                <a class="nav-link" href="../utilities/lift.html">افکت Lift</a>
+                <a class="nav-link" href="../utilities/shadows.html">سایه‌ها</a>
+                <a class="nav-link" href="../utilities/typography.html">تایپوگرافی</a>
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">پلاگین</div>
+<!-- نمودارها -->
+            <a class="nav-link pt-0" href="../charts.html">
+              <div class="nav-link-icon"><i class="bx bx-bar-chart"></i></div>
+              نمودارها
+            </a>
+            <!-- جدول -->
+            <a class="nav-link" href="../tables.html">
+              <div class="nav-link-icon"><i class="bx bx-table"></i></div>
+              جدول
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="layoutSidenav_content">
+
+      <main class="is-rtl">
+        <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+          <div class="container-xl px-4">
+            <div class="page-header-content pt-4">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-auto mt-4">
+                  <h1 class="page-header-title">
+                    <div class="page-header-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></div>
+                    فرم‌ها
+                  </h1>
+                  <div class="page-header-subtitle">اجزای فرم پویا برای دادن ورودی های آموزنده و بصری به کاربران شما</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Main page content-->
+        <div class="container-xl px-4 mt-n10">
+          <div class="row">
+            <div class="col-lg-9">
+              <!-- Default Bootstrap Form Controls-->
+              <div id="default">
+                <div class="card mb-4">
+                  <div class="card-header">کنترل های فرم پیش فرض بوت استرپ</div>
+                  <div class="card-body">
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1">ایمیل آدرس</label>
+                            <input class="form-control" id="exampleFormControlInput1" type="email" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlSelect1">نمونه لیست انتخابی</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlSelect2">نمونه لیست انتخاب چند تایی</label>
+                            <select class="form-control" id="exampleFormControlSelect2" multiple="">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="mb-0">
+                            <label for="exampleFormControlTextarea1">نمونه ورودی textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="formsDefaultTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="formsDefaultHtmlTab" data-bs-toggle="tab" href="#formsDefaultHtml" role="tab" aria-controls="formsDefaultHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="formsDefaultPugTab" data-bs-toggle="tab" href="#formsDefaultPug" role="tab" aria-controls="formsDefaultPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="formsDefaultHtml" role="tabpanel" aria-labelledby="formsDefaultHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlInput1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">ایمیل</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlInput1<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>name@example.com<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه لیست انتخابی</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه لیست انتخاب چندتایی</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect2<span class="token punctuation">"</span></span> <span class="token attr-name">multiple</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlTextarea1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه ورودی textarea</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlTextarea1<span class="token punctuation">"</span></span> <span class="token attr-name">rows</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="formsDefaultPug" role="tabpanel" aria-labelledby="formsDefaultPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">form</span>
+    <span class="token tag">.mb-3</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlInput1'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">ایمیل</span>
+        <span class="token tag">input#exampleFormControlInput1.form-control<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'email'</span></span><span class="token punctuation">,</span> <span class="token attr-name">placeholder</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'name@example.com'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.mb-3</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlSelect1'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">نمونه لیست انتخابی</span>
+        <span class="token tag">select#exampleFormControlSelect1.form-control</span>
+            <span class="token tag">option</span> <span class="token plain-text">1</span>
+            <span class="token tag">option</span> <span class="token plain-text">2</span>
+            <span class="token tag">option</span> <span class="token plain-text">3</span>
+            <span class="token tag">option</span> <span class="token plain-text">4</span>
+            <span class="token tag">option</span> <span class="token plain-text">5</span>
+    <span class="token tag">.mb-3</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlSelect2'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">نمونه لیست انتخاب چندتایی</span>
+        <span class="token tag">select#exampleFormControlSelect2.form-control<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">multiple</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">option</span> <span class="token plain-text">1</span>
+            <span class="token tag">option</span> <span class="token plain-text">2</span>
+            <span class="token tag">option</span> <span class="token plain-text">3</span>
+            <span class="token tag">option</span> <span class="token plain-text">4</span>
+            <span class="token tag">option</span> <span class="token plain-text">5</span>
+    <span class="token tag">.mb-0</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlTextarea1'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">نمونه ورودی textarea</span>
+        <span class="token tag">textarea#exampleFormControlTextarea1.form-control<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">rows</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'3'</span></span><span class="token punctuation">)</span></span></span>
+</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">حالت های کنترل فرم بوت استرپ پیش فرض برای تناسب با موضوع SB Admin Pro تغییر شکل داده شده است. سبک تغییر کرده است، اما نشانه گذاری یکسان است.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Solid Form Controls-->
+              <div id="solid">
+                <div class="card mb-4">
+                  <div class="card-header">فرم کنترل های سفارشی</div>
+                  <div class="card-body">
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1">ایمیل</label>
+                            <input class="form-control form-control-solid" id="exampleFormControlInput1" type="email" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlSelect1">نمونه لیست</label>
+                            <select class="form-control form-control-solid" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlSelect2">نمونه لیست انتخاب چند تایی</label>
+                            <select class="form-control form-control-solid" id="exampleFormControlSelect2" multiple="">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="mb-0">
+                            <label for="exampleFormControlTextarea1">نمونه ورودی textarea</label>
+                            <textarea class="form-control form-control-solid" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="formsSolidTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="formsSolidHtmlTab" data-bs-toggle="tab" href="#formsSolidHtml" role="tab" aria-controls="formsSolidHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="formsSolidPugTab" data-bs-toggle="tab" href="#formsSolidPug" role="tab" aria-controls="formsSolidPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="formsSolidHtml" role="tabpanel" aria-labelledby="formsSolidHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlInput1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">ایمیل</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control form-control-solid<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlInput1<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>name@example.com<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه لیست</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control form-control-solid<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه لیست انتخاب جندتایی</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control form-control-solid<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlSelect2<span class="token punctuation">"</span></span> <span class="token attr-name">multiple</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mb-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlTextarea1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">نمونه ورودی textarea</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control form-control-solid<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exampleFormControlTextarea1<span class="token punctuation">"</span></span> <span class="token attr-name">rows</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="formsSolidPug" role="tabpanel" aria-labelledby="formsSolidPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">form</span>
+    <span class="token tag">.mb-3</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlInput1'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">ایمیل</span>
+        <span class="token tag">input#exampleFormControlInput1.form-control.form-control-solid<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'email'</span></span><span class="token punctuation">,</span> <span class="token attr-name">placeholder</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'name@example.com'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.mb-3</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlSelect1'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">نمونه لیست</span>
+        <span class="token tag">select#exampleFormControlSelect1.form-control.form-control-solid</span>
+            <span class="token tag">option</span> <span class="token plain-text">1</span>
+            <span class="token tag">option</span> <span class="token plain-text">2</span>
+            <span class="token tag">option</span> <span class="token plain-text">3</span>
+            <span class="token tag">option</span> <span class="token plain-text">4</span>
+            <span class="token tag">option</span> <span class="token plain-text">5</span>
+    <span class="token tag">.mb-3</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlSelect2'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text"><span class="plain-text">نمونه لیست انتخاب جندتایی</span></span>
+        <span class="token tag">select#exampleFormControlSelect2.form-control.form-control-solid<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">multiple</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">)</span></span></span>
+            <span class="token tag">option</span> <span class="token plain-text">1</span>
+            <span class="token tag">option</span> <span class="token plain-text">2</span>
+            <span class="token tag">option</span> <span class="token plain-text">3</span>
+            <span class="token tag">option</span> <span class="token plain-text">4</span>
+            <span class="token tag">option</span> <span class="token plain-text">5</span>
+    <span class="token tag">.mb-0</span>
+        <span class="token tag">label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'exampleFormControlTextarea1'</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">نمونه ورودی textarea</span>
+        <span class="token tag">textarea#exampleFormControlTextarea1.form-control.form-control-solid<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">rows</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'3'</span></span><span class="token punctuation">)</span></span></span>
+</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        فرم کنترل‌های سفارشی به عنوان جایگزینی برای استایل فرم پیش‌فرض ایجاد شده‌اند. از آنها با افزودن
+                        <code>.form-control-solid</code>
+به کلاس
+                        <code>.form-control</code>
+                        از آن استفاده کنید
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Custom Checkboxes and Radio-->
+              <div id="checkbox">
+                <div class="card mb-4">
+                  <div class="card-header">چک باکس های  و رادیو باکس سفارشی</div>
+                  <div class="card-body">
+                    <h6 class="small text-muted fw-500">چک باکس های سفارشی بوت استرپ:</h6>
+                    <div class="sbp-preview mb-4">
+                      <div class="sbp-preview-content">
+                        <div class="form-check">
+                          <input class="form-check-input" id="flexCheckDefault" type="checkbox" value="">
+                          <label class="form-check-label" for="flexCheckDefault">پیشفرض</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" id="flexCheckChecked" type="checkbox" value="" checked="">
+                          <label class="form-check-label" for="flexCheckChecked">تیک خورده</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" id="flexCheckDisabled" type="checkbox" value="" disabled="">
+                          <label class="form-check-label" for="flexCheckDisabled">غیرفعال</label>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="formsCheckboxesTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="formsCheckboxesHtmlTab" data-bs-toggle="tab" href="#formsCheckboxesHtml" role="tab" aria-controls="formsCheckboxesHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="formsCheckboxesPugTab" data-bs-toggle="tab" href="#formsCheckboxesPug" role="tab" aria-controls="formsCheckboxesPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="formsCheckboxesHtml" role="tabpanel" aria-labelledby="formsCheckboxesHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckDefault<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckDefault<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">پیشفرض</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckChecked<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">checked"</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckChecked<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">تبک خورده</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckDisabled<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">disabled</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckDisabled<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">غیرفعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="formsCheckboxesPug" role="tabpanel" aria-labelledby="formsCheckboxesPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">.form-check</span>
+    <span class="token tag">input#flexCheckDefault.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'checkbox'</span></span><span class="token punctuation">,</span> <span class="token attr-name">value</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexCheckDefault'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">پیشفرض</span>
+<span class="token tag">.form-check</span>
+    <span class="token tag">input#flexCheckChecked.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'checkbox'</span></span><span class="token punctuation">,</span> <span class="token attr-name">value</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">,</span> <span class="token attr-name">checked</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexCheckChecked'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">تیک خورده</span>
+<span class="token tag">.form-check</span>
+    <span class="token tag">input#flexCheckDisabled.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'checkbox'</span></span><span class="token punctuation">,</span> <span class="token attr-name">value</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">,</span> <span class="token attr-name">disabled</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexCheckDisabled'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span>  <span class="plain-text">غیرفعال</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">استایل چک باکس سفارشی Bootstrap برای تم SB Admin Pro اصلاح شده است.</div>
+                    </div>
+                    <h6 class="small text-muted fw-500">رادیو باکس سفارشی بوت استرپ:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <div class="form-check">
+                          <input class="form-check-input" id="flexRadioDefault1" type="radio" name="flexRadioDefault">
+                          <label class="form-check-label" for="flexRadioDefault1">پیشفرض</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" id="flexRadioDefault2" type="radio" name="flexRadioDefault" checked="">
+                          <label class="form-check-label" for="flexRadioDefault2">تیک خورده</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" id="flexRadioDefault3" type="radio" name="flexRadioDefault" disabled="">
+                          <label class="form-check-label" for="flexRadioDefault3">غرفعال</label>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="formsRadioTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="formsRadioHtmlTab" data-bs-toggle="tab" href="#formsRadioHtml" role="tab" aria-controls="formsRadioHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="formsRadioPugTab" data-bs-toggle="tab" href="#formsRadioPug" role="tab" aria-controls="formsRadioPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="formsRadioHtml" role="tabpanel" aria-labelledby="formsRadioHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault1<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">پیشفرض</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault2<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault<span class="token punctuation">"</span></span> <span class="token attr-name">checked"</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">تیک خورده</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault3<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault<span class="token punctuation">"</span></span> <span class="token attr-name">disabled</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioDefault3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">غیرفعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="formsRadioPug" role="tabpanel" aria-labelledby="formsRadioPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">.form-check</span>
+    <span class="token tag">input#flexRadioDefault1.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'radio'</span></span><span class="token punctuation">,</span> <span class="token attr-name">name</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioDefault'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioDefault1'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">پیشفرض</span>
+<span class="token tag">.form-check</span>
+    <span class="token tag">input#flexRadioDefault2.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'radio'</span></span><span class="token punctuation">,</span> <span class="token attr-name">name</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioDefault'</span></span><span class="token punctuation">,</span> <span class="token attr-name">checked</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioDefault2'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">تیک خورده</span>
+<span class="token tag">.form-check</span>
+    <span class="token tag">input#flexRadioDefault3.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'radio'</span></span><span class="token punctuation">,</span> <span class="token attr-name">name</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioDefault'</span></span><span class="token punctuation">,</span> <span class="token attr-name">disabled</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioDefault3'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">غیرفعال</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">استایل رادیویی سفارشی بوت استرپ نیز برای تم SB Admin Pro اصلاح شده است.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Solid Checkbox and Radio Styling-->
+              <div id="checkboxSolid">
+                <div class="card mb-4">
+                  <div class="card-header">چک باکس رادیو باکس پررنگ</div>
+                  <div class="card-body">
+                    <h6 class="small text-muted fw-500">چک باکس سفارشی پررنگ:</h6>
+                    <div class="sbp-preview mb-4">
+                      <div class="sbp-preview-content">
+                        <div class="form-check form-check-solid">
+                          <input class="form-check-input" id="flexCheckSolidDefault" type="checkbox" value="">
+                          <label class="form-check-label" for="flexCheckSolidDefault">پیشفرض</label>
+                        </div>
+                        <div class="form-check form-check-solid">
+                          <input class="form-check-input" id="flexCheckSolidChecked" type="checkbox" value="" checked="">
+                          <label class="form-check-label" for="flexCheckSolidChecked">تیک خورده</label>
+                        </div>
+                        <div class="form-check form-check-solid">
+                          <input class="form-check-input" id="flexCheckSolidDisabled" type="checkbox" value="" disabled="">
+                          <label class="form-check-label" for="flexCheckSolidDisabled">غیرفعال</label>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="formsCheckboxesSolidTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="formsCheckboxesSolidHtmlTab" data-bs-toggle="tab" href="#formsCheckboxesSolidHtml" role="tab" aria-controls="formsCheckboxesSolidHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="formsCheckboxesSolidPugTab" data-bs-toggle="tab" href="#formsCheckboxesSolidPug" role="tab" aria-controls="formsCheckboxesSolidPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="formsCheckboxesSolidHtml" role="tabpanel" aria-labelledby="formsCheckboxesSolidHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check form-check-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckSolidDefault<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckSolidDefault<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">پیشفرض</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check form-check-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckSolidChecked<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">checked"</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckSolidChecked<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">تیک خورده</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check form-check-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckSolidDisabled<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">disabled</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexCheckSolidDisabled<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">غیرفعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="formsCheckboxesSolidPug" role="tabpanel" aria-labelledby="formsCheckboxesSolidPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">.form-check.form-check-solid</span>
+    <span class="token tag">input#flexCheckSolidDefault.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'checkbox'</span></span><span class="token punctuation">,</span> <span class="token attr-name">value</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexCheckSolidDefault'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">پیشفرض</span>
+<span class="token tag">.form-check.form-check-solid</span>
+    <span class="token tag">input#flexCheckSolidChecked.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'checkbox'</span></span><span class="token punctuation">,</span> <span class="token attr-name">value</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">,</span> <span class="token attr-name">checked</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexCheckSolidChecked'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">تیک خورده</span>
+<span class="token tag">.form-check.form-check-solid</span>
+    <span class="token tag">input#flexCheckSolidDisabled.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'checkbox'</span></span><span class="token punctuation">,</span> <span class="token attr-name">value</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">''</span></span><span class="token punctuation">,</span> <span class="token attr-name">disabled</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexCheckSolidDisabled'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">غیرفعال</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        کلاس
+                        <code>.custom-control-solid</code>
+                       میشه با کلاس
+                        <code>.custom-control</code>
+                        استفاده شود، به فرم کنترل استایل پررنگ می دهد.
+                      </div>
+                    </div>
+                    <h6 class="small text-muted fw-500">رادیو باکس سفارشی:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <div class="form-check form-check-solid">
+                          <input class="form-check-input" id="flexRadioSolid1" type="radio" name="flexRadioSolid">
+                          <label class="form-check-label" for="flexRadioSolid1">پیشفرض</label>
+                        </div>
+                        <div class="form-check form-check-solid">
+                          <input class="form-check-input" id="flexRadioSolid2" type="radio" name="flexRadioSolid" checked="">
+                          <label class="form-check-label" for="flexRadioSolid2">تیک خورده</label>
+                        </div>
+                        <div class="form-check form-check-solid">
+                          <input class="form-check-input" id="flexRadioSolid3" type="radio" name="flexRadioSolid" disabled="">
+                          <label class="form-check-label" for="flexRadioSolid3">غیرفعال</label>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="formsRadioSolidTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="formsRadioSolidHtmlTab" data-bs-toggle="tab" href="#formsRadioSolidHtml" role="tab" aria-controls="formsRadioSolidHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="formsRadioSolidPugTab" data-bs-toggle="tab" href="#formsRadioSolidPug" role="tab" aria-controls="formsRadioSolidPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="formsRadioSolidHtml" role="tabpanel" aria-labelledby="formsRadioSolidHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check form-check-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid1<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">پیشفرض</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check form-check-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid2<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid<span class="token punctuation">"</span></span> <span class="token attr-name">checked"</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">تیک خورده</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check form-check-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-input<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid3<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid<span class="token punctuation">"</span></span> <span class="token attr-name">disabled</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-check-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flexRadioSolid3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">غیرفعال</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="formsRadioSolidPug" role="tabpanel" aria-labelledby="formsRadioSolidPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">.form-check.form-check-solid</span>
+    <span class="token tag">input#flexRadioSolid1.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'radio'</span></span><span class="token punctuation">,</span> <span class="token attr-name">name</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioSolid'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioSolid1'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">پیشفرض</span>
+<span class="token tag">.form-check.form-check-solid</span>
+    <span class="token tag">input#flexRadioSolid2.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'radio'</span></span><span class="token punctuation">,</span> <span class="token attr-name">name</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioSolid'</span></span><span class="token punctuation">,</span> <span class="token attr-name">checked</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioSolid2'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">تیک خورده</span>
+<span class="token tag">.form-check.form-check-solid</span>
+    <span class="token tag">input#flexRadioSolid3.form-check-input<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'radio'</span></span><span class="token punctuation">,</span> <span class="token attr-name">name</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioSolid'</span></span><span class="token punctuation">,</span> <span class="token attr-name">disabled</span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">label.form-check-label<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">for</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'flexRadioSolid3'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token punctuation">|</span> <span class="plain-text">غیرفعال</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        The
+                        <code>.custom-control-solid</code>
+                        works with custom radios as well.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Joined Input Groups-->
+              <div id="inputGroupJoined">
+                <div class="card mb-4">
+                  <div class="card-header">گروبندی فرم کنترل ورودی</div>
+                  <div class="card-body">
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <!-- Joined input group append example-->
+                        <div class="input-group input-group-joined mb-4">
+                          <input class="form-control pe-0" type="text" placeholder="گروه بندی در انتها..." aria-label="جستجو">
+                          <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+                        </div>
+                        <!-- Joined input group prepend example-->
+                        <div class="input-group input-group-joined mb-4">
+                          <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+                          <input class="form-control ps-0" type="text" placeholder="گروه بندی در ابتدا..." aria-label="جستجو">
+                        </div>
+                        <!-- Joined input group solid append example-->
+                        <div class="input-group input-group-joined input-group-solid mb-4">
+                          <input class="form-control pe-0" type="text" placeholder="گروه بندی در انتها..." aria-label="جستجو">
+                          <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+                        </div>
+                        <!-- Joined input group solid prepend example-->
+                        <div class="input-group input-group-joined input-group-solid">
+                          <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+                          <input class="form-control ps-0" type="text" placeholder="گروه بندی در ابتدا..." aria-label="جستجو">
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="inputGroupJoinedTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="inputGroupJoinedHtmlTab" data-bs-toggle="tab" href="#inputGroupJoinedHtml" role="tab" aria-controls="inputGroupJoinedHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="inputGroupJoinedPugTab" data-bs-toggle="tab" href="#inputGroupJoinedPug" role="tab" aria-controls="inputGroupJoinedPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="inputGroupJoinedHtml" role="tabpanel" aria-labelledby="inputGroupJoinedHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Joined input group append example--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group input-group-joined<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control pe-0<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">گروه بندی در انتها...</span><span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">جستجو</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group-text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>search<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Joined input group prepend example--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group input-group-joined<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group-text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>search<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control ps-0<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">گروه بندی در ابتدا...</span><span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">جستجو</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Joined input group solid append example--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group input-group-joined input-group-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control pe-0<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">گروه بندی در انتها...</span><span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">جستجو</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group-text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>search<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Joined input group solid prepend example--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group input-group-joined input-group-solid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group-text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>search<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control ps-0<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">گروه بندی در ابتدا...</span><span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">جستجو</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="inputGroupJoinedPug" role="tabpanel" aria-labelledby="inputGroupJoinedPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">// Joined input group append example</span>
+<span class="token tag">.input-group.input-group-joined</span>
+    <span class="token tag">input.form-control.pe-0<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'text'</span></span><span class="token punctuation">,</span> <span class="token attr-name">placeholder</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'گروه بندی در انتها...'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'جستجو'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">span.input-group-text</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'search'</span></span><span class="token punctuation">)</span></span></span>
+<span class="token comment">// Joined input group prepend example</span>
+<span class="token tag">.input-group.input-group-joined</span>
+    <span class="token tag">span.input-group-text</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'search'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">input.form-control.ps-0<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'text'</span></span><span class="token punctuation">,</span> <span class="token attr-name">placeholder</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'گروه بندی در ابتدا...'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text plain-text">'جستجو'</span></span><span class="token punctuation">)</span></span></span>
+<span class="token comment">// Joined input group solid append example</span>
+<span class="token tag">.input-group.input-group-joined.mb-4.input-group-solid</span>
+    <span class="token tag">input.form-control.pe-0<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'text'</span></span><span class="token punctuation">,</span> <span class="token attr-name">placeholder</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'گروه بندی در انتها...'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text plain-text">'جستجو'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">span.input-group-text</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'search'</span></span><span class="token punctuation">)</span></span></span>
+<span class="token comment">// Joined input group solid prepend example</span>
+<span class="token tag">.input-group.input-group-joined.input-group-solid</span>
+    <span class="token tag">span.input-group-text</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'search'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">input.form-control.ps-0<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'text'</span></span><span class="token punctuation">,</span> <span class="token attr-name">placeholder</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'گروه بندی در ابتدا...'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text plain-text">'جستجو'</span></span><span class="token punctuation">)</span></span></span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        گروه بندی فرم ها ویژگی
+                        <code>:focus-within</code>
+                        کلاس شبه CSS برای پیوستن به گروه ورودی در یک گروه ورودی اضافه می‌شود. برخلاف رفتار گروه ورودی پیش‌فرض بوت استرپ، این تغییرات گروه ورودی پیوسته، وقتی کنترل فرم درون انتخاب می‌شود، کل گروه ورودی را متمرکز می‌کند. این تنوع همچنین رنگ‌آمیزی پس‌زمینه و حاشیه عناصر ضمیمه و پیش‌پیوند را برای ظاهری صاف و بدون درز گروه ورودی حذف می‌کند.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Date Range Picker-->
+              <div id="dateRangePicker">
+                <div class="card card-header-actions mb-4">
+                  <div class="card-header">
+                    تاریخ شمسی
+                    <span class="badge bg-warning-soft text-warning">پلاگین</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <!-- Date Range Picker Example-->
+                        <div class="input-group input-group-joined" style="width: 16.5rem">
+                          <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                          <input class="form-control ps-0 pointer" id="datepickerRangePlugin" placeholder="تاریخ تولد خود را انتخاب کنید...">
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="dateRangePickerTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="dateRangePickerHtmlTab" data-bs-toggle="tab" href="#dateRangePickerHtml" role="tab" aria-controls="dateRangePickerHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="dateRangePickerPugTab" data-bs-toggle="tab" href="#dateRangePickerPug" role="tab" aria-controls="dateRangePickerPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="dateRangePickerHtml" role="tabpanel" aria-labelledby="dateRangePickerHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Date Range Picker Example--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group input-group-joined<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>width: 16.5rem;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-group-text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-control ps-0<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>datepickerRangePlugin<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="plain-text">تاریخ تولد خود را انتخاب کنید...</span><span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="dateRangePickerPug" role="tabpanel" aria-labelledby="dateRangePickerPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">// Date Range Picker Example</span>
+<span class="token tag">.input-group.input-group-joined<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'width: 16.5rem;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">span.input-group-text</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'calendar'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">input.form-control.ps-0.pointer#datepickerRangePlugin<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">placeholder</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string plain-text">'تاریخ تولد خود را انتخاب کنید...'</span></span><span class="token punctuation">)</span></span></span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        <p class="mb-0">
+                          این افزونه توسط یک وابستگی شخص ثالث به نام PersianWebToolkit طراحی شده است. برای دیدن نمونه های بیشتر از
+                          <a href="http://babakhani.github.io/PersianWebToolkit/beta/datepicker/example/">مستندات PersianWebToolkit</a>
+                          دیدن کنید
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap Docs Link-->
+              <div class="card card-icon mb-4">
+                <div class="row g-0">
+                  <div class="col-auto card-icon-aside bg-secondary"><svg class="svg-inline--fa fa-bootstrap me-1 text-white-50" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="bootstrap" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z"></path></svg><!-- <i class="me-1 text-white-50 fab fa-bootstrap"></i> Font Awesome fontawesome.com --></div>
+                  <div class="col">
+                    <div class="card-body py-5">
+                      <h5 class="card-title">مستندات بوت استرپ موجود است</h5>
+                      <p class="card-text">فرم‌ها یک جزء پیش‌فرض هستند که در چارچوب Bootstrap گنجانده شده است. برای اطلاعات بیشتر در مورد پیاده‌سازی، اصلاح و گسترش استفاده از فرم‌ها در پروژه خود، از صفحه رسمی مستندات فرم‌های بوت استرپ دیدن کنید.</p>
+                      <a class="btn btn-secondary btn-sm" href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link me-1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        از Bootstrap Forms Docs دیدن کنید
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sticky Navigation-->
+            <div class="col-lg-3">
+              <div class="nav-sticky">
+                <div class="card">
+                  <div class="card-body">
+                    <ul class="nav flex-column" id="stickyNav">
+                      <li class="nav-item"><a class="nav-link" href="#default">فرم کنترل های پیش فرض</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#solid">کنترل های فرم پررنگ</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#checkbox">چک باکس و رادیو باکس پیشفرض</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#checkboxSolid">چک باکس و رادیو باکس پررنگ</a></li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#inputGroupJoined">
+                          <div class="d-flex align-items-center justify-content-between">
+                            گروه های ورودی
+                            <span class="badge bg-primary-soft text-primary">جدید</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#dateRangePicker">
+                          <div class="d-flex align-items-center justify-content-between">
+                            پلاگین
+                            <span class="badge bg-primary-soft text-primary">جدیید</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer-admin mt-auto footer-light is-rtl">
+        <div class="container-xl px-4">
+          <div class="row">
+            <div class="col-md-6 small">طراحی شده با ❤️ ارائه شده در وب‌سایت راست‌چین</div>
+            <div class="col-md-6 text-md-end small">
+              <a href="#!">قوانین و مقررات</a>
+              ·
+              <a href="#!">لایسنس ها</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../../assets/js/bootstrap.bundle.min.js" ></script>
+  <script src="../../assets/js/scripts.js"></script>
+  <script src="../../assets/js/jquery.js"></script>
+
+  <script src="../../assets/js/persian-date.js"></script>
+  <script src="../../assets/js/persian-datepicker.js"></script>
+
+
+
+  <script>
+
+
+    // Toggle the side navigation
+    $(document).ready(function () {
+
+      $('#datepickerRangePlugin').persianDatepicker({
+        format: 'YYYY/MM/DD',
+        autoClose: true
+      });
+
+    });
+
+  </script>
+  </body>
+</html>

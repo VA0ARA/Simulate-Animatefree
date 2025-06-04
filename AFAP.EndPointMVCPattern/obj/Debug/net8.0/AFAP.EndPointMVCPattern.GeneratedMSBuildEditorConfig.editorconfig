@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AFAP.EndPointMVCPattern
+build_property.RootNamespace = AFAP.EndPointMVCPattern
+build_property.ProjectDir = D:\Resume\Rsume\resume\animatefreeapiandadminpanel\AFAP.EndPointMVCPattern\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Resume\Rsume\resume\animatefreeapiandadminpanel\AFAP.EndPointMVCPattern
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Account/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Account/ShowDetailUserPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaG93RGV0YWlsVXNlclBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Admin/AdminCold.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Db2xkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Admin/AdminEold.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Fb2xkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Admin/AdminShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5TaG93RGV0YWlsUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Admin/CreateAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Admin/EditAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Animator/AnimatorShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWF0b3JcQW5pbWF0b3JTaG93RGV0YWlsUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Animator/EditAnimator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWF0b3JcRWRpdEFuaW1hdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/APK/APKShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVBLXEFQS1Nob3dEZXRhaWxQYW5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/APK/CreateAPK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVBLXENyZWF0ZUFQSy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/APK/EditAPK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVBLXEVkaXRBUEsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/AssetBundle/AssetbundleShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRCdW5kbGVcQXNzZXRidW5kbGVTaG93RGV0YWlsUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/AssetBundle/CreateAssetbundle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRCdW5kbGVcQ3JlYXRlQXNzZXRidW5kbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/AssetBundle/EditAssetbundle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRCdW5kbGVcRWRpdEFzc2V0YnVuZGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Avatar/AvatarShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhdGFyXEF2YXRhclNob3dEZXRhaWxQYW5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Avatar/CreateAvatar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhdGFyXENyZWF0ZUF2YXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Avatar/EditAvatar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhdGFyXEVkaXRBdmF0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Cartoon/CartoonShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydG9vblxDYXJ0b29uU2hvd0RldGFpbFBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Home/Accesslimitation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NsaW1pdGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Match/CreateMatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcQ3JlYXRlTWF0Y2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Match/CreateMatchold.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcQ3JlYXRlTWF0Y2hvbGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Match/EditMatchold.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcRWRpdE1hdGNob2xkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Match/GetAllMatchold.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcR2V0QWxsTWF0Y2hvbGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Match/MatchShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcTWF0Y2hTaG93RGV0YWlsUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Owner/CreateOold.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcQ3JlYXRlT29sZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Owner/OwnerCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcT3duZXJDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Owner/OwnerEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcT3duZXJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Owner/OwnerShowDetailPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcT3duZXJTaG93RGV0YWlsUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Resume/Rsume/resume/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gh4ueos527

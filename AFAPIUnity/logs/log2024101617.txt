@@ -1,0 +1,155 @@
+2024-10-16 17:04:53.590 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-16 17:04:53.706 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-16 17:04:54.146 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-16 17:04:54.155 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-16 17:04:54.157 +03:30 [INF] Hosting environment: Development
+2024-10-16 17:04:54.157 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-16 17:05:07.968 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-10-16 17:05:08.095 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 129.7739ms
+2024-10-16 17:05:08.123 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-16 17:05:08.342 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 218.5225ms
+2024-10-16 17:05:08.811 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-10-16 17:05:08.847 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-16 17:05:08.848 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 499 665 image/png 37.3485ms
+2024-10-16 17:05:08.963 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-16 17:05:09.188 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.8738ms
+2024-10-16 17:05:35.690 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - multipart/form-data; boundary=---------------------------65399442422478299403909379506 196
+2024-10-16 17:05:35.706 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-16 17:05:36.029 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:05:36.064 +03:30 [INF] Route matched with {action = "GenerateGuestToken", controller = "LoginAndRegister"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GenerateGuestToken(APIKeyToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 17:05:36.420 +03:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-10-16 17:05:36.426 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity) in 356.3096ms
+2024-10-16 17:05:36.427 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:05:36.429 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - 400 null text/plain; charset=utf-8 739.987ms
+2024-10-16 17:06:08.436 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - multipart/form-data; boundary=---------------------------55581683629521504684163158420 196
+2024-10-16 17:06:08.563 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:06:08.593 +03:30 [INF] Route matched with {action = "GenerateGuestToken", controller = "LoginAndRegister"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GenerateGuestToken(APIKeyToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 17:06:08.727 +03:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-10-16 17:06:08.728 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity) in 134.6192ms
+2024-10-16 17:06:08.728 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:06:08.729 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - 400 null text/plain; charset=utf-8 292.6617ms
+2024-10-16 17:06:35.623 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - multipart/form-data; boundary=---------------------------313180472824126616532407621367 198
+2024-10-16 17:06:35.631 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:06:35.631 +03:30 [INF] Route matched with {action = "GenerateGuestToken", controller = "LoginAndRegister"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GenerateGuestToken(APIKeyToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 17:06:35.657 +03:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-10-16 17:06:35.658 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity) in 27.009ms
+2024-10-16 17:06:35.659 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:06:35.691 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - 400 null text/plain; charset=utf-8 68.1889ms
+2024-10-16 17:07:33.305 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-16 17:07:33.429 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-16 17:07:33.798 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-16 17:07:33.808 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-16 17:07:33.809 +03:30 [INF] Hosting environment: Development
+2024-10-16 17:07:33.810 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-16 17:09:00.506 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-16 17:09:00.853 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 348.4519ms
+2024-10-16 17:09:01.344 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-10-16 17:09:01.573 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-16 17:09:01.685 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-16 17:09:01.686 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 499 665 image/png 342.4184ms
+2024-10-16 17:09:01.979 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 406.0641ms
+2024-10-16 17:09:29.232 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - multipart/form-data; boundary=---------------------------258395000536154571523560554359 203
+2024-10-16 17:09:29.242 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-16 17:09:29.773 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:09:29.830 +03:30 [INF] Route matched with {action = "GenerateGuestToken", controller = "LoginAndRegister"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GenerateGuestToken(APIKeyToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 17:09:30.477 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-16 17:09:30.499 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity) in 658.6996ms
+2024-10-16 17:09:30.500 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GenerateGuestToken (AFAPIUnity)'
+2024-10-16 17:09:30.505 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/generate-guest-token - 200 null application/json; charset=utf-8 1272.9852ms
+2024-10-16 17:09:56.399 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - multipart/form-data; boundary=---------------------------22711017821411300103045423684 170
+2024-10-16 17:09:56.755 +03:30 [INF] Authorization failed. These requirements were not met:
+UserOnlyAttribute
+2024-10-16 17:09:56.759 +03:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-16 17:09:56.760 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - 403 0 null 360.773ms
+2024-10-16 17:11:12.476 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - multipart/form-data; boundary=---------------------------343928448532884794853485188110 191
+2024-10-16 17:11:12.517 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-16 17:11:12.540 +03:30 [INF] Route matched with {action = "Login", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhoneNumberRequest, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 17:11:12.668 +03:30 [INF] log int he index controller
+2024-10-16 17:11:15.463 +03:30 [INF] Executed DbCommand (99ms) [Parameters=[@__phone_0='?' (Size = 11)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[PhoneNumber] = @__phone_0
+2024-10-16 17:11:15.669 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-16 17:11:15.680 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity) in 3137.8191ms
+2024-10-16 17:11:15.681 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.Login (AFAPIUnity)'
+2024-10-16 17:11:15.693 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/Login - 200 null application/json; charset=utf-8 3216.7284ms
+2024-10-16 17:11:43.418 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - multipart/form-data; boundary=---------------------------370396338613861535532090547694 172
+2024-10-16 17:11:43.513 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.FileDownloadController.SendAnimatorProfileDetail (AFAPIUnity)'
+2024-10-16 17:11:43.528 +03:30 [INF] Route matched with {action = "SendAnimatorProfileDetail", controller = "FileDownload"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendAnimatorProfileDetail(Int64, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.FileDownloadController (AFAPIUnity).
+2024-10-16 17:11:43.801 +03:30 [INF] Executed DbCommand (92ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-16 17:11:43.864 +03:30 [INF] Executed DbCommand (18ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-16 17:11:44.048 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AnimatorId], [a].[AssetBundleId] AS [AssetBundelId]
+FROM [AssetbundleAnimator] AS [a]
+2024-10-16 17:11:44.127 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-16 17:11:44.274 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-16 17:11:44.427 +03:30 [INF] Executed DbCommand (117ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-16 17:11:44.434 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[APAF.Domain.Core.Dtos.Animators.AnimatorDTos, APAF.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-16 17:11:44.563 +03:30 [INF] Executed action AFAPIUnity.Controllers.FileDownloadController.SendAnimatorProfileDetail (AFAPIUnity) in 1033.7786ms
+2024-10-16 17:11:44.563 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.FileDownloadController.SendAnimatorProfileDetail (AFAPIUnity)'
+2024-10-16 17:11:44.564 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - 200 null application/json; charset=utf-8 1145.5162ms

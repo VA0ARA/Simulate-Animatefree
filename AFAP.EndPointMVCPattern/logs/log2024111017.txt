@@ -1,0 +1,295 @@
+2024-11-10 17:27:51.495 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-10 17:27:52.044 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-11-10 17:27:52.054 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-10 17:27:52.056 +03:30 [INF] Hosting environment: Development
+2024-11-10 17:27:52.056 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-11-10 17:27:54.449 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-11-10 17:27:54.468 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-11-10 17:27:54.593 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-11-10 17:27:54.652 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-11-10 17:27:54.663 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 218.8354ms
+2024-11-10 17:27:54.677 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-11-10 17:27:54.835 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-11-10 17:27:54.903 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-11-10 17:27:55.304 +03:30 [INF] Executing ViewResult, running view Login.
+2024-11-10 17:27:55.670 +03:30 [INF] Executed ViewResult - view Login executed in 374.1003ms.
+2024-11-10 17:27:55.671 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 767.6646ms
+2024-11-10 17:27:55.672 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-11-10 17:27:55.678 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1000.6753ms
+2024-11-10 17:27:55.718 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/fonts.css - null null
+2024-11-10 17:27:55.720 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/boxicons.css - null null
+2024-11-10 17:27:55.775 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/style.css - null null
+2024-11-10 17:27:55.828 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - null null
+2024-11-10 17:27:55.891 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/bootstrap.bundle.min.js - null null
+2024-11-10 17:27:55.990 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/scripts.js - null null
+2024-11-10 17:27:56.113 +03:30 [INF] Sending file. Request path: '/assets/css/fonts.css'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/fonts.css'
+2024-11-10 17:27:56.114 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/fonts.css - 200 1662 text/css 396.1428ms
+2024-11-10 17:27:56.195 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/jquery.js - null null
+2024-11-10 17:27:56.281 +03:30 [INF] Sending file. Request path: '/assets/js/bootstrap.bundle.min.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/bootstrap.bundle.min.js'
+2024-11-10 17:27:56.283 +03:30 [INF] Sending file. Request path: '/assets/js/scripts.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/scripts.js'
+2024-11-10 17:27:56.283 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/bootstrap.bundle.min.js - 200 78081 text/javascript 391.387ms
+2024-11-10 17:27:56.285 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/scripts.js - 200 4095 text/javascript 294.633ms
+2024-11-10 17:27:56.287 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-10 17:27:56.312 +03:30 [INF] Sending file. Request path: '/assets/css/boxicons.css'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/boxicons.css'
+2024-11-10 17:27:56.335 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/lib/jquery/dist/jquery.min.js - null null
+2024-11-10 17:27:56.343 +03:30 [INF] Sending file. Request path: '/assets/img/register-cover1.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/register-cover1.png'
+2024-11-10 17:27:56.338 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/boxicons.css - 200 81445 text/css 615.4114ms
+2024-11-10 17:27:56.369 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - 200 163463 image/png 592.0894ms
+2024-11-10 17:27:56.397 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2024-11-10 17:27:56.400 +03:30 [INF] Sending file. Request path: '/assets/js/jquery.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/jquery.js'
+2024-11-10 17:27:56.403 +03:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-11-10 17:27:56.403 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/jquery.js - 200 267194 text/javascript 212.2637ms
+2024-11-10 17:27:56.404 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 116.7571ms
+2024-11-10 17:27:56.420 +03:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/js/site.js'
+2024-11-10 17:27:56.423 +03:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-11-10 17:27:56.424 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 200 227 text/javascript 26.0826ms
+2024-11-10 17:27:56.424 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 90.0183ms
+2024-11-10 17:27:56.429 +03:30 [INF] Sending file. Request path: '/assets/css/style.css'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/style.css'
+2024-11-10 17:27:56.430 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/style.css - 200 457901 text/css 654.69ms
+2024-11-10 17:27:56.667 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2 - null null
+2024-11-10 17:27:56.673 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2 - null null
+2024-11-10 17:27:56.729 +03:30 [INF] Sending file. Request path: '/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2'
+2024-11-10 17:27:56.735 +03:30 [INF] Sending file. Request path: '/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2'
+2024-11-10 17:27:56.736 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2 - 200 49148 font/woff2 68.558ms
+2024-11-10 17:27:56.736 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2 - 200 49636 font/woff2 63.3245ms
+2024-11-10 17:27:56.781 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/favicon.ico - null null
+2024-11-10 17:27:56.789 +03:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/favicon.ico'
+2024-11-10 17:27:56.789 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/favicon.ico - 200 5430 image/x-icon 7.9654ms
+2024-11-10 17:27:58.924 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2 - null null
+2024-11-10 17:27:58.937 +03:30 [INF] Sending file. Request path: '/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2'
+2024-11-10 17:27:58.938 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2 - 200 49600 font/woff2 12.7676ms
+2024-11-10 17:28:04.889 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - application/x-www-form-urlencoded 236
+2024-11-10 17:28:04.911 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-11-10 17:28:04.947 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(APAF.Domain.Core.Dtos.Account.LoginDTO, System.String) on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-11-10 17:28:07.277 +03:30 [INF] Executed DbCommand (140ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-10 17:28:07.844 +03:30 [INF] Executed DbCommand (16ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-11-10 17:28:07.929 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-11-10 17:28:07.973 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-11-10 17:28:08.033 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-11-10 17:28:08.080 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-10 17:28:08.093 +03:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-10 17:28:08.096 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 3149.1432ms
+2024-11-10 17:28:08.097 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-11-10 17:28:08.114 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 302 0 null 3225.5178ms
+2024-11-10 17:28:08.115 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-11-10 17:28:08.130 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-11-10 17:28:08.133 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-11-10 17:28:08.137 +03:30 [INF] Executing ViewResult, running view Index.
+2024-11-10 17:28:08.210 +03:30 [INF] Executed ViewResult - view Index executed in 75.4956ms.
+2024-11-10 17:28:08.211 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 77.1354ms
+2024-11-10 17:28:08.211 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-11-10 17:28:08.211 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 96.1675ms
+2024-11-10 17:28:08.268 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/arrow-down-left-square-fill.svg - null null
+2024-11-10 17:28:08.305 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/icons8-image-file-240.png - null null
+2024-11-10 17:28:08.309 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Avatars.jpg - null null
+2024-11-10 17:28:08.309 +03:30 [INF] Sending file. Request path: '/assets/img/svg/arrow-down-left-square-fill.svg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/arrow-down-left-square-fill.svg'
+2024-11-10 17:28:08.316 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/arrow-down-left-square-fill.svg - 200 360 image/svg+xml 46.0707ms
+2024-11-10 17:28:08.318 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Score.png - null null
+2024-11-10 17:28:08.316 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Users.png - null null
+2024-11-10 17:28:08.321 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/APKS.jpg - null null
+2024-11-10 17:28:08.339 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamer.png - null null
+2024-11-10 17:28:08.347 +03:30 [INF] Sending file. Request path: '/assets/img/png/icons8-image-file-240.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/icons8-image-file-240.png'
+2024-11-10 17:28:08.377 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/icons8-image-file-240.png - 200 2920 image/png 50.7812ms
+2024-11-10 17:28:08.400 +03:30 [INF] Sending file. Request path: '/assets/img/png/APKS.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/APKS.jpg'
+2024-11-10 17:28:08.400 +03:30 [INF] Sending file. Request path: '/assets/img/png/Score.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Score.png'
+2024-11-10 17:28:08.400 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Score.png - 200 2807 image/png 81.9193ms
+2024-11-10 17:28:08.400 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/APKS.jpg - 200 31316 image/jpeg 78.7012ms
+2024-11-10 17:28:08.409 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Admin.png - null null
+2024-11-10 17:28:08.410 +03:30 [INF] Sending file. Request path: '/assets/img/png/Users.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Users.png'
+2024-11-10 17:28:08.418 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Users.png - 200 179043 image/png 101.2845ms
+2024-11-10 17:28:08.423 +03:30 [INF] Sending file. Request path: '/assets/img/png/Avatars.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Avatars.jpg'
+2024-11-10 17:28:08.423 +03:30 [INF] Sending file. Request path: '/assets/img/png/Gamer.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Gamer.png'
+2024-11-10 17:28:08.433 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamer.png - 200 62133 image/png 94.5054ms
+2024-11-10 17:28:08.431 +03:30 [INF] Sending file. Request path: '/assets/img/png/Admin.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Admin.png'
+2024-11-10 17:28:08.437 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Admin.png - 200 12902 image/png 28.0449ms
+2024-11-10 17:28:08.433 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Avatars.jpg - 200 216675 image/jpeg 122.9822ms
+2024-11-10 17:28:08.447 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/boxicons.woff2 - null null
+2024-11-10 17:28:08.452 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2 - null null
+2024-11-10 17:28:08.452 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2 - null null
+2024-11-10 17:28:08.479 +03:30 [INF] Sending file. Request path: '/assets/fonts/boxicons.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/boxicons.woff2'
+2024-11-10 17:28:08.487 +03:30 [INF] Sending file. Request path: '/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2'
+2024-11-10 17:28:08.487 +03:30 [INF] Sending file. Request path: '/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2'
+2024-11-10 17:28:08.488 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2 - 200 49628 font/woff2 35.0807ms
+2024-11-10 17:28:08.487 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/boxicons.woff2 - 200 115388 font/woff2 39.7867ms
+2024-11-10 17:28:08.488 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2 - 200 49668 font/woff2 35.2326ms
+2024-11-10 17:28:10.364 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-11-10 17:28:10.371 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-11-10 17:28:10.382 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-11-10 17:28:10.630 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-11-10 17:28:10.697 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-11-10 17:28:10.779 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 84.143ms.
+2024-11-10 17:28:10.780 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 397.3521ms
+2024-11-10 17:28:10.780 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-11-10 17:28:10.781 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 416.8615ms
+2024-11-10 17:28:10.822 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/data-table.css - null null
+2024-11-10 17:28:10.829 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/401454b5-ad5f-4bee-9c0a-6e86bfeb0034.png - null null
+2024-11-10 17:28:10.829 +03:30 [INF] Sending file. Request path: '/assets/css/data-table.css'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/data-table.css'
+2024-11-10 17:28:10.830 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/data-table.css - 200 3137 text/css 7.2752ms
+2024-11-10 17:28:10.835 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a3502c0d-c231-4fac-bf9a-3a53b8753928.png - null null
+2024-11-10 17:28:10.839 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1e130559-6a65-4254-ac4b-63078f56d1ab.png - null null
+2024-11-10 17:28:10.841 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/ddb22655-35ad-46b9-93c4-454e981490fc.png - null null
+2024-11-10 17:28:10.845 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/abb7d0bd-e6d0-4799-b97a-7af57807d6fd1699867543.2642.png - null null
+2024-11-10 17:28:10.846 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@latest.js - null null
+2024-11-10 17:28:10.966 +03:30 [INF] Sending file. Request path: '/assets/js/simple-datatables@latest.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/simple-datatables@latest.js'
+2024-11-10 17:28:10.966 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@latest.js - 200 37980 text/javascript 119.7129ms
+2024-11-10 17:28:10.969 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c0e0a29f-de0e-4861-8559-5a771b9f5be81693658625.2405.png - null null
+2024-11-10 17:28:10.998 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1e130559-6a65-4254-ac4b-63078f56d1ab.png - 404 0 null 159.0604ms
+2024-11-10 17:28:10.998 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c0e0a29f-de0e-4861-8559-5a771b9f5be81693658625.2405.png - 404 0 null 28.4485ms
+2024-11-10 17:28:10.998 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/ddb22655-35ad-46b9-93c4-454e981490fc.png - 404 0 null 156.2763ms
+2024-11-10 17:28:11.000 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/ddb22655-35ad-46b9-93c4-454e981490fc.png, Response status code: 404
+2024-11-10 17:28:10.999 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1e130559-6a65-4254-ac4b-63078f56d1ab.png, Response status code: 404
+2024-11-10 17:28:10.999 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c0e0a29f-de0e-4861-8559-5a771b9f5be81693658625.2405.png, Response status code: 404
+2024-11-10 17:28:10.999 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a3502c0d-c231-4fac-bf9a-3a53b8753928.png - 404 0 null 163.879ms
+2024-11-10 17:28:11.003 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a3502c0d-c231-4fac-bf9a-3a53b8753928.png, Response status code: 404
+2024-11-10 17:28:10.999 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/abb7d0bd-e6d0-4799-b97a-7af57807d6fd1699867543.2642.png - 404 0 null 154.8368ms
+2024-11-10 17:28:10.999 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/401454b5-ad5f-4bee-9c0a-6e86bfeb0034.png - 404 0 null 170.6339ms
+2024-11-10 17:28:11.005 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/abb7d0bd-e6d0-4799-b97a-7af57807d6fd1699867543.2642.png, Response status code: 404
+2024-11-10 17:28:11.005 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/401454b5-ad5f-4bee-9c0a-6e86bfeb0034.png, Response status code: 404
+2024-11-10 17:28:11.022 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d9573b0c-e464-44ce-b12d-563b130b48881698825044.1872.png - null null
+2024-11-10 17:28:11.023 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/861cc55c-4210-4612-831f-7e4dfa42e7fb1696067877.4602.png - null null
+2024-11-10 17:28:11.023 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/66229e74-4dab-4db3-a0be-e6bf07e6f92e1694086164.3907.png - null null
+2024-11-10 17:28:11.026 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@demo.js - null null
+2024-11-10 17:28:11.025 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d6a1642e-3776-4e06-8101-7d6ceb0e71e51699429337.2517.png - null null
+2024-11-10 17:28:11.084 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/861cc55c-4210-4612-831f-7e4dfa42e7fb1696067877.4602.png - 404 0 null 61.1291ms
+2024-11-10 17:28:11.057 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d9573b0c-e464-44ce-b12d-563b130b48881698825044.1872.png - 404 0 null 35.6903ms
+2024-11-10 17:28:11.026 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/bfa010fa-5631-4e73-9f24-61726d946b3c.png - null null
+2024-11-10 17:28:11.130 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/861cc55c-4210-4612-831f-7e4dfa42e7fb1696067877.4602.png, Response status code: 404
+2024-11-10 17:28:11.109 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d9573b0c-e464-44ce-b12d-563b130b48881698825044.1872.png, Response status code: 404
+2024-11-10 17:28:11.131 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/66229e74-4dab-4db3-a0be-e6bf07e6f92e1694086164.3907.png - 404 0 null 107.62ms
+2024-11-10 17:28:11.131 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/66229e74-4dab-4db3-a0be-e6bf07e6f92e1694086164.3907.png, Response status code: 404
+2024-11-10 17:28:11.131 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/aaebc84a-d72b-4255-a573-497dae3267831693470597.1983.png - null null
+2024-11-10 17:28:11.131 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/0676c886-1e36-4d04-baa3-8f3812940be91693057795.8434.png - null null
+2024-11-10 17:28:11.133 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d6a1642e-3776-4e06-8101-7d6ceb0e71e51699429337.2517.png - 404 0 null 107.1841ms
+2024-11-10 17:28:11.133 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/bfa010fa-5631-4e73-9f24-61726d946b3c.png - 404 0 null 106.6177ms
+2024-11-10 17:28:11.133 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d6a1642e-3776-4e06-8101-7d6ceb0e71e51699429337.2517.png, Response status code: 404
+2024-11-10 17:28:11.133 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/aaebc84a-d72b-4255-a573-497dae3267831693470597.1983.png - 404 0 null 2.3255ms
+2024-11-10 17:28:11.133 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/aaebc84a-d72b-4255-a573-497dae3267831693470597.1983.png, Response status code: 404
+2024-11-10 17:28:11.133 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/bfa010fa-5631-4e73-9f24-61726d946b3c.png, Response status code: 404
+2024-11-10 17:28:11.138 +03:30 [INF] Sending file. Request path: '/assets/js/simple-datatables@demo.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/simple-datatables@demo.js'
+2024-11-10 17:28:11.141 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@demo.js - 200 854 text/javascript 114.5361ms
+2024-11-10 17:28:11.141 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/9db29aab-389f-49dc-b010-ef47295a9cae1692259793.8882.png - null null
+2024-11-10 17:28:11.133 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/0676c886-1e36-4d04-baa3-8f3812940be91693057795.8434.png - 404 0 null 2.1568ms
+2024-11-10 17:28:11.142 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/0676c886-1e36-4d04-baa3-8f3812940be91693057795.8434.png, Response status code: 404
+2024-11-10 17:28:11.143 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/9db29aab-389f-49dc-b010-ef47295a9cae1692259793.8882.png - 404 0 null 1.9653ms
+2024-11-10 17:28:11.143 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/9db29aab-389f-49dc-b010-ef47295a9cae1692259793.8882.png, Response status code: 404
+2024-11-10 17:28:11.185 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/deb1e8b0-0d0a-464a-b454-cfc814aa50ff1691910078.6776.png - null null
+2024-11-10 17:28:11.185 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/174f9f4d-18ab-42fc-85a4-c40fa37907381691484468.4739.png - null null
+2024-11-10 17:28:11.185 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/de1802b6-fbb5-4082-b56c-2f06fe1ad8951691484280.5858.png - null null
+2024-11-10 17:28:11.187 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/174f9f4d-18ab-42fc-85a4-c40fa37907381691484468.4739.png - 404 0 null 2.4311ms
+2024-11-10 17:28:11.187 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/de1802b6-fbb5-4082-b56c-2f06fe1ad8951691484280.5858.png - 404 0 null 1.7736ms
+2024-11-10 17:28:11.185 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/08a56bf5-19cd-4a68-a803-37247db3898c1691484355.4681.png - null null
+2024-11-10 17:28:11.187 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/174f9f4d-18ab-42fc-85a4-c40fa37907381691484468.4739.png, Response status code: 404
+2024-11-10 17:28:11.188 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a71d0720-64c5-46de-be80-1b2fda81ddf21693404149.8262.png - null null
+2024-11-10 17:28:11.188 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d76d7ace-73a0-43bc-a87b-cc0c8b02f8051691405814.2174.png - null null
+2024-11-10 17:28:11.188 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/de1802b6-fbb5-4082-b56c-2f06fe1ad8951691484280.5858.png, Response status code: 404
+2024-11-10 17:28:11.190 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d76d7ace-73a0-43bc-a87b-cc0c8b02f8051691405814.2174.png - 404 0 null 1.6231ms
+2024-11-10 17:28:11.191 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/deb1e8b0-0d0a-464a-b454-cfc814aa50ff1691910078.6776.png - 404 0 null 6.0043ms
+2024-11-10 17:28:11.191 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/08a56bf5-19cd-4a68-a803-37247db3898c1691484355.4681.png - 404 0 null 5.1914ms
+2024-11-10 17:28:11.191 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/08a56bf5-19cd-4a68-a803-37247db3898c1691484355.4681.png, Response status code: 404
+2024-11-10 17:28:11.191 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d76d7ace-73a0-43bc-a87b-cc0c8b02f8051691405814.2174.png, Response status code: 404
+2024-11-10 17:28:11.191 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a71d0720-64c5-46de-be80-1b2fda81ddf21693404149.8262.png - 404 0 null 3.1079ms
+2024-11-10 17:28:11.191 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/deb1e8b0-0d0a-464a-b454-cfc814aa50ff1691910078.6776.png, Response status code: 404
+2024-11-10 17:28:11.192 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a71d0720-64c5-46de-be80-1b2fda81ddf21693404149.8262.png, Response status code: 404
+2024-11-10 17:28:11.222 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1fd20ca3-d3c4-4a14-b85f-332293ebf46f1693400274.6746.png - null null
+2024-11-10 17:28:11.222 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/e7f801f5-c34d-4ad3-923b-a12b2b5e54401693398591.9886.png - null null
+2024-11-10 17:28:11.223 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/b9d4c385-6d01-4eaf-a855-a8de6d4dfeca.png - null null
+2024-11-10 17:28:11.223 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/5b4b6ceb-3376-4d27-b5c2-f042c81b6a631693309927.2969.png - null null
+2024-11-10 17:28:11.224 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1fd20ca3-d3c4-4a14-b85f-332293ebf46f1693400274.6746.png - 404 0 null 1.918ms
+2024-11-10 17:28:11.225 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1fd20ca3-d3c4-4a14-b85f-332293ebf46f1693400274.6746.png, Response status code: 404
+2024-11-10 17:28:11.223 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/605e7e4f-19f0-4414-b218-8ad53dbc6668.png - null null
+2024-11-10 17:28:11.223 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/fb1d90dc-9fe4-4d3a-b66f-30a32212a629.png - null null
+2024-11-10 17:28:11.227 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/fb1d90dc-9fe4-4d3a-b66f-30a32212a629.png - 404 0 null 4.0684ms
+2024-11-10 17:28:11.227 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/fb1d90dc-9fe4-4d3a-b66f-30a32212a629.png, Response status code: 404
+2024-11-10 17:28:11.227 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/605e7e4f-19f0-4414-b218-8ad53dbc6668.png - 404 0 null 4.3947ms
+2024-11-10 17:28:11.227 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/605e7e4f-19f0-4414-b218-8ad53dbc6668.png, Response status code: 404
+2024-11-10 17:28:11.224 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/b9d4c385-6d01-4eaf-a855-a8de6d4dfeca.png - 404 0 null 1.9161ms
+2024-11-10 17:28:11.224 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/e7f801f5-c34d-4ad3-923b-a12b2b5e54401693398591.9886.png - 404 0 null 1.9417ms
+2024-11-10 17:28:11.225 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/5b4b6ceb-3376-4d27-b5c2-f042c81b6a631693309927.2969.png - 404 0 null 3.0475ms
+2024-11-10 17:28:11.229 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/e7f801f5-c34d-4ad3-923b-a12b2b5e54401693398591.9886.png, Response status code: 404
+2024-11-10 17:28:11.229 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/5b4b6ceb-3376-4d27-b5c2-f042c81b6a631693309927.2969.png, Response status code: 404
+2024-11-10 17:28:11.228 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/b9d4c385-6d01-4eaf-a855-a8de6d4dfeca.png, Response status code: 404
+2024-11-10 17:28:11.263 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/db15abde-2957-4fd0-8f15-5c30d8c5019c1693399540.829.png - null null
+2024-11-10 17:28:11.267 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/18075bad-32ef-4eb8-86cb-6685a97e2d151693309754.0434.png - null null
+2024-11-10 17:28:11.269 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/e76a5d2f-dd86-4dd6-81d7-dc221d00d60c1693399668.7298.png - null null
+2024-11-10 17:28:11.269 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/46e47fb9-2e7b-46eb-9fc5-b02ce74171951693398866.698.png - null null
+2024-11-10 17:28:11.269 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/242c4de1-7b6d-4300-a2a9-01083f9532b41693398776.4358.png - null null
+2024-11-10 17:28:11.269 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c3c2343f-522f-45f1-aa90-37c0542ebcd51693398684.9275.png - null null
+2024-11-10 17:28:11.272 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/242c4de1-7b6d-4300-a2a9-01083f9532b41693398776.4358.png - 404 0 null 3.0027ms
+2024-11-10 17:28:11.275 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/46e47fb9-2e7b-46eb-9fc5-b02ce74171951693398866.698.png - 404 0 null 5.4039ms
+2024-11-10 17:28:11.275 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/46e47fb9-2e7b-46eb-9fc5-b02ce74171951693398866.698.png, Response status code: 404
+2024-11-10 17:28:11.275 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/242c4de1-7b6d-4300-a2a9-01083f9532b41693398776.4358.png, Response status code: 404
+2024-11-10 17:28:11.273 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/db15abde-2957-4fd0-8f15-5c30d8c5019c1693399540.829.png - 404 0 null 9.4335ms
+2024-11-10 17:28:11.273 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/18075bad-32ef-4eb8-86cb-6685a97e2d151693309754.0434.png - 404 0 null 6.0639ms
+2024-11-10 17:28:11.278 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/18075bad-32ef-4eb8-86cb-6685a97e2d151693309754.0434.png, Response status code: 404
+2024-11-10 17:28:11.278 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/e76a5d2f-dd86-4dd6-81d7-dc221d00d60c1693399668.7298.png - 404 0 null 8.7515ms
+2024-11-10 17:28:11.278 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/e76a5d2f-dd86-4dd6-81d7-dc221d00d60c1693399668.7298.png, Response status code: 404
+2024-11-10 17:28:11.278 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/db15abde-2957-4fd0-8f15-5c30d8c5019c1693399540.829.png, Response status code: 404
+2024-11-10 17:28:11.280 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c3c2343f-522f-45f1-aa90-37c0542ebcd51693398684.9275.png - 404 0 null 10.1737ms
+2024-11-10 17:28:11.282 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c3c2343f-522f-45f1-aa90-37c0542ebcd51693398684.9275.png, Response status code: 404
+2024-11-10 17:28:11.304 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/401454b5-ad5f-4bee-9c0a-6e86bfeb0034.png - null null
+2024-11-10 17:28:11.306 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/401454b5-ad5f-4bee-9c0a-6e86bfeb0034.png - 404 0 null 1.8401ms
+2024-11-10 17:28:11.306 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/401454b5-ad5f-4bee-9c0a-6e86bfeb0034.png, Response status code: 404
+2024-11-10 17:28:11.317 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a3502c0d-c231-4fac-bf9a-3a53b8753928.png - null null
+2024-11-10 17:28:11.321 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a3502c0d-c231-4fac-bf9a-3a53b8753928.png - 404 0 null 4.3609ms
+2024-11-10 17:28:11.321 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/a3502c0d-c231-4fac-bf9a-3a53b8753928.png, Response status code: 404
+2024-11-10 17:28:11.321 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/4cb6e8ff-b7dd-4d25-bcaa-b5fa85eaec331693398947.5573.png - null null
+2024-11-10 17:28:11.321 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/abb7d0bd-e6d0-4799-b97a-7af57807d6fd1699867543.2642.png - null null
+2024-11-10 17:28:11.322 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/ddb22655-35ad-46b9-93c4-454e981490fc.png - null null
+2024-11-10 17:28:11.327 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/ddb22655-35ad-46b9-93c4-454e981490fc.png - 404 0 null 4.8685ms
+2024-11-10 17:28:11.327 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/ddb22655-35ad-46b9-93c4-454e981490fc.png, Response status code: 404
+2024-11-10 17:28:11.322 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/2c91f70a-3b6f-4ae2-808e-0c85a60f2d771693399023.7746.png - null null
+2024-11-10 17:28:11.321 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1e130559-6a65-4254-ac4b-63078f56d1ab.png - null null
+2024-11-10 17:28:11.331 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/2c91f70a-3b6f-4ae2-808e-0c85a60f2d771693399023.7746.png - 404 0 null 8.1045ms
+2024-11-10 17:28:11.331 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/2c91f70a-3b6f-4ae2-808e-0c85a60f2d771693399023.7746.png, Response status code: 404
+2024-11-10 17:28:11.335 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1b34f2c2-3f68-471b-b4b9-cecacd986db3.png - null null
+2024-11-10 17:28:11.337 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1b34f2c2-3f68-471b-b4b9-cecacd986db3.png - 404 0 null 1.6392ms
+2024-11-10 17:28:11.337 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1b34f2c2-3f68-471b-b4b9-cecacd986db3.png, Response status code: 404
+2024-11-10 17:28:11.339 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1e130559-6a65-4254-ac4b-63078f56d1ab.png - 404 0 null 18.0584ms
+2024-11-10 17:28:11.339 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/1e130559-6a65-4254-ac4b-63078f56d1ab.png, Response status code: 404
+2024-11-10 17:28:11.340 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/454da473-6b9d-4d4d-8301-c4769c47bbef1693404088.265.png - null null
+2024-11-10 17:28:11.323 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/abb7d0bd-e6d0-4799-b97a-7af57807d6fd1699867543.2642.png - 404 0 null 1.9009ms
+2024-11-10 17:28:11.340 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/abb7d0bd-e6d0-4799-b97a-7af57807d6fd1699867543.2642.png, Response status code: 404
+2024-11-10 17:28:11.340 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/bb4a802e-3860-4e87-9291-dd929c95e01a1693399199.6949.png - null null
+2024-11-10 17:28:11.341 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/bb4a802e-3860-4e87-9291-dd929c95e01a1693399199.6949.png - 404 0 null 1.0176ms
+2024-11-10 17:28:11.342 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/bb4a802e-3860-4e87-9291-dd929c95e01a1693399199.6949.png, Response status code: 404
+2024-11-10 17:28:11.342 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/454da473-6b9d-4d4d-8301-c4769c47bbef1693404088.265.png - 404 0 null 2.5525ms
+2024-11-10 17:28:11.342 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/454da473-6b9d-4d4d-8301-c4769c47bbef1693404088.265.png, Response status code: 404
+2024-11-10 17:28:11.324 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/4cb6e8ff-b7dd-4d25-bcaa-b5fa85eaec331693398947.5573.png - 404 0 null 2.2217ms
+2024-11-10 17:28:11.348 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/4cb6e8ff-b7dd-4d25-bcaa-b5fa85eaec331693398947.5573.png, Response status code: 404
+2024-11-10 17:28:11.349 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d2e04427-39c1-4460-9159-274d476abd5c1693470471.129.png - null null
+2024-11-10 17:28:11.351 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c6cf4880-6575-4e4a-9b19-986209aec30a1693399281.4085.png - null null
+2024-11-10 17:28:11.355 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d2e04427-39c1-4460-9159-274d476abd5c1693470471.129.png - 404 0 null 6.0875ms
+2024-11-10 17:28:11.355 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d2e04427-39c1-4460-9159-274d476abd5c1693470471.129.png, Response status code: 404
+2024-11-10 17:28:11.355 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c6cf4880-6575-4e4a-9b19-986209aec30a1693399281.4085.png - 404 0 null 4.2389ms
+2024-11-10 17:28:11.356 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c6cf4880-6575-4e4a-9b19-986209aec30a1693399281.4085.png, Response status code: 404
+2024-11-10 17:28:11.369 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/6ce913e2-ae08-410a-8ad6-ffa8128ce3331693400065.4246.png - null null
+2024-11-10 17:28:11.369 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d9573b0c-e464-44ce-b12d-563b130b48881698825044.1872.png - null null
+2024-11-10 17:28:11.370 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/861cc55c-4210-4612-831f-7e4dfa42e7fb1696067877.4602.png - null null
+2024-11-10 17:28:11.371 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/6ce913e2-ae08-410a-8ad6-ffa8128ce3331693400065.4246.png - 404 0 null 1.7023ms
+2024-11-10 17:28:11.372 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/6ce913e2-ae08-410a-8ad6-ffa8128ce3331693400065.4246.png, Response status code: 404
+2024-11-10 17:28:11.373 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c0e0a29f-de0e-4861-8559-5a771b9f5be81693658625.2405.png - null null
+2024-11-10 17:28:11.371 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/861cc55c-4210-4612-831f-7e4dfa42e7fb1696067877.4602.png - 404 0 null 1.286ms
+2024-11-10 17:28:11.378 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/861cc55c-4210-4612-831f-7e4dfa42e7fb1696067877.4602.png, Response status code: 404
+2024-11-10 17:28:11.371 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d9573b0c-e464-44ce-b12d-563b130b48881698825044.1872.png - 404 0 null 1.7026ms
+2024-11-10 17:28:11.379 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/d9573b0c-e464-44ce-b12d-563b130b48881698825044.1872.png, Response status code: 404
+2024-11-10 17:28:11.380 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c0e0a29f-de0e-4861-8559-5a771b9f5be81693658625.2405.png - 404 0 null 6.1955ms
+2024-11-10 17:28:11.380 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles/File/AssetBundelBanner/c0e0a29f-de0e-4861-8559-5a771b9f5be81693658625.2405.png, Response status code: 404

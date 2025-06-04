@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj": {}
+  },
+  "projects": {
+    "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\AP.AF.Redis\\APAF.Redis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\AP.AF.Redis\\APAF.Redis.csproj",
+        "projectName": "APAF.Redis",
+        "projectPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\AP.AF.Redis\\APAF.Redis.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\AP.AF.Redis\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Domain.Core\\APAF.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Domain.Core\\APAF.Domain.Core.csproj",
+        "projectName": "APAF.Domain.Core",
+        "projectPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Domain.Core\\APAF.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj",
+        "projectName": "APAF.Infrastructure.EFCore",
+        "projectPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Infrustructuer.EFCore\\APAF.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\VA.ara\\.nuget\\packages\\",
+        "outputPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Infrustructuer.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VA.ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\AP.AF.Redis\\APAF.Redis.csproj": {
+                "projectPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\AP.AF.Redis\\APAF.Redis.csproj"
+              },
+              "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Domain.Core\\APAF.Domain.Core.csproj": {
+                "projectPath": "D:\\Resume\\Rsume\\resume\\animatefreeapiandadminpanel\\APAF.Domain.Core\\APAF.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

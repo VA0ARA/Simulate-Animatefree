@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="fa" class="overflow-unset">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SB Admin pro - قالب داشبورد مدیریت بوت‌استرپ - اعلان های Toasts</title>
+
+    <link rel="stylesheet" href="../../assets/css/fonts.css">
+    <link rel="stylesheet" href="../../assets/css/boxicons.css">
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/animate.css">
+
+
+  </head>
+  <body class="nav-fixed">
+
+  <nav class="is-rtl topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white" id="snavAccordion">
+    <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle">
+      <i class="bx bx-menu bx-sm"></i>
+    </button>
+    <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="../../index.html">داشبورد مدیریتی</a>
+    <form class="form-inline me-auto d-none d-lg-block me-3">
+      <div class="input-group input-group-joined input-group-solid">
+        <input class="form-control pe-0" type="search" placeholder="جستجو ..." aria-label="جستجو">
+        <div class="input-group-text"><i class="bx bx-search bx-sm"></i></div>
+      </div>
+    </form>
+
+    <!-- Navbar Items-->
+    <ul class="navbar-nav align-items-center ms-auto">
+
+      <!-- Documentation Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="fw-500">راهنما</div>
+          <i class="bx bx-chevron-down bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-start py-0 ms-sm-n15 ms-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">راهنما</div>
+              نحوه استفاده از قالب
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">کامپوننت ها</div>
+              لیست تمام کامپوننت ها
+            </div>
+          </a>
+          <div class="dropdown-divider m-0"></div>
+          <a class="dropdown-item py-3" href="#" target="_blank">
+
+            <div>
+              <div class="small text-gray-500">لیست تغییرات</div>
+              بروزرسانی های صورت گرفته
+            </div>
+          </a>
+        </div>
+      </li>
+
+
+      <!-- Navbar Search Dropdown-->
+      <!-- * * Note: * * Visible only below the lg breakpoint-->
+      <li class="nav-item dropdown no-caret me-3 d-lg-none">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="searchDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-search bx-sm"></i>
+        </a>
+        <!-- Dropdown - Search-->
+        <div class="dropdown-menu dropdown-menu-end p-3 shadow animated--fade-in-up" aria-labelledby="searchDropdown">
+          <form class="form-inline me-auto w-100">
+            <div class="input-group input-group-joined input-group-solid">
+              <input class="form-control pe-0" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-text"><i data-feather="search"></i></div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Alerts Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownAlerts" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-bell bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownAlerts">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-bell me-2"></i>
+            اعلان‌ها
+          </h6>
+          <div class="dropdown-div">
+
+            <!-- اعلان 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-warning"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-info"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-success"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+            <!-- اعلان 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <div class="bdr-notify-item-icon bg-danger"><i class="bx bx-wallet"></i></div>
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">1 ساعت قبل</small>
+              </div>
+            </a>
+
+          </div>
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه اعلان ها</a>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown-->
+      <li class="nav-item dropdown no-caret d-none d-sm-block me-3 bdr-notify">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-envelope bx-sm"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownMessages">
+          <h6 class="dropdown-header bdr-notify-header">
+            <i class="bx bx-message me-2"></i>
+            پیام ها
+          </h6>
+
+          <div class="dropdown-div">
+
+            <!-- پیام 1-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-1.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مرجان بابایی</small>
+              </div>
+            </a>
+
+            <!-- پیام 2-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-2.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی </p>
+                <small class="text-muted">سهیلا طاهری</small>
+              </div>
+            </a>
+
+            <!-- پیام 3-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-3.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">عسل شمس</small>
+              </div>
+            </a>
+
+            <!-- پیام 4-->
+            <a class="dropdown-item bdr-notify-item" href="#">
+              <img class="bdr-notify-item-img" src="../../assets/img/profile-4.jpg">
+              <div class="bdr-notify-item-content">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ است.</p>
+                <small class="text-muted">مجید احمدی</small>
+              </div>
+            </a>
+          </div>
+
+
+          <!-- Footer Link-->
+          <a class="dropdown-item bdr-notify-footer" href="#!">مشاهده همه پیام ها</a>
+        </div>
+      </li>
+      <!-- User Dropdown-->
+      <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+        <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="../../assets/img/profile-1.jpg"></a>
+        <div class="dropdown-menu dropdown-menu-w15 dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
+          <h6 class="dropdown-header d-flex align-items-center">
+            <img class="dropdown-user-img" src="../../assets/img/profile-1.jpg">
+            <div class="dropdown-user-details">
+              <div class="dropdown-user-details-name">مرجان بابایی</div>
+              <div class="dropdown-user-details-email">مدیر سیستم</div>
+            </div>
+          </h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-user"></i></div>
+            حساب کاربری
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-lock"></i></div>
+            تغییر کلمه عبور
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bxs-file-txt"></i></div>
+            مشاهده لاگ سیستم
+          </a>
+          <a class="dropdown-item" href="#!">
+            <div class="dropdown-item-icon"><i class="bx bx-log-out"></i></div>
+            خروج
+          </a>
+        </div>
+      </li>
+
+    </ul>
+  </nav>
+  <div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+      <nav class="snav shadow-right snav-light">
+        <div class="snav-menu">
+          <div class="nav accordion" id="accordionSidenav">
+
+
+            <div class="snav-menu-heading d-sm-none">حساب کاربری</div>
+
+            <!-- اعلان ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-bell "></i></div>
+              اعلان ها
+              <span class="badge bg-warning-soft text-warning ms-auto">4 جدید!</span>
+            </a>
+
+            <!-- پیام ها -->
+            <a class="nav-link d-sm-none" href="#">
+              <div class="nav-link-icon"><i class="bx bx-envelope"></i></div>
+              پیام ها
+              <span class="badge bg-success-soft text-success ms-auto">2 جدید!</span>
+            </a>
+            
+
+            <div class="snav-menu-heading">هسته</div>
+<!-- پیشخوان -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-pulse"></i></div>
+              داشبورد
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPages">
+                <a class="nav-link" href="../../dashboard-default.html">
+                  پیشفرض
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="../../dashboard-multi.html">چند منظوره</a>
+                <a class="nav-link" href="../../dashboard-affiliate.html">بازاریابی</a>
+              </nav>
+            </div>
+
+            
+
+            <div class="snav-menu-heading">سفارشی</div>
+<!-- برگه ها -->
+            <a class="nav-link collapsed pt-0" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+              <div class="nav-link-icon"><i class="bx bx-grid"></i></div>
+              برگه ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
+
+
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+
+                <!-- حساب کاربری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAccount" aria-expanded="false" aria-controls="pagesCollapseAccount">
+                  حساب کاربری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../account/profile.html">پروفایل</a>
+                    <a class="nav-link" href="../account/profile-billing.html">صورتحساب</a>
+                    <a class="nav-link" href="../account/profile-security.html">امنیت</a>
+                    <a class="nav-link" href="../account/profile-notifications.html">اعلان ها</a>
+                  </nav>
+                </div>
+
+                <!-- احراز هویت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                  احراز هویت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseAuth" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav accordion" id="accordionSidenavPagesAuth">
+
+                    <!-- ثبت نام -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthRegister" aria-expanded="false" aria-controls="pagesCollapseAuthRegister">
+                      ثبت نام
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthRegister" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/register/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/register/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/stepbystep.html">چند مرحله ای</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- ورود -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthLogin" aria-expanded="false" aria-controls="pagesCollapseAuthLogin">
+                      ورود
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthLogin" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/login/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/login/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/login/cover.html">کاور</a>
+                        <a class="nav-link" target="_blank" href="../auth/register/mobile.html">با شماره موبایل</a>
+                      </nav>
+                    </div>
+
+
+                    <!-- شبکه های اجتماعی -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthSocial" aria-expanded="false" aria-controls="pagesCollapseAuthSocial">
+                      شبکه های اجتماعی
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthSocial" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/social/login.html">ورود</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/register.html">ثبت نام</a>
+                        <a class="nav-link" target="_blank" href="../auth/social/forget-password.html">فراموشی رمزعبور</a>
+                      </nav>
+                    </div>
+
+                    <!-- فراموشی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthForgetwd" aria-expanded="false" aria-controls="pagesCollapseAuthForgetwd">
+                      فراموشی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthForgetwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/default.html">پیشفرض</a>
+<a class="nav-link" target="_blank" href="../auth/forgetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/forgetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- بازنشانی رمز عبور -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthResetPwd" aria-expanded="false" aria-controls="pagesCollapseAuthResetPwd">
+                      بازنشانی رمز عبور
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthResetPwd" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/resetpwd/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- تایید ایمیل -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthEmail" aria-expanded="false" aria-controls="pagesCollapseAuthEmail">
+                      تایید ایمیل
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuthEmail" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/email/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/email/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                    <!-- دو مرحله ای -->
+                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth2fa" aria-expanded="false" aria-controls="pagesCollapseAuth2fa">
+                      دو مرحله ای
+                      <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                    </a>
+                    <div class="collapse" id="pagesCollapseAuth2fa" data-bs-parent="#accordionSidenavPagesAuth">
+                      <nav class="snav-menu-nested nav">
+                        <a class="nav-link" target="_blank" href="../auth/2fa/basic.html">پایه</a>
+                        <a class="nav-link" target="_blank" href="../auth/2fa/cover.html">کاور</a>
+                      </nav>
+                    </div>
+
+                  </nav>
+                </div>
+
+                <!-- خطاها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                  خطاها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapseError" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../error/400.html">400</a>
+                    <a class="nav-link" href="../error/401.html">401</a>
+                    <a class="nav-link" href="../error/403.html">403</a>
+                    <a class="nav-link" href="../error/404-1.html">404 طرح 1</a>
+                    <a class="nav-link" href="../error/404-2.html">404 طرح 2</a>
+                    <a class="nav-link" href="../error/500.html">500</a>
+                    <a class="nav-link" href="../error/503.html">503</a>
+                    <a class="nav-link" href="../error/504.html">504</a>
+                  </nav>
+                </div>
+
+                <!-- تعرفه ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapsePrice" aria-expanded="true" aria-controls="pagesCollapsePrice">
+                  تعرفه ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="pagesCollapsePrice" data-bs-parent="#accordionSidenavPagesMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../pricing/pricing-1.html">طرح شماره 1</a>
+                    <a class="nav-link" href="../pricing/pricing-2.html">طرح شماره 2</a>
+                    <a class="nav-link" href="../pricing/pricing-3.html">طرح شماره 3</a>
+                  </nav>
+                </div>
+                <!-- فاکتور -->
+                <a class="nav-link" href="../invoice.html">فاکتور</a>
+              </nav>
+            </div>
+
+            <!-- نرم افزارها -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
+              <div class="nav-link-icon"><i class="bx bx-globe"></i></div>
+              نرم افزارها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
+
+                <!-- مقالات -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseKnowledgeBase" aria-expanded="false" aria-controls="appsCollapseKnowledgeBase">
+                  مقالات
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseKnowledgeBase" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../articles/tarh-1.html">طرح یک</a>
+                    <a class="nav-link" href="../articles/tarh-2.html">طرح دو</a>
+                    <a class="nav-link" href="../articles/category.html">دسته بندی</a>
+                    <a class="nav-link" href="../articles/base.html">مطالب</a>
+                  </nav>
+                </div>
+
+                <!-- کاربران -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseUserManagement" aria-expanded="false" aria-controls="appsCollapseUserManagement">
+                  کاربران
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapseUserManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../users/list.html">لیست</a>
+                    <a class="nav-link" href="../users/edit.html">ویرایش کاربر</a>
+                    <a class="nav-link" href="../users/add.html">ایجاد کاربر</a>
+                    <a class="nav-link" href="../users/groups-list.html">فهرست گروهی</a>
+                    <a class="nav-link" href="../users/org-details.html">مشخصات سازمانی</a>
+                  </nav>
+                </div>
+                <!-- مدیریت پست ها -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapsePostsManagement" aria-expanded="false" aria-controls="appsCollapsePostsManagement">
+                  مدیریت پست ها
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="appsCollapsePostsManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../posts/list.html">لیست</a>
+                    <a class="nav-link" href="../posts/create.html">ایجاد مطلب</a>
+                    <a class="nav-link" href="../posts/edit.html">ویرایش مطلب</a>
+                    <a class="nav-link" href="../posts/admin.html">فهرست مطالب مدیر</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            
+            <!-- فرم چند مرحله -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseMulti" aria-expanded="false" aria-controls="collapseDashboards">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              فرم چند مرحله
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseMulti" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionMultiPages">
+                <a class="nav-link" href="../flows/multi-select.html">ثبت نام چندتایی</a>
+                <a class="nav-link" href="../flows/multi-wizard.html">فرم گام به گام مرحله ای</a>
+
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">ابزارهای رابط کاربری</div>
+
+<!-- طرح ها -->
+            <a class="nav-link collapsed " href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+              <div class="nav-link-icon"><i class="bx bx-layout"></i></div>
+              طرح ها
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionSidenavLayout">
+                <!-- ناوبری -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavVariations" aria-expanded="false" aria-controls="collapseLayoutSidenavVariations">
+                  ناوبری
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavVariations" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/static.html">استاتیک</a>
+                                        <a class="nav-link" href="../layout/dark.html">تم تاریک</a>
+                    <a class="nav-link active" href="../layout/ltr.html">صفحه چپ به راست</a>
+                  </nav>
+                </div>
+                <!-- تنظیمات Container -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavOption" aria-expanded="false" aria-controls="collapseLayoutSidenavOption">
+                  تنظیمات Container
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutSidenavOption" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../layout/layout-boxed.html">باکس - Boxed Layout</a>
+                    <a class="nav-link" href="../layout/layout-fluid.html">سیال - Fluid Layout</a>
+                  </nav>
+                </div>
+
+                <!-- هدر سایت -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsPageHeaders" aria-expanded="false" aria-controls="collapseLayoutsPageHeaders">
+                  هدر سایت
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsPageHeaders" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../header/simplified.html">ساده</a>
+                    <a class="nav-link" href="../header/compact.html">کامپکت</a>
+                    <a class="nav-link" href="../header/overlap.html">همپوشانی</a>
+                    <a class="nav-link" href="../header/breadcrumbs.html">نمایش مسیر صفحات</a>
+                    <a class="nav-link" href="../header/light.html">تم روشن</a>
+                  </nav>
+                </div>
+                <!-- طرح بندی اصلی -->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsStarterTemplates" aria-expanded="false" aria-controls="collapseLayoutsStarterTemplates">
+                  طرح بندی اصلی
+                  <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsStarterTemplates" data-bs-parent="#accordionSidenavLayout">
+                  <nav class="snav-menu-nested nav">
+                    <a class="nav-link" href="../starter/default.html">پیشفرض</a>
+                    <a class="nav-link" href="../starter/minimal.html">مینیمال</a>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+
+            
+<!-- رابط کاربری -->
+            <a class="nav-link collapsed active" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseComponents" aria-expanded="false" aria-controls="collapseComponents">
+              <div class="nav-link-icon"><i class="bx bx-package"></i></div>
+              رابط کاربری
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseComponents" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav">
+                <a class="nav-link" href="alerts.html">هشدارها</a>
+                <a class="nav-link" href="avatars.html">آواتار</a>
+                <a class="nav-link" href="badges.html">نشان‌ها</a>
+                <a class="nav-link" href="buttons.html">دکمه‌ها</a>
+                <a class="nav-link" href="cards.html">
+                  کارت
+                  <span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="dropdowns.html">کشویی</a>
+                <a class="nav-link" href="forms.html">
+                  فرم‌ها<span class="badge bg-primary-soft text-primary ms-auto">بروز شده</span>
+                </a>
+                <a class="nav-link" href="modals.html">مودال‌ها</a>
+                <a class="nav-link" href="navigation.html">نوار ناوبری</a>
+                <a class="nav-link" href="progress.html">درصد پیشرفت</a>
+                <a class="nav-link" href="step.html">گام به گام</a>
+				<a class="nav-link" href="spinners.html">چرخنده</a>
+                <a class="nav-link" href="timeline.html">خط زمانی</a>
+                <a class="nav-link active" href="toasts.html">اعلان های Toasts</a>
+                <a class="nav-link" href="tooltips.html">تولتیپ ها</a>
+              </nav>
+            </div>
+
+            <!-- برنامه‌های سودمند -->
+            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
+              <div class="nav-link-icon"><i class="bx bx-repost"></i></div>
+              برنامه‌های سودمند
+              <div class="snav-collapse-arrow"><i class="bx bx-chevron-down"></i></div>
+            </a>
+            <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
+              <nav class="snav-menu-nested nav accordion" id="accordionUtilitiesPages">
+                <a class="nav-link" href="../utilities/animations.html">انیمیشن</a>
+                <a class="nav-link" href="../utilities/background.html">پس‌زمینه</a>
+                <a class="nav-link" href="../utilities/borders.html">حاشیه</a>
+                <a class="nav-link" href="../utilities/lift.html">افکت Lift</a>
+                <a class="nav-link" href="../utilities/shadows.html">سایه‌ها</a>
+                <a class="nav-link" href="../utilities/typography.html">تایپوگرافی</a>
+              </nav>
+            </div>
+
+            <div class="snav-menu-heading">پلاگین</div>
+<!-- نمودارها -->
+            <a class="nav-link pt-0" href="../charts.html">
+              <div class="nav-link-icon"><i class="bx bx-bar-chart"></i></div>
+              نمودارها
+            </a>
+            <!-- جدول -->
+            <a class="nav-link" href="../tables.html">
+              <div class="nav-link-icon"><i class="bx bx-table"></i></div>
+              جدول
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="layoutSidenav_content">
+      <main class="is-rtl">
+        <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+          <div class="container-xl px-4">
+            <div class="page-header-content pt-4">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-auto mt-4">
+                  <h1 class="page-header-title">
+                    <div class="page-header-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></div>
+                    اعلان های Toasts
+                  </h1>
+                  <div class="page-header-subtitle">اعلان‌های Toasts برای کمک به ارسال هشدارها به کاربران شما</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Main page content-->
+        <div class="container-xl px-4 mt-n10">
+          <div class="row">
+            <div class="col-lg-9">
+              <!-- Default Bootstrap Toasts-->
+              <div id="demo">
+                <div class="card mb-4">
+                  <div class="card-header">دمو</div>
+                  <div class="card-body">
+                    <h6 class="small text-muted fw-500">اعلان محو شدن خودکار:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview mb-4">
+                      <div class="sbp-preview-content">
+                        <div style="height: 200px">
+                          <!-- Toast button trigger-->
+                          <button class="btn btn-primary mb-3" id="toastBasicTrigger">دمو</button>
+                          <p class="small mb-0">با کلیک روی دکمه بالا، هشدار  در سمت چپ پایین این المان ظاهر می شود.</p>
+                          <!-- Toast container-->
+                          <div style="position: absolute; bottom: 1rem; left: 1rem">
+                            <div class="toast" id="toastBasic" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
+                              <div class="toast-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell me-2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                                <strong class="me-auto">محو شدن خودکار</strong>
+                                <small class="text-muted ms-2">همین الان</small>
+                                <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                              </div>
+                              <div class="toast-body">این یک نمونه هشدار اعلان است، به طور خودکار حذف می شود، یا می توانید آن را به صورت دستی رد کنید.</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="toastAutoHideTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="toastAutoHideHtmlTab" data-bs-toggle="tab" href="#toastAutoHideHtml" role="tab" aria-controls="toastAutoHideHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="toastAutoHidePugTab" data-bs-toggle="tab" href="#toastAutoHidePug" role="tab" aria-controls="toastAutoHidePug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="toastAutoHideJsTab" data-bs-toggle="tab" href="#toastAutoHideJs" role="tab" aria-controls="toastAutoHideJs" aria-selected="false">
+                              <svg class="svg-inline--fa fa-js-square text-yellow me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="js-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"></path></svg><!-- <i class="fab fa-js-square text-yellow me-1"></i> Font Awesome fontawesome.com -->
+                              JS
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="toastAutoHideHtml" role="tabpanel" aria-labelledby="toastAutoHideHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Toast button trigger --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary mb-3<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toastBasicTrigger<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">دمو</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Toast container --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>position: absolute; bottom: 1rem; left: 1rem;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- Toast --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toastBasic<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-delay</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>3000<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان محو شدن خودکار</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این یک نمونه هشدار اعلان است، به طور خودکار حذف می شود، یا می توانید آن را به صورت دستی رد کنید.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="toastAutoHidePug" role="tabpanel" aria-labelledby="toastAutoHidePugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Toast button trigger</span>
+<span class="token tag">button.btn.btn-primary.mb-3#toastBasicTrigger</span> <span class="token plain-text">دمو</span>
+
+<span class="token comment">//- Toast container</span>
+<span class="token tag">div<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'position: absolute; bottom: 1rem; left: 1rem;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token comment">//- Toast</span>
+    <span class="token tag">.toast#toastBasic<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-delay</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'3000'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.toast-header</span>
+            <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'bell'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+            <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان محو شدن خودکار</span>
+            <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+            <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.toast-body</span>
+            <span class="token punctuation">|</span> <span class="plain-text">این یک نمونه هشدار اعلان است، به طور خودکار حذف می شود، یا می توانید آن را به صورت دستی رد کنید.</span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="toastAutoHideJs" role="tabpanel" aria-labelledby="toastAutoHideJsTab">
+                                                            <pre class="  language-js"><code class="  language-js"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#toastBasicTrigger"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"click"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#toastBasic"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toast</span><span class="token punctuation">(</span><span class="token string">"show"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        <p>
+                          اعلان ها با استفاده از موقعیت
+                          <code>position: absolute</code>
+                          قرار می گیرند
+                          , به این معنی که آنها خود را نسبت به نزدیکترین المان والد خود با استفاده از موقعیت قرار می دهند
+                          <code>position: relative</code>
+                          .
+                        </p>
+                        <p>المان ظروف با موقعیت مطلق (به جای استفاده از موقعیت مطلق روی خود toast) استفاده می شود، بنابراین در صورت استفاده از چندین اعلان، اعلان ها به طور خودکار روی هم چیده می شوند. برای اطلاعات بیشتر در مورد نحوه استفاده و موقعیت اعلان، به اسناد رسمی بوت استرپ مراجعه کنید.</p>
+                        <p class="mb-0 fw-bold">توجه: اعلان ها برای مقداردهی اولیه نیاز به جاوا اسکریپت دارند!</p>
+                      </div>
+                    </div>
+                    <h6 class="small text-muted fw-500">اعلان پایه - رد کردن دستی:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <div style="height: 200px">
+                          <!-- Toast button trigger-->
+                          <button class="btn btn-primary mb-3" id="toastNoAutohideTrigger">دمو</button>
+                          <p class="small">با کلیک روی دکمه بالا، هشدار اعلان در سمت چپ پایین این المان ظاهر می شود.</p>
+                          <!-- Toast container-->
+                          <div style="position: absolute; bottom: 1rem; left: 1rem">
+                            <!-- Toast-->
+                            <div class="toast" id="toastNoAutohide" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+                              <div class="toast-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell me-2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                                <strong class="me-auto">اعلان با رد کردن دستی</strong>
+                                <small class="text-muted ms-2">همین الان</small>
+                                <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                              </div>
+                              <div class="toast-body">این یک اعلان toast است. برای بستن باید بر روی x کلیک کنید.</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="toastsManualDismissTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="toastsManualDismissHtmlTab" data-bs-toggle="tab" href="#toastsManualDismissHtml" role="tab" aria-controls="toastsManualDismissHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="toastsManualDismissPugTab" data-bs-toggle="tab" href="#toastsManualDismissPug" role="tab" aria-controls="toastsManualDismissPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="toastsManualDismissJsTab" data-bs-toggle="tab" href="#toastsManualDismissJs" role="tab" aria-controls="toastsManualDismissJs" aria-selected="false">
+                              <svg class="svg-inline--fa fa-js-square text-yellow me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="js-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"></path></svg><!-- <i class="fab fa-js-square text-yellow me-1"></i> Font Awesome fontawesome.com -->
+                              JS
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="toastsManualDismissHtml" role="tabpanel" aria-labelledby="toastsManualDismissHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token comment">&lt;!-- Toast button trigger --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary mb-3<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toastNoAutohideTrigger<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">دمو</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- Toast container --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>position: absolute; bottom: 1rem; left: 1rem;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- Toast --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toastNoAutohide<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-autohide</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان رد کردن دستی</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این یک اعلان toast است. برای بستن باید بر روی x کلیک کنید.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="toastsManualDismissPug" role="tabpanel" aria-labelledby="toastsManualDismissPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token comment">//- Toast button trigger</span>
+<span class="token tag">button.btn.btn-primary.mb-3#toastNoAutohideTrigger</span> <span class="token plain-text">دمو</span>
+
+<span class="token comment">//- Toast container</span>
+<span class="token tag">div<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'position: absolute; bottom: 1rem; left: 1rem;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token comment">//- Toast</span>
+    <span class="token tag">.toast#toastNoAutohide<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-autohide</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'false'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.toast-header</span>
+            <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'bell'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+            <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان رد کردن دستی</span>
+            <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+            <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+        <span class="token tag">.toast-body</span>
+            <span class="token punctuation">|</span> <span class="plain-text">این یک اعلان toast است. برای بستن باید بر روی x کلیک کنید.</span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="toastsManualDismissJs" role="tabpanel" aria-labelledby="toastsManualDismissJs">
+                                                            <pre class="  language-js"><code class="  language-js"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#toastNoAutohideTrigger"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"click"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#toastNoAutohide"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toast</span><span class="token punctuation">(</span><span class="token string">"show"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        <p>
+
+                          مثال بالا از ویژگی مشخصه
+                          <code>data-bs-autohide='false'</code>
+                          استفاده می کند که ویژگی پنهان کردن خودکار را غیرفعال می کند. شما باید به صورت دستی این toast آزمایشی را با کلیک کردن روی دکمه x روی toast رد کنید.
+
+                        </p>
+                        <p class="mb-0 fw-bold">توجه: اعلان ها برای مقداردهی اولیه نیاز به جاوا اسکریپت دارند!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Toast Colors-->
+              <div id="colors">
+                <div class="card mb-4">
+                  <div class="card-header">رنگ بندی</div>
+                  <div class="card-body">
+                    <h6 class="small text-muted fw-500">تغییر رنگ متن:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview mb-4">
+                      <div class="sbp-preview-content">
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle me-2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                            <strong class="me-auto">اعلان toast متن اولیه</strong>
+                            <small class="text-muted ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این اعلان toast از رنگ متن اولیه در هدر استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle me-2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                            <strong class="me-auto">اعلان toast متن ثانویه</strong>
+                            <small class="text-muted ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این اعلان toast از رنگ متن ثانویه در هدر استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header text-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle me-2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            <strong class="me-auto">اعلان toast متن موفقیت</strong>
+                            <small class="text-muted ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این اعلان toast از رنگ متن موفقیت در هدر استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header text-info">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info me-2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                            <strong class="me-auto">اعلان toast متن اطلاعات</strong>
+                            <small class="text-muted ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این اعلان toast از رنگ متن اطلاعات در هدر استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header text-warning">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle me-2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                            <strong class="me-auto">اعلان toast متن اخطار</strong>
+                            <small class="text-muted ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این اعلان toast از رنگ متن اخطار در هدر استفاده می کند.</div>
+                        </div>
+                        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header text-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-octagon me-2"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                            <strong class="me-auto">اعلان toast متن خطر</strong>
+                            <small class="text-muted ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این اعلان toast از رنگ متن خطر در هدر استفاده می کند.</div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="toastsColorsTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="toastsColorsHtmlTab" data-bs-toggle="tab" href="#toastsColorsHtml" role="tab" aria-controls="toastsColorsHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="toastsColorsPugTab" data-bs-toggle="tab" href="#toastsColorsPug" role="tab" aria-controls="toastsColorsPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="toastsColorsHtml" role="tabpanel" aria-labelledby="toastsColorsHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>opacity: 1;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header text-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان toast متن اولیه</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ متن اولیه در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>opacity: 1;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header text-secondary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان toast متن ثانویه</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ متن ثانویه در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>opacity: 1;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header text-success<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان toast متن موفقیت</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ متن موفقیت در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>opacity: 1;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header text-info<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان toast متن اطلاعات</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ متن اطلاعات در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>opacity: 1;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header text-warning<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان toast متن اخطار</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ متن اخطار در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>opacity: 1;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header text-danger<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bell<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">اعلان toast متن خطر</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ متن خطر در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="toastsColorsPug" role="tabpanel" aria-labelledby="toastsColorsPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'opacity: 1;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.text-primary</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-circle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن اولیه</span>
+        <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن اولیه در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'opacity: 1;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.text-secondary</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-circle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن ثانویه</span>
+        <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن ثانویه در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'opacity: 1;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.text-success</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'check-circle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن موفقیت</span>
+        <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن موفقیت در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'opacity: 1;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.text-info</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'info'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن اطلاعات</span>
+        <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن اطلاعات در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'opacity: 1;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.text-warning</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-triangle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن اخطار</span>
+        <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن اخطار در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">,</span> <span class="token attr-name">style</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'opacity: 1;'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.text-danger</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-octagon'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن خطر</span>
+        <span class="token tag">small.text-muted.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن خطر در هدر استفاده می کند.</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">
+                        مثال‌های بالا از یک کلاس کاربردی رنگ متن متفاوت در سربرگ toast استفاده می‌کنند تا سطح دیگری از زمینه و تاکید بر اعلان‌های toast اضافه کنند. می توانید از هر یک از ابزارهای رنگ متن موجود با بوت استرپ یا با تم SB Admin Pro استفاده کنید!
+                      </div>
+                    </div>
+                    <h6 class="small text-muted fw-500">تغییر رنگ پس زمینه:</h6>
+                    <!-- Component Preview-->
+                    <div class="sbp-preview">
+                      <div class="sbp-preview-content">
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header bg-primary text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle me-2 text-white-50"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                            <strong class="me-auto">اعلان toast متن اولیه</strong>
+                            <small class="text-white-50 ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close btn-close-white" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این toast از ابزار رنگ پس زمینه اصلی در هدر toast استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header bg-secondary text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle me-2 text-white-50"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                            <strong class="me-auto">اعلان toast متن ثانویه</strong>
+                            <small class="text-white-50 ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close btn-close-white" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این toast از ابزار رنگ پس زمینه ثانویه در هدر تست استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header bg-success text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle me-2 text-white-50"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            <strong class="me-auto">اعلان toast متن موفقیت</strong>
+                            <small class="text-white-50 ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close btn-close-white" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این toast از ابزار رنگ پس زمینه موفقیت در هدر toast استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header bg-info text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info me-2 text-white-50"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                            <strong class="me-auto">اعلان toast متن اطلاعات</strong>
+                            <small class="text-white-50 ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close btn-close-white" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این toast از ابزار رنگ پس زمینه اطلاعات در هدر toast استفاده می کند.</div>
+                        </div>
+                        <div class="toast mb-3 show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header bg-warning text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle me-2 text-white-50"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                            <strong class="me-auto">اعلان toast متن اخطار</strong>
+                            <small class="text-white-50 ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close btn-close-white" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این toast از ابزار هشدار رنگ پس زمینه در هدر toast استفاده می کند.</div>
+                        </div>
+                        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" style="opacity: 1">
+                          <div class="toast-header bg-danger text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-octagon me-2 text-white-50"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                            <strong class="me-auto">اعلان toast متن خطر</strong>
+                            <small class="text-white-50 ms-2">همین الان</small>
+                            <button class="ms-2 mb-1 btn-close btn-close-white" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">این toast از ابزار رنگ پس زمینه خطر در هدر toast استفاده می کند.</div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-code">
+                        <!-- Code sample-->
+                        <ul class="nav nav-tabs" id="toastsColorsBackgroundTabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active me-1" id="toastsColorsBackgroundHtmlTab" data-bs-toggle="tab" href="#toastsColorsBackgroundHtml" role="tab" aria-controls="toastsColorsBackgroundHtml" aria-selected="true">
+                              <svg class="svg-inline--fa fa-html5 text-orange me-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg><!-- <i class="fab fa-html5 text-orange me-1"></i> Font Awesome fontawesome.com -->
+                              HTML
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="toastsColorsBackgroundPugTab" data-bs-toggle="tab" href="#toastsColorsBackgroundPug" role="tab" aria-controls="toastsColorsBackgroundPug" aria-selected="false">
+                              <img class="img-pug me-1" src="../../assets/img/svg/pug.svg">
+                              PUG
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="toastsColorsBackgroundHtml" role="tabpanel" aria-labelledby="toastsColorsBackgroundHtmlTab">
+                                                            <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header bg-primary text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> <span class="token plain-text">اعلان toast متن اولیه</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-white-50 ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ پس زمینه اولیه در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header bg-secondary text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">اعلان toast متن ثانویه</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-white-50 ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ پس زمینه ثانویه در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header bg-success text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">اعلان toast متن موفقیت</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-white-50 ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> <span class="plain-text">این اعلان toast از رنگ پس زمینه موفقیت در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header bg-info text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">اعلان toast متن اطلاعات</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-white-50 ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> <span class="plain-text">این اعلان toast از رنگ متن اطلاعات در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header bg-warning text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">اعلان toast متن اخطار</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-white-50 ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> <span class="plain-text">این اعلان toast از رنگ متن اخطار در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span> <span class="token attr-name">aria-atomic</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-header bg-danger text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">data-feather</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mr-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">اعلان toast متن خطر</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-white-50 ml-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">همین الان</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ml-2 mb-1 btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-dismiss</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                                                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toast-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="plain-text">این اعلان toast از رنگ متن خطر در هدر استفاده می کند.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+                          </div>
+                          <div class="tab-pane" id="toastsColorsBackgroundPug" role="tabpanel" aria-labelledby="toastsColorsBackgroundPugTab">
+                                                            <pre class="  language-pug"><code class="  language-pug"><span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.bg-primary.text-white</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-circle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2.text-white-50</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن اولیه</span>
+        <span class="token tag">small.text-white-50.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close.btn-close-white<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ پس زمینه اولیه در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.bg-secondary.text-white</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-circle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2.text-white-50</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن ثانویه</span>
+        <span class="token tag">small.text-white-50.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close.btn-close-white<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ پس زمینه ثانویه در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.bg-success.text-white</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'check-circle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2.text-white-50</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن موفقیت</span>
+        <span class="token tag">small.text-white-50.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close.btn-close-white<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ پس زمینه موفقیت در هدر استفاده می کند.</span
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.bg-info.text-white</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'info'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2.text-white-50</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن اطلاعات</span>
+        <span class="token tag">small.text-white-50.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close.btn-close-white<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن اطلاعات در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.bg-warning.text-white</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-triangle'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2.text-white-50</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن اخطار</span>
+        <span class="token tag">small.text-white-50.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close.btn-close-white<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن اخطار در هدر استفاده می کند.</span>
+<span class="token tag">.toast<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">role</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-live</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'assertive'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-atomic</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'true'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-header.bg-danger.text-white</span>
+        <span class="token tag">i<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">data-feather</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'alert-octagon'</span></span><span class="token punctuation">)</span></span></span><span class="token tag">.me-2.text-white-50</span>
+        <span class="token tag">strong.me-auto</span> <span class="token plain-text">اعلان toast متن خطر</span>
+        <span class="token tag">small.text-white-50.ms-2</span> <span class="token plain-text">همین الان</span>
+        <span class="token tag">button.ms-2.mb-1.btn-close.btn-close-white<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">type</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'button'</span></span><span class="token punctuation">,</span> <span class="token attr-name">data-bs-dismiss</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'toast'</span></span><span class="token punctuation">,</span> <span class="token attr-name">aria-label</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">'Close'</span></span><span class="token punctuation">)</span></span></span>
+    <span class="token tag">.toast-body</span>
+        <span class="token punctuation">|</span> <span class="plain-text">این اعلان toast از رنگ متن خطر در هدر استفاده می کند.</span></code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sbp-preview-text">مثال‌های بالا از ترکیبی از ابزارهای رنگ پس‌زمینه و ابزارهای رنگ متن در سربرگ toast استفاده می‌کنند تا سطح دیگری از زمینه و تاکید بر اعلان‌های toast اضافه کنند. می‌توانید از هر ترکیبی از رنگ پس‌زمینه یا ابزارهای رنگ متن موجود با Bootstrap یا با تم SB Admin Pro استفاده کنید!</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap Docs Link-->
+              <div class="card card-icon mb-4">
+                <div class="row g-0">
+                  <div class="col-auto card-icon-aside bg-secondary"><svg class="svg-inline--fa fa-bootstrap me-1 text-white-50" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="bootstrap" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z"></path></svg><!-- <i class="me-1 text-white-50 fab fa-bootstrap"></i> Font Awesome fontawesome.com --></div>
+                  <div class="col">
+                    <div class="card-body py-5">
+                      <h5 class="card-title">مستندات بوت استرپ موجود است</h5>
+                      <p class="card-text">toast ها جزء پیش فرضی هستند که در چارچوب Bootstrap گنجانده شده است. برای اطلاعات بیشتر در مورد پیاده سازی، اصلاح و گسترش استفاده از toast ها در پروژه خود، از صفحه مستندات رسمی Bootstrap toasts دیدن کنید.</p>
+                      <a class="btn btn-secondary btn-sm" href="https://getbootstrap.com/docs/4.4/components/toasts/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link me-1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        از Bootstrap Toasts Docs دیدن کنید
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sticky Navigation-->
+            <div class="col-lg-3">
+              <div class="nav-sticky">
+                <div class="card">
+                  <div class="card-body">
+                    <ul class="nav flex-column" id="stickyNav">
+                      <li class="nav-item"><a class="nav-link" href="#demo">دمو</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#colors">رنگ بندی</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer-admin mt-auto footer-light is-rtl">
+        <div class="container-xl px-4">
+          <div class="row">
+            <div class="col-md-6 small">طراحی شده با ❤️ ارائه شده در وب‌سایت راست‌چین</div>
+            <div class="col-md-6 text-md-end small">
+              <a href="#!">قوانین و مقررات</a>
+              ·
+              <a href="#!">لایسنس ها</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="../../assets/js/bootstrap.bundle.min.js" ></script>
+  <script src="../../assets/js/scripts.js"></script>
+  <script src="../../assets/js/jquery.js"></script>
+  <script src="../../assets/js/toasts.js"></script>
+  <script src="../../assets/js/demo-toasts.js"></script>
+
+  <script>
+    $(document).ready(function (){
+
+
+      // auto hide
+      $("#toastAutohideTrigger").on("click", function(e) {
+        e.preventDefault();
+        $("#toastAutohide").toast("show");
+      });
+
+
+      // no auto hide
+      $("#toastNoAutohideTrigger").on("click", function(e) {
+        e.preventDefault();
+        $("#toastNoAutohide").toast("show");
+      });
+
+
+
+    })
+  </script>
+  </body>
+</html>

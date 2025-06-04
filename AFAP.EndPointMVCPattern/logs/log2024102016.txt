@@ -1,0 +1,100 @@
+2024-10-20 16:15:48.810 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-20 16:15:49.455 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-20 16:15:49.470 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:15:49.472 +03:30 [INF] Hosting environment: Development
+2024-10-20 16:15:49.472 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-20 16:15:50.449 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-20 16:15:50.481 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:15:50.583 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-20 16:15:50.662 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-20 16:15:50.678 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 232.4773ms
+2024-10-20 16:15:50.697 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-20 16:15:50.861 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:15:50.929 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-20 16:15:51.352 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-20 16:15:51.767 +03:30 [INF] Executed ViewResult - view Login executed in 417.9829ms.
+2024-10-20 16:15:51.773 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 840.9485ms
+2024-10-20 16:15:51.773 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:15:51.783 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1085.8361ms
+2024-10-20 16:15:51.833 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - null null
+2024-10-20 16:15:51.846 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - null null
+2024-10-20 16:15:51.863 +03:30 [INF] The file /assets/img/register-cover1.png was not modified
+2024-10-20 16:15:51.868 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - 304 null image/png 21.9247ms
+2024-10-20 16:15:51.985 +03:30 [INF] Sending file. Request path: '/assets/img/illustration.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/illustration.png'
+2024-10-20 16:15:51.987 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - 200 116368 image/png 154.002ms
+2024-10-20 16:20:42.692 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-20 16:20:43.321 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-20 16:20:43.332 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:20:43.333 +03:30 [INF] Hosting environment: Development
+2024-10-20 16:20:43.333 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-20 16:20:44.064 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-20 16:20:44.086 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:20:44.214 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-20 16:20:44.278 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-20 16:20:44.288 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 229.0361ms
+2024-10-20 16:20:44.308 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-20 16:20:44.446 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:20:44.522 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-20 16:20:45.012 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-20 16:20:45.468 +03:30 [INF] Executed ViewResult - view Login executed in 465.678ms.
+2024-10-20 16:20:45.469 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 944.9527ms
+2024-10-20 16:20:45.469 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:20:45.475 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1167.2623ms
+2024-10-20 16:20:45.522 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - null null
+2024-10-20 16:20:45.522 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - null null
+2024-10-20 16:20:45.534 +03:30 [INF] The file /assets/img/register-cover1.png was not modified
+2024-10-20 16:20:45.534 +03:30 [INF] The file /assets/img/illustration.png was not modified
+2024-10-20 16:20:45.535 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - 304 null image/png 13.375ms
+2024-10-20 16:20:45.535 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - 304 null image/png 13.1578ms
+2024-10-20 16:46:06.372 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-20 16:46:06.998 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-20 16:46:07.008 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:46:07.009 +03:30 [INF] Hosting environment: Development
+2024-10-20 16:46:07.009 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-20 16:46:07.817 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-20 16:46:07.832 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:46:07.926 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-20 16:46:07.982 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-20 16:46:07.996 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 181.7811ms
+2024-10-20 16:46:08.013 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-20 16:46:08.134 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:46:08.214 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-20 16:46:08.694 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-20 16:46:09.138 +03:30 [INF] Executed ViewResult - view Login executed in 453.9471ms.
+2024-10-20 16:46:09.139 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 923.3669ms
+2024-10-20 16:46:09.139 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:46:09.145 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1132.2383ms
+2024-10-20 16:46:09.209 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - null null
+2024-10-20 16:46:09.210 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - null null
+2024-10-20 16:46:09.224 +03:30 [INF] The file /assets/img/illustration.png was not modified
+2024-10-20 16:46:09.225 +03:30 [INF] The file /assets/img/register-cover1.png was not modified
+2024-10-20 16:46:09.229 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - 304 null image/png 20.0304ms
+2024-10-20 16:46:09.229 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - 304 null image/png 18.6105ms
+2024-10-20 16:58:30.471 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-20 16:58:31.172 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-20 16:58:31.183 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:58:31.207 +03:30 [INF] Hosting environment: Development
+2024-10-20 16:58:31.208 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-20 16:58:31.967 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-20 16:58:31.980 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:58:32.070 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-20 16:58:32.134 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-20 16:58:32.144 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 179.305ms
+2024-10-20 16:58:32.158 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-20 16:58:32.268 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:58:32.338 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-20 16:58:32.726 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-20 16:58:33.124 +03:30 [INF] Executed ViewResult - view Login executed in 407.6129ms.
+2024-10-20 16:58:33.126 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 785.9035ms
+2024-10-20 16:58:33.127 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-20 16:58:33.134 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 976.3736ms
+2024-10-20 16:58:33.214 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - null null
+2024-10-20 16:58:33.214 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - null null
+2024-10-20 16:58:33.227 +03:30 [INF] The file /assets/img/register-cover1.png was not modified
+2024-10-20 16:58:33.231 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - 304 null image/png 17.0053ms
+2024-10-20 16:58:33.270 +03:30 [INF] Sending file. Request path: '/assets/img/illustration.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/illustration.png'
+2024-10-20 16:58:33.277 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/illustration.png - 200 38990 image/png 62.625ms

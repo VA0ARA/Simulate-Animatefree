@@ -1,0 +1,513 @@
+2024-10-06 14:16:24.567 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-06 14:16:25.070 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-06 14:16:25.081 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-06 14:16:25.083 +03:30 [INF] Hosting environment: Development
+2024-10-06 14:16:25.084 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-06 14:16:27.641 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:16:27.662 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-06 14:16:27.774 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-06 14:16:27.897 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-06 14:16:27.929 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 289.8121ms
+2024-10-06 14:16:27.948 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-06 14:16:28.179 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:28.364 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:16:28.925 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-06 14:16:29.302 +03:30 [INF] Executed ViewResult - view Login executed in 391.6348ms.
+2024-10-06 14:16:29.304 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 938.8741ms
+2024-10-06 14:16:29.304 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:29.311 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1362.8155ms
+2024-10-06 14:16:29.335 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/fonts.css - null null
+2024-10-06 14:16:29.339 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/boxicons.css - null null
+2024-10-06 14:16:29.364 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/style.css - null null
+2024-10-06 14:16:29.393 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.jpg - null null
+2024-10-06 14:16:29.397 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/bootstrap.bundle.min.js - null null
+2024-10-06 14:16:29.403 +03:30 [INF] The file /assets/img/register-cover1.jpg was not modified
+2024-10-06 14:16:29.403 +03:30 [INF] The file /assets/js/bootstrap.bundle.min.js was not modified
+2024-10-06 14:16:29.403 +03:30 [INF] The file /assets/css/boxicons.css was not modified
+2024-10-06 14:16:29.403 +03:30 [INF] The file /assets/css/style.css was not modified
+2024-10-06 14:16:29.403 +03:30 [INF] The file /assets/css/fonts.css was not modified
+2024-10-06 14:16:29.404 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/boxicons.css - 304 null text/css 65.8574ms
+2024-10-06 14:16:29.405 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/scripts.js - null null
+2024-10-06 14:16:29.405 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/fonts.css - 304 null text/css 70.2503ms
+2024-10-06 14:16:29.404 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.jpg - 304 null image/jpeg 12.3319ms
+2024-10-06 14:16:29.405 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/style.css - 304 null text/css 40.4074ms
+2024-10-06 14:16:29.404 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/bootstrap.bundle.min.js - 304 null text/javascript 7.6441ms
+2024-10-06 14:16:29.433 +03:30 [INF] The file /assets/js/scripts.js was not modified
+2024-10-06 14:16:29.465 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/jquery.js - null null
+2024-10-06 14:16:29.469 +03:30 [INF] The file /assets/js/jquery.js was not modified
+2024-10-06 14:16:29.473 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/jquery.js - 304 null text/javascript 7.3949ms
+2024-10-06 14:16:29.465 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/lib/jquery/dist/jquery.min.js - null null
+2024-10-06 14:16:29.465 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-10-06 14:16:29.474 +03:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-10-06 14:16:29.474 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 9.0539ms
+2024-10-06 14:16:29.467 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/scripts.js - 304 null text/javascript 62.4896ms
+2024-10-06 14:16:29.468 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2024-10-06 14:16:29.474 +03:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-10-06 14:16:29.486 +03:30 [INF] The file /js/site.js was not modified
+2024-10-06 14:16:29.487 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/lib/jquery/dist/jquery.min.js - 304 null text/javascript 21.7722ms
+2024-10-06 14:16:29.487 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 304 null text/javascript 19.6227ms
+2024-10-06 14:16:29.771 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2 - null null
+2024-10-06 14:16:29.771 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2 - null null
+2024-10-06 14:16:29.772 +03:30 [INF] The file /assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2 was not modified
+2024-10-06 14:16:29.772 +03:30 [INF] The file /assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2 was not modified
+2024-10-06 14:16:29.772 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2 - 304 null font/woff2 0.6911ms
+2024-10-06 14:16:29.772 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2 - 304 null font/woff2 0.3744ms
+2024-10-06 14:16:29.791 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2 - null null
+2024-10-06 14:16:29.791 +03:30 [INF] The file /assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2 was not modified
+2024-10-06 14:16:29.793 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2 - 304 null font/woff2 2.7681ms
+2024-10-06 14:16:43.970 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - application/x-www-form-urlencoded 230
+2024-10-06 14:16:43.995 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:44.046 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(APAF.Domain.Core.Dtos.Account.LoginDTO, System.String) on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:16:46.476 +03:30 [INF] Executed DbCommand (84ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-06 14:16:46.992 +03:30 [INF] Executed DbCommand (21ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-06 14:16:47.049 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-06 14:16:47.086 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-06 14:16:47.174 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-06 14:16:47.232 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-06 14:16:47.259 +03:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-10-06 14:16:47.272 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 3225.9057ms
+2024-10-06 14:16:47.277 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:47.309 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 302 0 null 3338.3338ms
+2024-10-06 14:16:47.313 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:16:47.339 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:47.351 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:16:47.353 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:16:47.393 +03:30 [INF] Executed ViewResult - view Index executed in 41.8821ms.
+2024-10-06 14:16:47.394 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 42.9388ms
+2024-10-06 14:16:47.394 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:47.394 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 80.5984ms
+2024-10-06 14:16:47.460 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/AssetBundel.jpg - null null
+2024-10-06 14:16:47.470 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Avatars.jpg - null null
+2024-10-06 14:16:47.513 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/APKS.jpg - null null
+2024-10-06 14:16:47.514 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamers.png - null null
+2024-10-06 14:16:47.633 +03:30 [INF] Sending file. Request path: '/assets/img/png/APKS.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/APKS.jpg'
+2024-10-06 14:16:47.634 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/APKS.jpg - 200 31316 image/jpeg 120.5713ms
+2024-10-06 14:16:47.634 +03:30 [INF] Sending file. Request path: '/assets/img/png/AssetBundel.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/AssetBundel.jpg'
+2024-10-06 14:16:47.634 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/AssetBundel.jpg - 200 17534 image/jpeg 174.364ms
+2024-10-06 14:16:47.638 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Users.png - null null
+2024-10-06 14:16:47.637 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/cartoons.jpg - null null
+2024-10-06 14:16:47.739 +03:30 [INF] Sending file. Request path: '/assets/img/png/cartoons.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/cartoons.jpg'
+2024-10-06 14:16:47.739 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/cartoons.jpg - 200 39904 image/jpeg 102.4484ms
+2024-10-06 14:16:47.740 +03:30 [INF] Sending file. Request path: '/assets/img/png/Avatars.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Avatars.jpg'
+2024-10-06 14:16:47.740 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Avatars.jpg - 200 216675 image/jpeg 269.7964ms
+2024-10-06 14:16:47.747 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2 - null null
+2024-10-06 14:16:47.741 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/boxicons.woff2 - null null
+2024-10-06 14:16:47.790 +03:30 [INF] Sending file. Request path: '/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2'
+2024-10-06 14:16:47.791 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2 - 200 49668 font/woff2 43.0545ms
+2024-10-06 14:16:47.796 +03:30 [INF] Sending file. Request path: '/assets/img/png/Gamers.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Gamers.png'
+2024-10-06 14:16:47.796 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamers.png - 200 361024 image/png 282.2201ms
+2024-10-06 14:16:47.800 +03:30 [INF] Sending file. Request path: '/assets/img/png/Users.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Users.png'
+2024-10-06 14:16:47.803 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Users.png - 200 179043 image/png 165.2556ms
+2024-10-06 14:16:47.800 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/register.jpg - null null
+2024-10-06 14:16:47.800 +03:30 [INF] Sending file. Request path: '/assets/fonts/boxicons.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/boxicons.woff2'
+2024-10-06 14:16:47.808 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/boxicons.woff2 - 200 115388 font/woff2 67.7835ms
+2024-10-06 14:16:47.801 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2 - null null
+2024-10-06 14:16:47.846 +03:30 [INF] Sending file. Request path: '/assets/img/png/register.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/register.jpg'
+2024-10-06 14:16:47.847 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/register.jpg - 200 57536 image/jpeg 46.7761ms
+2024-10-06 14:16:47.853 +03:30 [INF] Sending file. Request path: '/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2'
+2024-10-06 14:16:47.854 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2 - 200 49628 font/woff2 52.9406ms
+2024-10-06 14:16:52.879 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-06 14:16:52.906 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:52.922 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-06 14:16:53.191 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-06 14:16:53.241 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-06 14:16:53.329 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 89.2193ms.
+2024-10-06 14:16:53.331 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 406.119ms
+2024-10-06 14:16:53.334 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:53.335 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 455.7963ms
+2024-10-06 14:16:53.376 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/css/data-table.css - null null
+2024-10-06 14:16:53.394 +03:30 [INF] Sending file. Request path: '/assets/css/data-table.css'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/data-table.css'
+2024-10-06 14:16:53.394 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/css/data-table.css - 200 3137 text/css 18.6519ms
+2024-10-06 14:16:53.399 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/profile-1.png - null null
+2024-10-06 14:16:53.400 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@demo.js - null null
+2024-10-06 14:16:53.399 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@latest.js - null null
+2024-10-06 14:16:53.457 +03:30 [INF] Sending file. Request path: '/assets/js/simple-datatables@demo.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/simple-datatables@demo.js'
+2024-10-06 14:16:53.460 +03:30 [INF] Sending file. Request path: '/assets/img/png/profile-1.png'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-1.png'
+2024-10-06 14:16:53.460 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/profile-1.png - 200 19617 image/png 60.5829ms
+2024-10-06 14:16:53.514 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@demo.js - 200 854 text/javascript 87.0191ms
+2024-10-06 14:16:53.517 +03:30 [INF] Sending file. Request path: '/assets/js/simple-datatables@latest.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/simple-datatables@latest.js'
+2024-10-06 14:16:53.518 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/simple-datatables@latest.js - 200 37980 text/javascript 118.1921ms
+2024-10-06 14:16:56.846 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:16:56.932 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:56.933 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:16:56.933 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:16:56.946 +03:30 [INF] Executed ViewResult - view Index executed in 13.0722ms.
+2024-10-06 14:16:56.946 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 13.4594ms
+2024-10-06 14:16:56.946 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:56.947 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 100.2372ms
+2024-10-06 14:16:58.754 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - null null
+2024-10-06 14:16:58.762 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:58.787 +03:30 [INF] Route matched with {action = "AvatarShowDetailPanel", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AvatarShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-06 14:16:58.942 +03:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath], [a].[DoesItRemove], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+2024-10-06 14:16:59.008 +03:30 [INF] Executing ViewResult, running view AvatarShowDetailPanel.
+2024-10-06 14:16:59.073 +03:30 [INF] Executed ViewResult - view AvatarShowDetailPanel executed in 65.9861ms.
+2024-10-06 14:16:59.074 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern) in 286.6573ms
+2024-10-06 14:16:59.074 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:16:59.075 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - 200 null text/html; charset=utf-8 320.3074ms
+2024-10-06 14:17:01.375 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:17:01.379 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:01.382 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:01.383 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:17:01.390 +03:30 [INF] Executed ViewResult - view Index executed in 6.4819ms.
+2024-10-06 14:17:01.392 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 8.5923ms
+2024-10-06 14:17:01.393 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:01.394 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 19.1789ms
+2024-10-06 14:17:04.686 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/ShowDetailUserPanel - null null
+2024-10-06 14:17:04.694 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.ShowDetailUserPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:04.705 +03:30 [INF] Route matched with {action = "ShowDetailUserPanel", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ShowDetailUserPanel() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:04.711 +03:30 [INF] Authorization failed for the request at filter 'AFAP.EndPointMVCPattern.Infrastructure.CustomAuthorizeAttributeAccess'.
+2024-10-06 14:17:04.716 +03:30 [INF] Executing RedirectToRouteResult, redirecting to /Home/Accesslimitation from route null.
+2024-10-06 14:17:04.716 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.ShowDetailUserPanel (AFAP.EndPointMVCPattern) in 9.9034ms
+2024-10-06 14:17:04.717 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.ShowDetailUserPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:04.719 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/ShowDetailUserPanel - 302 0 null 32.8689ms
+2024-10-06 14:17:04.725 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Home/Accesslimitation - null null
+2024-10-06 14:17:04.730 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Accesslimitation (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:04.737 +03:30 [INF] Route matched with {action = "Accesslimitation", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Accesslimitation() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:04.741 +03:30 [INF] Executing ViewResult, running view Accesslimitation.
+2024-10-06 14:17:04.778 +03:30 [INF] Executed ViewResult - view Accesslimitation executed in 39.3735ms.
+2024-10-06 14:17:04.780 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Accesslimitation (AFAP.EndPointMVCPattern) in 41.7039ms
+2024-10-06 14:17:04.780 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Accesslimitation (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:04.780 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Home/Accesslimitation - 200 null text/html; charset=utf-8 55.2289ms
+2024-10-06 14:17:04.851 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/401-error-unauthorized.svg - null null
+2024-10-06 14:17:04.872 +03:30 [INF] Sending file. Request path: '/assets/img/svg/401-error-unauthorized.svg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/401-error-unauthorized.svg'
+2024-10-06 14:17:04.872 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/401-error-unauthorized.svg - 200 88821 image/svg+xml 21.7524ms
+2024-10-06 14:17:06.462 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:17:06.473 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:06.478 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:06.478 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:17:06.487 +03:30 [INF] Executed ViewResult - view Index executed in 8.7048ms.
+2024-10-06 14:17:06.488 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 10.187ms
+2024-10-06 14:17:06.489 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:06.491 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 27.0575ms
+2024-10-06 14:17:09.036 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-06 14:17:09.050 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:09.068 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:09.145 +03:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-06 14:17:09.237 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-06 14:17:09.292 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 58.7384ms.
+2024-10-06 14:17:09.293 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 225.0047ms
+2024-10-06 14:17:09.293 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:09.293 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 257.6512ms
+2024-10-06 14:17:12.208 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:17:12.228 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:12.229 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:12.233 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:17:12.240 +03:30 [INF] Executed ViewResult - view Index executed in 6.5628ms.
+2024-10-06 14:17:12.241 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 7.89ms
+2024-10-06 14:17:12.241 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:12.242 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 33.8597ms
+2024-10-06 14:17:18.160 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Animator/AnimatorShowDetailPanel - null null
+2024-10-06 14:17:18.226 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:18.264 +03:30 [INF] Route matched with {action = "AnimatorShowDetailPanel", controller = "Animator"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AnimatorShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:18.400 +03:30 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FullName], [a].[PhoneNumber], [a].[Gender] AS [gender], [a].[VersionAPK], [a].[TotalScore], [a].[Score], [a].[AvatarId]
+FROM [Animators] AS [a]
+2024-10-06 14:17:18.441 +03:30 [INF] Executing ViewResult, running view AnimatorShowDetailPanel.
+2024-10-06 14:17:18.525 +03:30 [INF] Executed ViewResult - view AnimatorShowDetailPanel executed in 89.1853ms.
+2024-10-06 14:17:18.528 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern) in 260.2459ms
+2024-10-06 14:17:18.529 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:18.530 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Animator/AnimatorShowDetailPanel - 200 null text/html; charset=utf-8 369.3306ms
+2024-10-06 14:17:18.571 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-1.jpg - null null
+2024-10-06 14:17:18.587 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-2.jpg - null null
+2024-10-06 14:17:18.589 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-4.jpg - null null
+2024-10-06 14:17:18.589 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-3.jpg - null null
+2024-10-06 14:17:18.608 +03:30 [INF] Sending file. Request path: '/assets/img/profile-1.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-1.jpg'
+2024-10-06 14:17:18.612 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-1.jpg - 200 32163 image/jpeg 40.5344ms
+2024-10-06 14:17:18.611 +03:30 [INF] Sending file. Request path: '/assets/img/profile-2.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-2.jpg'
+2024-10-06 14:17:18.612 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-2.jpg - 200 8332 image/jpeg 24.8964ms
+2024-10-06 14:17:18.626 +03:30 [INF] Sending file. Request path: '/assets/img/profile-4.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-4.jpg'
+2024-10-06 14:17:18.626 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-4.jpg - 200 8562 image/jpeg 37.2889ms
+2024-10-06 14:17:18.627 +03:30 [INF] Sending file. Request path: '/assets/img/profile-3.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-3.jpg'
+2024-10-06 14:17:18.630 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/profile-3.jpg - 200 24543 image/jpeg 41.5228ms
+2024-10-06 14:17:21.832 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:17:21.839 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:21.839 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:21.839 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:17:21.845 +03:30 [INF] Executed ViewResult - view Index executed in 5.5252ms.
+2024-10-06 14:17:21.845 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 6.3214ms
+2024-10-06 14:17:21.847 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:21.850 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 18.005ms
+2024-10-06 14:17:27.316 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - null null
+2024-10-06 14:17:27.318 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:27.323 +03:30 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:27.324 +03:30 [INF] Authorization failed for the request at filter 'AFAP.EndPointMVCPattern.Infrastructure.CustomAuthorizeAttributeAccess'.
+2024-10-06 14:17:27.325 +03:30 [INF] Executing RedirectToRouteResult, redirecting to /Home/Accesslimitation from route null.
+2024-10-06 14:17:27.325 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern) in 1.0928ms
+2024-10-06 14:17:27.325 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:27.325 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - 302 0 null 8.7929ms
+2024-10-06 14:17:27.352 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Home/Accesslimitation - null null
+2024-10-06 14:17:27.360 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Accesslimitation (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:27.362 +03:30 [INF] Route matched with {action = "Accesslimitation", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Accesslimitation() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:27.365 +03:30 [INF] Executing ViewResult, running view Accesslimitation.
+2024-10-06 14:17:27.369 +03:30 [INF] Executed ViewResult - view Accesslimitation executed in 6.7474ms.
+2024-10-06 14:17:27.370 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Accesslimitation (AFAP.EndPointMVCPattern) in 7.1483ms
+2024-10-06 14:17:27.370 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Accesslimitation (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:27.370 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Home/Accesslimitation - 200 null text/html; charset=utf-8 18.2735ms
+2024-10-06 14:17:28.892 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:17:28.895 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:28.895 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:28.896 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:17:28.897 +03:30 [INF] Executed ViewResult - view Index executed in 1.3557ms.
+2024-10-06 14:17:28.900 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 5.0989ms
+2024-10-06 14:17:28.900 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:28.901 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 9.0667ms
+2024-10-06 14:17:30.874 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Logout - null null
+2024-10-06 14:17:30.875 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:30.923 +03:30 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:30.942 +03:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-06 14:17:30.954 +03:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-06 14:17:30.954 +03:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-06 14:17:30.971 +03:30 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2024-10-06 14:17:30.971 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern) in 47.9185ms
+2024-10-06 14:17:30.971 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:30.971 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Logout - 302 0 null 97.8354ms
+2024-10-06 14:17:30.987 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login - null null
+2024-10-06 14:17:30.991 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:30.991 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:30.991 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-06 14:17:31.002 +03:30 [INF] Executed ViewResult - view Login executed in 10.9551ms.
+2024-10-06 14:17:31.002 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 11.5387ms
+2024-10-06 14:17:31.002 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:31.003 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login - 200 null text/html; charset=utf-8 15.8996ms
+2024-10-06 14:17:58.614 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Account/Login - application/x-www-form-urlencoded 236
+2024-10-06 14:17:58.614 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:58.614 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(APAF.Domain.Core.Dtos.Account.LoginDTO, System.String) on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:58.673 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-06 14:17:59.057 +03:30 [INF] Executed DbCommand (50ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-06 14:17:59.073 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-06 14:17:59.095 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-06 14:17:59.115 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-06 14:17:59.146 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-06 14:17:59.147 +03:30 [INF] Executing RedirectResult, redirecting to /.
+2024-10-06 14:17:59.151 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 532.8822ms
+2024-10-06 14:17:59.151 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:59.153 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Account/Login - 302 0 null 538.8987ms
+2024-10-06 14:17:59.166 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:17:59.175 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:59.184 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:17:59.184 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:17:59.190 +03:30 [INF] Executed ViewResult - view Index executed in 5.6917ms.
+2024-10-06 14:17:59.190 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 6.1635ms
+2024-10-06 14:17:59.190 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:17:59.190 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 24.9825ms
+2024-10-06 14:18:05.518 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/ShowDetailUserPanel - null null
+2024-10-06 14:18:05.524 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.ShowDetailUserPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:05.524 +03:30 [INF] Route matched with {action = "ShowDetailUserPanel", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ShowDetailUserPanel() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:18:05.600 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Email], [a].[Id], [a].[PersonName], [a].[PhoneNumber] AS [Phone]
+FROM [AspNetUsers] AS [a]
+2024-10-06 14:18:05.663 +03:30 [INF] Executing ViewResult, running view ShowDetailUserPanel.
+2024-10-06 14:18:05.742 +03:30 [INF] Executed ViewResult - view ShowDetailUserPanel executed in 90.5126ms.
+2024-10-06 14:18:05.742 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.ShowDetailUserPanel (AFAP.EndPointMVCPattern) in 217.4922ms
+2024-10-06 14:18:05.742 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.ShowDetailUserPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:05.743 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/ShowDetailUserPanel - 200 null text/html; charset=utf-8 226.1002ms
+2024-10-06 14:18:08.287 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:18:08.291 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:08.292 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:18:08.292 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:18:08.299 +03:30 [INF] Executed ViewResult - view Index executed in 6.9606ms.
+2024-10-06 14:18:08.299 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 7.2371ms
+2024-10-06 14:18:08.305 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:08.306 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 18.8998ms
+2024-10-06 14:18:11.460 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Animator/AnimatorShowDetailPanel - null null
+2024-10-06 14:18:11.471 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:11.471 +03:30 [INF] Route matched with {action = "AnimatorShowDetailPanel", controller = "Animator"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AnimatorShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController (AFAP.EndPointMVCPattern).
+2024-10-06 14:18:11.491 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FullName], [a].[PhoneNumber], [a].[Gender] AS [gender], [a].[VersionAPK], [a].[TotalScore], [a].[Score], [a].[AvatarId]
+FROM [Animators] AS [a]
+2024-10-06 14:18:11.539 +03:30 [INF] Executing ViewResult, running view AnimatorShowDetailPanel.
+2024-10-06 14:18:11.591 +03:30 [INF] Executed ViewResult - view AnimatorShowDetailPanel executed in 52.4077ms.
+2024-10-06 14:18:11.594 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern) in 123.0802ms
+2024-10-06 14:18:11.594 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:11.595 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Animator/AnimatorShowDetailPanel - 200 null text/html; charset=utf-8 135.0572ms
+2024-10-06 14:18:13.972 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:18:13.973 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:13.973 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:18:13.974 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:18:13.984 +03:30 [INF] Executed ViewResult - view Index executed in 9.9748ms.
+2024-10-06 14:18:13.990 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 15.9135ms
+2024-10-06 14:18:13.993 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:13.995 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 23.6544ms
+2024-10-06 14:18:19.346 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - null null
+2024-10-06 14:18:19.349 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:19.351 +03:30 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:18:19.354 +03:30 [INF] Executing ViewResult, running view Register.
+2024-10-06 14:18:19.528 +03:30 [INF] Executed ViewResult - view Register executed in 176.0595ms.
+2024-10-06 14:18:19.531 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern) in 179.8786ms
+2024-10-06 14:18:19.532 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Register (AFAP.EndPointMVCPattern)'
+2024-10-06 14:18:19.532 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Register - 200 null text/html; charset=utf-8 185.9675ms
+2024-10-06 14:18:19.600 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover.jpg - null null
+2024-10-06 14:18:19.604 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/FormValidation/AutoFocus.min.js - null null
+2024-10-06 14:18:19.604 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/FormValidation/Bootstrap5.min.js - null null
+2024-10-06 14:18:19.604 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/FormValidation/FormValidation.min.js - null null
+2024-10-06 14:18:19.640 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover.jpg - 404 0 null 7.618ms
+2024-10-06 14:18:19.701 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/js/auth-base.js - null null
+2024-10-06 14:18:19.784 +03:30 [INF] Sending file. Request path: '/assets/js/FormValidation/Bootstrap5.min.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/FormValidation/Bootstrap5.min.js'
+2024-10-06 14:18:19.784 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/FormValidation/Bootstrap5.min.js - 200 5946 text/javascript 180.0867ms
+2024-10-06 14:18:19.835 +03:30 [INF] Sending file. Request path: '/assets/js/FormValidation/AutoFocus.min.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/FormValidation/AutoFocus.min.js'
+2024-10-06 14:18:19.836 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/FormValidation/AutoFocus.min.js - 200 6772 text/javascript 231.7426ms
+2024-10-06 14:18:19.840 +03:30 [INF] Sending file. Request path: '/assets/js/auth-base.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/auth-base.js'
+2024-10-06 14:18:19.844 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/auth-base.js - 200 4996 text/javascript 142.8211ms
+2024-10-06 14:18:19.845 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/assets/img/register-cover.jpg, Response status code: 404
+2024-10-06 14:18:19.926 +03:30 [INF] Sending file. Request path: '/assets/js/FormValidation/FormValidation.min.js'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/FormValidation/FormValidation.min.js'
+2024-10-06 14:18:19.950 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/js/FormValidation/FormValidation.min.js - 200 81617 text/javascript 346.1608ms
+2024-10-06 14:28:14.799 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-06 14:28:15.361 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-06 14:28:15.380 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-06 14:28:15.381 +03:30 [INF] Hosting environment: Development
+2024-10-06 14:28:15.382 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-06 14:28:19.430 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:28:19.465 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-06 14:28:19.608 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-06 14:28:19.700 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-06 14:28:19.721 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 296.1164ms
+2024-10-06 14:28:19.739 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-06 14:28:19.861 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:19.942 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:28:20.491 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-06 14:28:20.897 +03:30 [INF] Executed ViewResult - view Login executed in 416.1948ms.
+2024-10-06 14:28:20.899 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 952.3207ms
+2024-10-06 14:28:20.899 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:20.905 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1165.8894ms
+2024-10-06 14:28:31.664 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - application/x-www-form-urlencoded 236
+2024-10-06 14:28:31.708 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:31.759 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(APAF.Domain.Core.Dtos.Account.LoginDTO, System.String) on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-06 14:28:34.264 +03:30 [INF] Executed DbCommand (102ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-06 14:28:34.910 +03:30 [INF] Executed DbCommand (25ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-06 14:28:35.023 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-06 14:28:35.108 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-06 14:28:35.225 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-06 14:28:35.260 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-06 14:28:35.272 +03:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-10-06 14:28:35.279 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 3519.2255ms
+2024-10-06 14:28:35.280 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:35.310 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 302 0 null 3645.1089ms
+2024-10-06 14:28:35.311 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:28:35.335 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:35.338 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:28:35.341 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:28:35.405 +03:30 [INF] Executed ViewResult - view Index executed in 65.9023ms.
+2024-10-06 14:28:35.406 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 67.6921ms
+2024-10-06 14:28:35.406 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:35.406 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 95.8552ms
+2024-10-06 14:28:40.820 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-06 14:28:40.827 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:40.838 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-06 14:28:41.030 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-06 14:28:41.056 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-06 14:28:41.132 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 78.5614ms.
+2024-10-06 14:28:41.133 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 294.9642ms
+2024-10-06 14:28:41.134 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:41.135 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 314.3876ms
+2024-10-06 14:28:59.832 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:28:59.869 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:59.869 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:28:59.870 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:28:59.874 +03:30 [INF] Executed ViewResult - view Index executed in 4.0249ms.
+2024-10-06 14:28:59.874 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 4.4367ms
+2024-10-06 14:28:59.874 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:28:59.875 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 42.5888ms
+2024-10-06 14:29:10.842 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Home/privacy - null null
+2024-10-06 14:29:10.847 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Privacy (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:10.852 +03:30 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:29:10.856 +03:30 [INF] Executing ViewResult, running view Privacy.
+2024-10-06 14:29:10.873 +03:30 [INF] Executed ViewResult - view Privacy executed in 18.9776ms.
+2024-10-06 14:29:10.875 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Privacy (AFAP.EndPointMVCPattern) in 20.5933ms
+2024-10-06 14:29:10.875 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Privacy (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:10.876 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Home/privacy - 200 null text/html; charset=utf-8 34.6205ms
+2024-10-06 14:29:17.571 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Animator/AnimatorShowDetailPanel - null null
+2024-10-06 14:29:17.583 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:17.595 +03:30 [INF] Route matched with {action = "AnimatorShowDetailPanel", controller = "Animator"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AnimatorShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController (AFAP.EndPointMVCPattern).
+2024-10-06 14:29:17.681 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FullName], [a].[PhoneNumber], [a].[Gender] AS [gender], [a].[VersionAPK], [a].[TotalScore], [a].[Score], [a].[AvatarId]
+FROM [Animators] AS [a]
+2024-10-06 14:29:17.782 +03:30 [INF] Executing ViewResult, running view AnimatorShowDetailPanel.
+2024-10-06 14:29:17.843 +03:30 [INF] Executed ViewResult - view AnimatorShowDetailPanel executed in 66.2259ms.
+2024-10-06 14:29:17.844 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern) in 248.4373ms
+2024-10-06 14:29:17.844 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Animator.AnimatorController.AnimatorShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:17.845 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Animator/AnimatorShowDetailPanel - 200 null text/html; charset=utf-8 273.3828ms
+2024-10-06 14:29:20.558 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:29:20.564 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:20.564 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:29:20.564 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:29:20.568 +03:30 [INF] Executed ViewResult - view Index executed in 3.2828ms.
+2024-10-06 14:29:20.568 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 4.1913ms
+2024-10-06 14:29:20.569 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:20.570 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 11.1292ms
+2024-10-06 14:29:22.649 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-06 14:29:22.657 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:22.657 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-06 14:29:22.680 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-06 14:29:22.696 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-06 14:29:22.748 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 51.962ms.
+2024-10-06 14:29:22.749 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 91.398ms
+2024-10-06 14:29:22.749 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:22.749 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 99.904ms
+2024-10-06 14:29:32.954 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-06 14:29:32.956 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:32.956 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-06 14:29:32.957 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-06 14:29:32.985 +03:30 [INF] Executed ViewResult - view Index executed in 28.0506ms.
+2024-10-06 14:29:32.985 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 29.1038ms
+2024-10-06 14:29:32.986 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-06 14:29:32.987 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 33.433ms

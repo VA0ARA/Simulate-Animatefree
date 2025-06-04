@@ -1,0 +1,272 @@
+2024-10-21 11:23:01.528 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-21 11:23:02.142 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-21 11:23:02.154 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-21 11:23:02.156 +03:30 [INF] Hosting environment: Development
+2024-10-21 11:23:02.156 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-21 11:23:04.399 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-21 11:23:04.418 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-21 11:23:04.524 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-21 11:23:04.602 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-21 11:23:04.619 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 220.3625ms
+2024-10-21 11:23:04.637 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-21 11:23:04.723 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:04.831 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 11:23:05.290 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-21 11:23:05.608 +03:30 [INF] Executed ViewResult - view Login executed in 322.0366ms.
+2024-10-21 11:23:05.610 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 777.3437ms
+2024-10-21 11:23:05.610 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:05.616 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 978.6868ms
+2024-10-21 11:23:05.693 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - null null
+2024-10-21 11:23:05.712 +03:30 [INF] The file /assets/img/register-cover1.png was not modified
+2024-10-21 11:23:05.718 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/register-cover1.png - 304 null image/png 25.3713ms
+2024-10-21 11:23:19.339 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - application/x-www-form-urlencoded 230
+2024-10-21 11:23:19.356 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:19.398 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(APAF.Domain.Core.Dtos.Account.LoginDTO, System.String) on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-21 11:23:21.725 +03:30 [INF] Executed DbCommand (143ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-21 11:23:22.277 +03:30 [INF] Executed DbCommand (18ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-21 11:23:22.362 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-21 11:23:22.396 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-21 11:23:22.500 +03:30 [INF] Executed DbCommand (28ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-21 11:23:22.522 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-21 11:23:22.541 +03:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-10-21 11:23:22.544 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 3144.4955ms
+2024-10-21 11:23:22.545 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:22.566 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 302 0 null 3227.0911ms
+2024-10-21 11:23:22.567 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-21 11:23:22.583 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:22.586 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-21 11:23:22.589 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-21 11:23:22.662 +03:30 [INF] Executed ViewResult - view Index executed in 74.8866ms.
+2024-10-21 11:23:22.663 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 76.5399ms
+2024-10-21 11:23:22.663 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:22.663 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 95.7531ms
+2024-10-21 11:23:22.710 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/arrow-down-left-square-fill.svg - null null
+2024-10-21 11:23:22.711 +03:30 [INF] The file /assets/img/svg/arrow-down-left-square-fill.svg was not modified
+2024-10-21 11:23:22.712 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/arrow-down-left-square-fill.svg - 304 null image/svg+xml 1.6418ms
+2024-10-21 11:23:22.721 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/icons8-image-file-240.png - null null
+2024-10-21 11:23:22.721 +03:30 [INF] The file /assets/img/png/icons8-image-file-240.png was not modified
+2024-10-21 11:23:22.722 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/icons8-image-file-240.png - 304 null image/png 0.9873ms
+2024-10-21 11:23:22.738 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamer.png - null null
+2024-10-21 11:23:22.739 +03:30 [INF] The file /assets/img/png/Gamer.png was not modified
+2024-10-21 11:23:22.740 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamer.png - 304 null image/png 2.4511ms
+2024-10-21 11:23:22.782 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Score.png - null null
+2024-10-21 11:23:22.783 +03:30 [INF] The file /assets/img/png/Score.png was not modified
+2024-10-21 11:23:22.782 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Admin.png - null null
+2024-10-21 11:23:22.784 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Score.png - 304 null image/png 2.4746ms
+2024-10-21 11:23:22.792 +03:30 [INF] The file /assets/img/png/Admin.png was not modified
+2024-10-21 11:23:22.793 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Admin.png - 304 null image/png 11.2288ms
+2024-10-21 11:23:24.730 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-21 11:23:24.737 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:24.749 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:23:25.026 +03:30 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-21 11:23:25.040 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-21 11:23:25.073 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 34.3991ms.
+2024-10-21 11:23:25.074 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 324.7115ms
+2024-10-21 11:23:25.074 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:25.075 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 345.504ms
+2024-10-21 11:23:25.155 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - null null
+2024-10-21 11:23:25.155 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - null null
+2024-10-21 11:23:25.155 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - null null
+2024-10-21 11:23:25.289 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - 404 0 null 134.3111ms
+2024-10-21 11:23:25.289 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - 404 0 null 134.0961ms
+2024-10-21 11:23:25.290 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - 404 0 null 134.8952ms
+2024-10-21 11:23:25.291 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png, Response status code: 404
+2024-10-21 11:23:25.291 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png, Response status code: 404
+2024-10-21 11:23:25.291 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png, Response status code: 404
+2024-10-21 11:23:27.359 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - null null
+2024-10-21 11:23:27.365 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:27.369 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateAssetbundle() on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:23:27.425 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-21 11:23:27.591 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 167.5413ms.
+2024-10-21 11:23:27.591 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 221.4612ms
+2024-10-21 11:23:27.591 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:27.592 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 232.1612ms
+2024-10-21 11:23:30.488 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundarykPFpqoj9dELjAM2I 1421
+2024-10-21 11:23:30.490 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:23:30.514 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:25:06.417 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-21 11:25:06.760 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 579.3537ms.
+2024-10-21 11:25:06.763 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 96247.6755ms
+2024-10-21 11:25:06.764 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:25:06.764 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 96276.484ms
+2024-10-21 11:25:39.645 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundarytKYsdMB3gVBwi5aQ 1421
+2024-10-21 11:25:39.796 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:25:39.797 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:36:17.454 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-21 11:36:18.085 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-21 11:36:18.091 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-21 11:36:18.093 +03:30 [INF] Hosting environment: Development
+2024-10-21 11:36:18.094 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-21 11:36:18.809 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-21 11:36:18.825 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-21 11:36:19.406 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 11:36:19.447 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-21 11:36:19.466 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-21 11:36:19.641 +03:30 [INF] Executed ViewResult - view Index executed in 178.0707ms.
+2024-10-21 11:36:19.648 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 200.0688ms
+2024-10-21 11:36:19.649 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 11:36:19.660 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 855.1427ms
+2024-10-21 11:36:23.851 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-21 11:36:24.118 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-21 11:36:24.161 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:36:26.446 +03:30 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-21 11:36:26.588 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-21 11:36:26.624 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 37.5212ms.
+2024-10-21 11:36:26.629 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 2466.9129ms
+2024-10-21 11:36:26.630 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-21 11:36:26.652 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 2796.6759ms
+2024-10-21 11:36:26.666 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - null null
+2024-10-21 11:36:26.667 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - null null
+2024-10-21 11:36:26.700 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - null null
+2024-10-21 11:36:26.728 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - 404 0 null 61.0571ms
+2024-10-21 11:36:26.731 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - 404 0 null 30.3801ms
+2024-10-21 11:36:26.731 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - 404 0 null 64.3669ms
+2024-10-21 11:36:26.733 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png, Response status code: 404
+2024-10-21 11:36:26.733 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png, Response status code: 404
+2024-10-21 11:36:26.733 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png, Response status code: 404
+2024-10-21 11:36:26.817 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - null null
+2024-10-21 11:36:26.817 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - null null
+2024-10-21 11:36:26.817 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - null null
+2024-10-21 11:36:26.821 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - 404 0 null 4.0858ms
+2024-10-21 11:36:26.819 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - 404 0 null 2.719ms
+2024-10-21 11:36:26.821 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png, Response status code: 404
+2024-10-21 11:36:26.821 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png, Response status code: 404
+2024-10-21 11:36:26.822 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - 404 0 null 5.062ms
+2024-10-21 11:36:26.822 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png, Response status code: 404
+2024-10-21 11:36:29.383 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - null null
+2024-10-21 11:36:29.394 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:36:29.398 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateAssetbundle() on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:36:29.404 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-21 11:36:29.602 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 199.9404ms.
+2024-10-21 11:36:29.602 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 202.9796ms
+2024-10-21 11:36:29.602 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:36:29.602 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 219.4849ms
+2024-10-21 11:36:33.946 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundarycGAlmiGF9JG5dYRL 1421
+2024-10-21 11:36:33.950 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:36:33.977 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:40:23.456 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-21 11:40:25.320 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 2133.5521ms.
+2024-10-21 11:40:25.321 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 231343.2302ms
+2024-10-21 11:40:25.322 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:40:25.322 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 231375.921ms
+2024-10-21 11:49:13.860 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-21 11:49:14.487 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-21 11:49:14.496 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-21 11:49:14.497 +03:30 [INF] Hosting environment: Development
+2024-10-21 11:49:14.526 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-21 11:49:15.219 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-21 11:49:15.235 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-21 11:49:15.891 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:15.933 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-21 11:49:15.962 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-21 11:49:16.162 +03:30 [INF] Executed ViewResult - view Index executed in 208.2761ms.
+2024-10-21 11:49:16.170 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 235.6676ms
+2024-10-21 11:49:16.170 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:16.180 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 965.2657ms
+2024-10-21 11:49:16.254 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamer.png - null null
+2024-10-21 11:49:16.264 +03:30 [INF] The file /assets/img/png/Gamer.png was not modified
+2024-10-21 11:49:16.266 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Gamer.png - 304 null image/png 12.19ms
+2024-10-21 11:49:16.292 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/arrow-down-left-square-fill.svg - null null
+2024-10-21 11:49:16.293 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Score.png - null null
+2024-10-21 11:49:16.378 +03:30 [INF] The file /assets/img/svg/arrow-down-left-square-fill.svg was not modified
+2024-10-21 11:49:16.378 +03:30 [INF] The file /assets/img/png/Score.png was not modified
+2024-10-21 11:49:16.379 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Score.png - 304 null image/png 86.0788ms
+2024-10-21 11:49:16.379 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/svg/arrow-down-left-square-fill.svg - 304 null image/svg+xml 87.0167ms
+2024-10-21 11:49:16.403 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Admin.png - null null
+2024-10-21 11:49:16.404 +03:30 [INF] The file /assets/img/png/Admin.png was not modified
+2024-10-21 11:49:16.405 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/Admin.png - 304 null image/png 1.0399ms
+2024-10-21 11:49:18.926 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-21 11:49:18.982 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:19.025 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:49:21.395 +03:30 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-21 11:49:21.536 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-21 11:49:21.596 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 62.3116ms.
+2024-10-21 11:49:21.602 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 2575.9537ms
+2024-10-21 11:49:21.603 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:21.613 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 2687.0153ms
+2024-10-21 11:49:21.638 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - null null
+2024-10-21 11:49:21.638 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - null null
+2024-10-21 11:49:21.638 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - null null
+2024-10-21 11:49:21.683 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - 404 0 null 45.0825ms
+2024-10-21 11:49:21.686 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - 404 0 null 47.3494ms
+2024-10-21 11:49:21.686 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png, Response status code: 404
+2024-10-21 11:49:21.686 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - 404 0 null 47.562ms
+2024-10-21 11:49:21.686 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png, Response status code: 404
+2024-10-21 11:49:21.686 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png, Response status code: 404
+2024-10-21 11:49:21.792 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - null null
+2024-10-21 11:49:21.792 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - null null
+2024-10-21 11:49:21.792 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - null null
+2024-10-21 11:49:21.795 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png - 404 0 null 2.9247ms
+2024-10-21 11:49:21.795 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/1705e5e5-5de7-48fb-a8f8-90c0f80895e5.png, Response status code: 404
+2024-10-21 11:49:21.796 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png - 404 0 null 3.4521ms
+2024-10-21 11:49:21.796 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/d5ec944d-ea5b-4d61-911c-5c2d311dc2b7.png, Response status code: 404
+2024-10-21 11:49:21.798 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png - 404 0 null 5.9057ms
+2024-10-21 11:49:21.798 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/ExternalStaticFiles//File/AssetBundelBanner/34b7849b-a69b-4792-bac5-a0249a730f76.png, Response status code: 404
+2024-10-21 11:49:28.965 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - null null
+2024-10-21 11:49:28.973 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:28.979 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateAssetbundle() on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:49:28.986 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-21 11:49:29.155 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 171.9799ms.
+2024-10-21 11:49:29.156 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 175.5522ms
+2024-10-21 11:49:29.156 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:29.157 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 191.6294ms
+2024-10-21 11:49:33.181 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundaryFm3HhTwXQPefi5b3 1421
+2024-10-21 11:49:33.184 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:33.209 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:49:33.333 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-21 11:49:33.348 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 15.1478ms.
+2024-10-21 11:49:33.348 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 138.3299ms
+2024-10-21 11:49:33.348 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:49:33.349 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 167.1403ms
+2024-10-21 11:58:02.057 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundaryFm3HhTwXQPefi5b3 1421
+2024-10-21 11:58:02.986 +03:30 [INF] Executed DbCommand (31ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2024-10-21 11:58:03.270 +03:30 [INF] Executed DbCommand (27ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-21 11:58:03.344 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-21 11:58:03.409 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-21 11:58:03.470 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-21 11:58:03.489 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:58:03.490 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-21 11:58:03.494 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-21 11:58:03.511 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 16.6426ms.
+2024-10-21 11:58:03.511 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 21.0363ms
+2024-10-21 11:58:03.511 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-21 11:58:03.512 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 1461.8353ms

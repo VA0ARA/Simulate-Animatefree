@@ -1,0 +1,87 @@
+﻿
+@model List<APAF.Domain.Core.Dtos.Avatars.AvatarDtos>
+
+ @{
+ ViewBag.Title = " لیست آواتارها";
+} 
+            <main>
+                <!--TableHeader Start-->
+                <header class="page-header page-header-compact page-header-light border-bottom bg-white mb-4 is-rtl">
+                    <div class="container-fluid px-4">
+                        <div class="page-header-content">
+                            <div class="row align-items-center justify-content-between pt-3">
+                                <div class="col-auto mb-3">
+                                    <h1 class="page-header-title">
+                                        <div class="page-header-icon">
+                                            <i class="bx bx-user"></i>
+                                        </div>
+                                        لیست آواتارها 
+                                    </h1>
+                                </div>
+                                <div class="col-12 col-xl-auto mb-3">
+                                    <a class="btn btn-sm btn-light text-primary" asp-area="" asp-controller="Home" asp-action="Index">
+                                        <i class="bx bx-group me-1"></i>
+                                        بازگشت
+                                    </a>
+                                    <a class="btn btn-sm btn-light text-primary" asp-area="" asp-controller="Avatar" asp-action="CreateAvatar">
+                                        <i class="bx bx-user-plus me-1"></i>
+                                         آواتار جدید
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!--TabalHeader End-->
+                <!--Tabal Start-->
+                <div class="container-fluid px-4 is-rtl">
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="datatablesSimple">
+                                <thead>
+                                    <tr>
+                                        <th>عکس</th>
+                                        <th>شناسه</th>
+                                        <th>نام</th>
+                                        <th>وضعیت</th> 
+                                        <th>عملیات</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th>عکس</th>
+                                        <th>شناسه</th>
+                                        <th>نام</th>
+                                         <th>وضعیت</th> 
+                                        <th>عملیات</th>
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+                                    @foreach (var Avatar in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar me-2"><img class="avatar-img img-fluid" src="/@(Avatar.FilePath.StartsWith("/") ? Avatar.FilePath.Substring(1) : Avatar.FilePath)"></div>
+                                                </div>
+                                            </td>
+                                            <td>@Avatar.Id</td>
+                                            <td>@Avatar.Name</td>
+                                            <td>@(Avatar.DoesItRemove ? "فعال نیست" : "فعال است")</td> <!-- Converted boolean to Active/Deactive -->
+                                            <td>
+                                                <a class="btn btn-datatable btn-icon btn-transparent-dark me-2" asp-area="" asp-controller="Avatar" asp-action="EditAvatar" asp-route-id="@Avatar.Id"><i class="bx bx-edit"></i></a>
+                                                @*<form method="post" asp-action="DeleteAvatar" asp-controller="Avatar" asp-route-id="@Avatar.Id">
+                                                <button type="submit" class="btn btn-datatable btn-icon btn-transparent-dark">
+                                                <i class="bx bx-trash"></i>
+                                                </button>
+                                                </form>*@
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!--Table End-->
+            </main>

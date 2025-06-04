@@ -1,0 +1,937 @@
+{
+  "Files": [
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/obj/Release/net8.0/linux-x64/scopedcss/projectbundle/AFAP.EndPointMVCPattern.bundle.scp.css",
+      "PackagePath": "staticwebassets/AFAP.EndPointMVCPattern.bundle.scp.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AssetBundelBanner/224748f7-2aea-4c11-9e76-62b5fa3b626f.png",
+      "PackagePath": "staticwebassets/File/AssetBundelBanner/224748f7-2aea-4c11-9e76-62b5fa3b626f.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AssetBundelBanner/63a6302c-1f43-4dc6-85c7-0d02e67f623c.png",
+      "PackagePath": "staticwebassets/File/AssetBundelBanner/63a6302c-1f43-4dc6-85c7-0d02e67f623c.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AssetBundelBanner/b71fd578-bd90-4e43-8778-561f35c538a8.png",
+      "PackagePath": "staticwebassets/File/AssetBundelBanner/b71fd578-bd90-4e43-8778-561f35c538a8.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AssetBundelanim/0c6829a8-0d49-4546-a3e1-b7d31f9f8e04.anim",
+      "PackagePath": "staticwebassets/File/AssetBundelanim/0c6829a8-0d49-4546-a3e1-b7d31f9f8e04.anim"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AssetBundelanim/89f3012e-8045-4655-b538-ab757b42d995.anim",
+      "PackagePath": "staticwebassets/File/AssetBundelanim/89f3012e-8045-4655-b538-ab757b42d995.anim"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AssetBundelanim/a0dbb999-8e52-4ecd-9795-9abbe8af8b24.anim",
+      "PackagePath": "staticwebassets/File/AssetBundelanim/a0dbb999-8e52-4ecd-9795-9abbe8af8b24.anim"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AvatrFile/2aeeb0e0-0c0d-4d55-a87c-7893360a6f59.png",
+      "PackagePath": "staticwebassets/File/AvatrFile/2aeeb0e0-0c0d-4d55-a87c-7893360a6f59.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AvatrFile/b9136523-9602-433b-b10c-7eacdbac86da.png",
+      "PackagePath": "staticwebassets/File/AvatrFile/b9136523-9602-433b-b10c-7eacdbac86da.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/File/AvatrFile/cf49e520-7958-4971-8d60-aaece6df70ae26.png",
+      "PackagePath": "staticwebassets/File/AvatrFile/cf49e520-7958-4971-8d60-aaece6df70ae26.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/animate.css",
+      "PackagePath": "staticwebassets/assets/css/animate.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/boxicons.css",
+      "PackagePath": "staticwebassets/assets/css/boxicons.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/data-table.css",
+      "PackagePath": "staticwebassets/assets/css/data-table.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/easymde.min.css",
+      "PackagePath": "staticwebassets/assets/css/easymde.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/fonts.css",
+      "PackagePath": "staticwebassets/assets/css/fonts.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/persian-datepicker.css",
+      "PackagePath": "staticwebassets/assets/css/persian-datepicker.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/style.css",
+      "PackagePath": "staticwebassets/assets/css/style.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/css/styles.ltr.css",
+      "PackagePath": "staticwebassets/assets/css/styles.ltr.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/boxicons.eot",
+      "PackagePath": "staticwebassets/assets/fonts/boxicons.eot"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/boxicons.svg",
+      "PackagePath": "staticwebassets/assets/fonts/boxicons.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/boxicons.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/boxicons.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/boxicons.woff",
+      "PackagePath": "staticwebassets/assets/fonts/boxicons.woff"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/boxicons.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/boxicons.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-Black.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-Black.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-Bold.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-Bold.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-ExtraBold.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-ExtraLight.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-Light.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-Light.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-Medium.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-Medium.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-Regular.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-Regular.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-SemiBold.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-SemiBold.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/ttf/Vazirmatn-FD-Thin.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/ttf/Vazirmatn-FD-Thin.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Black.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-Black.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-ExtraBold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-ExtraBold.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-ExtraLight.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-ExtraLight.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/vazir/webfonts/Vazirmatn-FD-Thin.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/vazir/webfonts/Vazirmatn-FD-Thin.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-3s.eot",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-3s.eot"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-3s.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-3s.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-3s.woff",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-3s.woff"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-3s.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-3s.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-4s.eot",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-4s.eot"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-4s.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-4s.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-4s.woff",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-4s.woff"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-4s.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-4s.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-5s.eot",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-5s.eot"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-5s.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-5s.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-5s.woff",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-5s.woff"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-5s.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-5s.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-7s.eot",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-7s.eot"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-7s.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-7s.ttf"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-7s.woff",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-7s.woff"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/fonts/yekan-7s.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/yekan-7s.woff2"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/background.jpg",
+      "PackagePath": "staticwebassets/assets/img/background.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/favicon.png",
+      "PackagePath": "staticwebassets/assets/img/favicon.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/illustration.png",
+      "PackagePath": "staticwebassets/assets/img/illustration.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/APKS.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/APKS.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Admin.png",
+      "PackagePath": "staticwebassets/assets/img/png/Admin.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/AssetBundel.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/AssetBundel.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Avatars.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/Avatars.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/File.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/File.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Gamer.png",
+      "PackagePath": "staticwebassets/assets/img/png/Gamer.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Gamers.png",
+      "PackagePath": "staticwebassets/assets/img/png/Gamers.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Score.png",
+      "PackagePath": "staticwebassets/assets/img/png/Score.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/Users.png",
+      "PackagePath": "staticwebassets/assets/img/png/Users.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/bank1.png",
+      "PackagePath": "staticwebassets/assets/img/png/bank1.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/bank2.png",
+      "PackagePath": "staticwebassets/assets/img/png/bank2.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/bank3.png",
+      "PackagePath": "staticwebassets/assets/img/png/bank3.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/bg-pattern-shapes.png",
+      "PackagePath": "staticwebassets/assets/img/png/bg-pattern-shapes.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/cards/card-img-bottom.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/cards/card-img-bottom.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/cards/card-img-left.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/cards/card-img-left.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/cards/card-img-overlay.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/cards/card-img-overlay.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/cards/card-img-right.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/cards/card-img-right.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/cards/card-img-top.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/cards/card-img-top.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/cartoons.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/cartoons.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/demo-ocean-sm.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/demo-ocean-sm.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/icons8-image-file-240.png",
+      "PackagePath": "staticwebassets/assets/img/png/icons8-image-file-240.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/icons8-image-file-48.png",
+      "PackagePath": "staticwebassets/assets/img/png/icons8-image-file-48.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-1.png",
+      "PackagePath": "staticwebassets/assets/img/png/profile-1.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-2.png",
+      "PackagePath": "staticwebassets/assets/img/png/profile-2.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-3.png",
+      "PackagePath": "staticwebassets/assets/img/png/profile-3.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-4.png",
+      "PackagePath": "staticwebassets/assets/img/png/profile-4.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-5.png",
+      "PackagePath": "staticwebassets/assets/img/png/profile-5.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-6.png",
+      "PackagePath": "staticwebassets/assets/img/png/profile-6.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/profile-upload.png",
+      "PackagePath": "staticwebassets/assets/img/png/profile-upload.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/register.jpg",
+      "PackagePath": "staticwebassets/assets/img/png/register.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-1.jpg",
+      "PackagePath": "staticwebassets/assets/img/profile-1.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-2.jpg",
+      "PackagePath": "staticwebassets/assets/img/profile-2.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-3.jpg",
+      "PackagePath": "staticwebassets/assets/img/profile-3.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/profile-4.jpg",
+      "PackagePath": "staticwebassets/assets/img/profile-4.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/register-cover1.png",
+      "PackagePath": "staticwebassets/assets/img/register-cover1.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/articles-base.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/articles-base.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/articles-category.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/articles-category.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/articles-tarh1.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/articles-tarh1.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/articles-tarh2.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/articles-tarh2.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-forget-basic.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-forget-basic.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-forget-cover.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-forget-cover.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-login-basic.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-login-basic.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-login-cover.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-login-cover.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-mobile.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-mobile.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-register-basic.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-register-basic.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-register-cover.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-register-cover.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/auth-register-step.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/auth-register-step.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/dashboards-affiliate.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/dashboards-affiliate.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/dashboards-default.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/dashboards-default.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/dashboards-multi.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/dashboards-multi.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/flows-multi-wizard.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/flows-multi-wizard.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/invoice.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/invoice.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/pricing.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/pricing.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/profile-billing.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/profile-billing.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/profile-notifications.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/profile-notifications.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/profile-security.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/profile-security.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/screen/profile.jpg",
+      "PackagePath": "staticwebassets/assets/img/screen/profile.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/400-error-bad-request.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/400-error-bad-request.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/401-error-unauthorized.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/401-error-unauthorized.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/403-error-forbidden.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/403-error-forbidden.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/404-error-with-a-cute-animal.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/404-error-with-a-cute-animal.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/404-error.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/404-error.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/500-internal-server-error.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/500-internal-server-error.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/503-error-service-unavailable.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/503-error-service-unavailable.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/504-error-gateway-timeout.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/504-error-gateway-timeout.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/amar.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/amar.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/arrow-down-left-square-fill.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/arrow-down-left-square-fill.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/arrow-down-right-square-fill.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/arrow-down-right-square-fill.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/at-work.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/at-work.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/bg-angles.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/bg-angles.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/bg-waves.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/bg-waves.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/browser-stats.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/browser-stats.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/demo-ocean-lg.jpg",
+      "PackagePath": "staticwebassets/assets/img/svg/demo-ocean-lg.jpg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/problem-solving.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/problem-solving.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/processing.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/processing.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/profile-1.png",
+      "PackagePath": "staticwebassets/assets/img/svg/profile-1.png"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/pug.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/pug.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/report.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/report.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/team-spirit.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/team-spirit.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/svg/windows.svg",
+      "PackagePath": "staticwebassets/assets/img/svg/windows.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/FormValidation/AutoFocus.min.js",
+      "PackagePath": "staticwebassets/assets/js/FormValidation/AutoFocus.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/FormValidation/Bootstrap5.min.js",
+      "PackagePath": "staticwebassets/assets/js/FormValidation/Bootstrap5.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/FormValidation/FormValidation.min.js",
+      "PackagePath": "staticwebassets/assets/js/FormValidation/FormValidation.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/all.min.js",
+      "PackagePath": "staticwebassets/assets/js/all.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/auth-base.js",
+      "PackagePath": "staticwebassets/assets/js/auth-base.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/auth-mobile.js",
+      "PackagePath": "staticwebassets/assets/js/auth-mobile.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/assets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/Chart.min.js",
+      "PackagePath": "staticwebassets/assets/js/chart/Chart.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/apexchart-sale.js",
+      "PackagePath": "staticwebassets/assets/js/chart/apexchart-sale.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/apexchart-social.js",
+      "PackagePath": "staticwebassets/assets/js/chart/apexchart-social.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/apexcharts.js",
+      "PackagePath": "staticwebassets/assets/js/chart/apexcharts.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/chart-area.js",
+      "PackagePath": "staticwebassets/assets/js/chart/chart-area.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/chart-bar.js",
+      "PackagePath": "staticwebassets/assets/js/chart/chart-bar.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/chart-pie.js",
+      "PackagePath": "staticwebassets/assets/js/chart/chart-pie.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/chart/chart-users.js",
+      "PackagePath": "staticwebassets/assets/js/chart/chart-users.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/demo-toasts.js",
+      "PackagePath": "staticwebassets/assets/js/demo-toasts.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/easymde.min.js",
+      "PackagePath": "staticwebassets/assets/js/easymde.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/feather.min.js",
+      "PackagePath": "staticwebassets/assets/js/feather.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/font-awesome.min.js",
+      "PackagePath": "staticwebassets/assets/js/font-awesome.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/jquery.js",
+      "PackagePath": "staticwebassets/assets/js/jquery.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/persian-date.js",
+      "PackagePath": "staticwebassets/assets/js/persian-date.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/persian-datepicker.js",
+      "PackagePath": "staticwebassets/assets/js/persian-datepicker.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/sb-customizer.js",
+      "PackagePath": "staticwebassets/assets/js/sb-customizer.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/scripts.js",
+      "PackagePath": "staticwebassets/assets/js/scripts.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/simple-datatables@demo.js",
+      "PackagePath": "staticwebassets/assets/js/simple-datatables@demo.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/simple-datatables@latest.js",
+      "PackagePath": "staticwebassets/assets/js/simple-datatables@latest.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/state-city.js",
+      "PackagePath": "staticwebassets/assets/js/state-city.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/js/toasts.js",
+      "PackagePath": "staticwebassets/assets/js/toasts.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/error.svg",
+      "PackagePath": "staticwebassets/error.svg"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.AFAP.EndPointMVCPattern.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.build.AFAP.EndPointMVCPattern.props",
+      "PackagePath": "build\\AFAP.EndPointMVCPattern.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.buildMultiTargeting.AFAP.EndPointMVCPattern.props",
+      "PackagePath": "buildMultiTargeting\\AFAP.EndPointMVCPattern.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.buildTransitive.AFAP.EndPointMVCPattern.props",
+      "PackagePath": "buildTransitive\\AFAP.EndPointMVCPattern.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

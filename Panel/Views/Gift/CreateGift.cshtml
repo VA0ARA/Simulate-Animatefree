@@ -1,0 +1,78 @@
+﻿        
+@model APAF.Domain.Core.Dtos.Gifts.GiftDto
+@{
+}
+@using APAF.Domain.Core.Enums
+ @{
+ ViewBag.Title = " ساخت جایزه";
+} 
+            <main>
+                <header class="page-header page-header-compact page-header-light border-bottom bg-white mb-4 is-rtl">
+                    <div class="container-xl px-4">
+                        <div class="page-header-content">
+                            <div class="row align-items-center justify-content-between pt-3">
+                                <div class="col-auto mb-3">
+                                    <h1 class="page-header-title">
+                                        <i class="bx bx-package me-1"></i>
+                                        آپلود فایل جایزه
+                                    </h1>
+                                </div>
+                                <div class="col-12 col-xl-auto mb-3">
+                                    <a class="btn btn-sm btn-light text-primary" asp-area="" asp-controller="Gift" asp-action="ListOfGifts">
+                                        <i class="bx bx-group me-1"></i>
+                                        برگشت به لیست
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="container-xl px-4 mt-4 is-rtl">
+                    <div asp-validation-summary="All"></div>
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <input asp-for="PathOfFile" hidden />
+                            <div class="col-xl-4">
+                                <div class="card mb-4 mb-xl-0">
+                                    <div class="card-header"> فایل</div>
+                                    <div class="card-body text-center">
+                                        <img class="img-account-profile rounded-circle mb-2" src="~/img/png/File.jpg" alt="">
+                                        <div class="small font-italic text-muted mb-4"> PNG | حداکثر 10 مگابایت</div>
+                                        <input type="file" name="file" class="form-control border-0 shadow"/>
+                                        @*<button class="btn btn-primary" type="button">انتخاب فایل</button>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card mb-4">
+                                    <div class="card-header">مشخصات فایل </div>
+                                    <div class="card-body">
+
+                                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputFirstName"> نام جایزه </label>
+                                    <input type="text" class="form-control" id="Name" asp-for="Name" placeholder="نام جایزه را وارد کنید" />
+                                <span class="text-danger" asp-validation-for="Name"></span>
+                            </div>
+                                <div class="col-md-6">
+                                <label class="small mb-1" for="inputFirstName">  توضیحات </label>
+                                    <input type="text" class="form-control" id="Name" asp-for="Name" placeholder=" توضیحات را وارد کنید" />
+                                <span class="text-danger" asp-validation-for="Name"></span>
+                            </div>
+                        </div>
+                        <label class="small mb-1">وضعیت جایزه </label>
+                        <div class="form-check">
+                            <input class="form-check-input" data-val="false" id="falseDoesItRemove" name="DoesItRemove" type="radio" value="false">
+                            <label class="form-check-label cursor-pointer" for="groupSales">فعال</label>
+                        </div>
+                        <div class="form-check">
+                             <input class="form-check-input" data-val="true" id="trugroupDevs" name="DoesItRemove" type="radio" value="true">
+                            <label class="form-check-label cursor-pointer" for="groupDevs">غیر فعال</label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">ذخیره</button>
+                    </form>
+                </div>
+        </div>
+
+    </main>

@@ -1,0 +1,893 @@
+{
+  "Files": [
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/obj/Debug/net8.0/scopedcss/projectbundle/Panel.bundle.scp.css",
+      "PackagePath": "staticwebassets/Panel.bundle.scp.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/animate.css",
+      "PackagePath": "staticwebassets/css/animate.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/boxicons.css",
+      "PackagePath": "staticwebassets/css/boxicons.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/data-table.css",
+      "PackagePath": "staticwebassets/css/data-table.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/easymde.min.css",
+      "PackagePath": "staticwebassets/css/easymde.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/fonts.css",
+      "PackagePath": "staticwebassets/css/fonts.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/persian-datepicker.css",
+      "PackagePath": "staticwebassets/css/persian-datepicker.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/css/styles.ltr.css",
+      "PackagePath": "staticwebassets/css/styles.ltr.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/boxicons.eot",
+      "PackagePath": "staticwebassets/fonts/boxicons.eot"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/boxicons.svg",
+      "PackagePath": "staticwebassets/fonts/boxicons.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/boxicons.ttf",
+      "PackagePath": "staticwebassets/fonts/boxicons.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/boxicons.woff",
+      "PackagePath": "staticwebassets/fonts/boxicons.woff"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/boxicons.woff2",
+      "PackagePath": "staticwebassets/fonts/boxicons.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-Black.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-Black.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-Bold.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-ExtraBold.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-ExtraLight.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-Light.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-Medium.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-Medium.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-Regular.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-SemiBold.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-SemiBold.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/ttf/Vazirmatn-FD-Thin.ttf",
+      "PackagePath": "staticwebassets/fonts/vazir/ttf/Vazirmatn-FD-Thin.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-Black.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-Black.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-Bold.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-ExtraBold.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-ExtraBold.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-ExtraLight.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-ExtraLight.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-Light.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-Medium.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-Regular.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-SemiBold.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/vazir/webfonts/Vazirmatn-FD-Thin.woff2",
+      "PackagePath": "staticwebassets/fonts/vazir/webfonts/Vazirmatn-FD-Thin.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-3s.eot",
+      "PackagePath": "staticwebassets/fonts/yekan-3s.eot"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-3s.ttf",
+      "PackagePath": "staticwebassets/fonts/yekan-3s.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-3s.woff",
+      "PackagePath": "staticwebassets/fonts/yekan-3s.woff"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-3s.woff2",
+      "PackagePath": "staticwebassets/fonts/yekan-3s.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-4s.eot",
+      "PackagePath": "staticwebassets/fonts/yekan-4s.eot"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-4s.ttf",
+      "PackagePath": "staticwebassets/fonts/yekan-4s.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-4s.woff",
+      "PackagePath": "staticwebassets/fonts/yekan-4s.woff"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-4s.woff2",
+      "PackagePath": "staticwebassets/fonts/yekan-4s.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-5s.eot",
+      "PackagePath": "staticwebassets/fonts/yekan-5s.eot"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-5s.ttf",
+      "PackagePath": "staticwebassets/fonts/yekan-5s.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-5s.woff",
+      "PackagePath": "staticwebassets/fonts/yekan-5s.woff"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-5s.woff2",
+      "PackagePath": "staticwebassets/fonts/yekan-5s.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-7s.eot",
+      "PackagePath": "staticwebassets/fonts/yekan-7s.eot"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-7s.ttf",
+      "PackagePath": "staticwebassets/fonts/yekan-7s.ttf"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-7s.woff",
+      "PackagePath": "staticwebassets/fonts/yekan-7s.woff"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/fonts/yekan-7s.woff2",
+      "PackagePath": "staticwebassets/fonts/yekan-7s.woff2"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/background.jpg",
+      "PackagePath": "staticwebassets/img/background.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/favicon.png",
+      "PackagePath": "staticwebassets/img/favicon.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/illustration.png",
+      "PackagePath": "staticwebassets/img/illustration.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/APKS.jpg",
+      "PackagePath": "staticwebassets/img/png/APKS.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/Admin.png",
+      "PackagePath": "staticwebassets/img/png/Admin.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/AssetBundel.jpg",
+      "PackagePath": "staticwebassets/img/png/AssetBundel.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/Avatars.jpg",
+      "PackagePath": "staticwebassets/img/png/Avatars.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/File.jpg",
+      "PackagePath": "staticwebassets/img/png/File.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/Gamer.png",
+      "PackagePath": "staticwebassets/img/png/Gamer.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/Gamers.png",
+      "PackagePath": "staticwebassets/img/png/Gamers.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/Score.png",
+      "PackagePath": "staticwebassets/img/png/Score.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/Users.png",
+      "PackagePath": "staticwebassets/img/png/Users.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/bank1.png",
+      "PackagePath": "staticwebassets/img/png/bank1.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/bank2.png",
+      "PackagePath": "staticwebassets/img/png/bank2.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/bank3.png",
+      "PackagePath": "staticwebassets/img/png/bank3.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/bg-pattern-shapes.png",
+      "PackagePath": "staticwebassets/img/png/bg-pattern-shapes.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/cards/card-img-bottom.jpg",
+      "PackagePath": "staticwebassets/img/png/cards/card-img-bottom.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/cards/card-img-left.jpg",
+      "PackagePath": "staticwebassets/img/png/cards/card-img-left.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/cards/card-img-overlay.jpg",
+      "PackagePath": "staticwebassets/img/png/cards/card-img-overlay.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/cards/card-img-right.jpg",
+      "PackagePath": "staticwebassets/img/png/cards/card-img-right.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/cards/card-img-top.jpg",
+      "PackagePath": "staticwebassets/img/png/cards/card-img-top.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/cartoons.jpg",
+      "PackagePath": "staticwebassets/img/png/cartoons.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/demo-ocean-sm.jpg",
+      "PackagePath": "staticwebassets/img/png/demo-ocean-sm.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/icons8-image-file-240.png",
+      "PackagePath": "staticwebassets/img/png/icons8-image-file-240.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/icons8-image-file-48.png",
+      "PackagePath": "staticwebassets/img/png/icons8-image-file-48.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/profile-1.png",
+      "PackagePath": "staticwebassets/img/png/profile-1.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/profile-2.png",
+      "PackagePath": "staticwebassets/img/png/profile-2.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/profile-3.png",
+      "PackagePath": "staticwebassets/img/png/profile-3.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/profile-4.png",
+      "PackagePath": "staticwebassets/img/png/profile-4.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/profile-5.png",
+      "PackagePath": "staticwebassets/img/png/profile-5.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/profile-6.png",
+      "PackagePath": "staticwebassets/img/png/profile-6.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/profile-upload.png",
+      "PackagePath": "staticwebassets/img/png/profile-upload.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/png/register.jpg",
+      "PackagePath": "staticwebassets/img/png/register.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/profile-1.jpg",
+      "PackagePath": "staticwebassets/img/profile-1.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/profile-2.jpg",
+      "PackagePath": "staticwebassets/img/profile-2.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/profile-3.jpg",
+      "PackagePath": "staticwebassets/img/profile-3.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/profile-4.jpg",
+      "PackagePath": "staticwebassets/img/profile-4.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/register-cover1.png",
+      "PackagePath": "staticwebassets/img/register-cover1.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/articles-base.jpg",
+      "PackagePath": "staticwebassets/img/screen/articles-base.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/articles-category.jpg",
+      "PackagePath": "staticwebassets/img/screen/articles-category.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/articles-tarh1.jpg",
+      "PackagePath": "staticwebassets/img/screen/articles-tarh1.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/articles-tarh2.jpg",
+      "PackagePath": "staticwebassets/img/screen/articles-tarh2.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-forget-basic.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-forget-basic.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-forget-cover.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-forget-cover.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-login-basic.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-login-basic.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-login-cover.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-login-cover.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-mobile.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-mobile.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-register-basic.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-register-basic.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-register-cover.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-register-cover.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/auth-register-step.jpg",
+      "PackagePath": "staticwebassets/img/screen/auth-register-step.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/dashboards-affiliate.jpg",
+      "PackagePath": "staticwebassets/img/screen/dashboards-affiliate.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/dashboards-default.jpg",
+      "PackagePath": "staticwebassets/img/screen/dashboards-default.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/dashboards-multi.jpg",
+      "PackagePath": "staticwebassets/img/screen/dashboards-multi.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/flows-multi-wizard.jpg",
+      "PackagePath": "staticwebassets/img/screen/flows-multi-wizard.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/invoice.jpg",
+      "PackagePath": "staticwebassets/img/screen/invoice.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/pricing.jpg",
+      "PackagePath": "staticwebassets/img/screen/pricing.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/profile-billing.jpg",
+      "PackagePath": "staticwebassets/img/screen/profile-billing.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/profile-notifications.jpg",
+      "PackagePath": "staticwebassets/img/screen/profile-notifications.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/profile-security.jpg",
+      "PackagePath": "staticwebassets/img/screen/profile-security.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/screen/profile.jpg",
+      "PackagePath": "staticwebassets/img/screen/profile.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/400-error-bad-request.svg",
+      "PackagePath": "staticwebassets/img/svg/400-error-bad-request.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/401-error-unauthorized.svg",
+      "PackagePath": "staticwebassets/img/svg/401-error-unauthorized.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/403-error-forbidden.svg",
+      "PackagePath": "staticwebassets/img/svg/403-error-forbidden.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/404-error-with-a-cute-animal.svg",
+      "PackagePath": "staticwebassets/img/svg/404-error-with-a-cute-animal.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/404-error.svg",
+      "PackagePath": "staticwebassets/img/svg/404-error.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/500-internal-server-error.svg",
+      "PackagePath": "staticwebassets/img/svg/500-internal-server-error.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/503-error-service-unavailable.svg",
+      "PackagePath": "staticwebassets/img/svg/503-error-service-unavailable.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/504-error-gateway-timeout.svg",
+      "PackagePath": "staticwebassets/img/svg/504-error-gateway-timeout.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/amar.svg",
+      "PackagePath": "staticwebassets/img/svg/amar.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/arrow-down-left-square-fill.svg",
+      "PackagePath": "staticwebassets/img/svg/arrow-down-left-square-fill.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/arrow-down-right-square-fill.svg",
+      "PackagePath": "staticwebassets/img/svg/arrow-down-right-square-fill.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/at-work.svg",
+      "PackagePath": "staticwebassets/img/svg/at-work.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/bg-angles.svg",
+      "PackagePath": "staticwebassets/img/svg/bg-angles.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/bg-waves.svg",
+      "PackagePath": "staticwebassets/img/svg/bg-waves.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/browser-stats.svg",
+      "PackagePath": "staticwebassets/img/svg/browser-stats.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/demo-ocean-lg.jpg",
+      "PackagePath": "staticwebassets/img/svg/demo-ocean-lg.jpg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/problem-solving.svg",
+      "PackagePath": "staticwebassets/img/svg/problem-solving.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/processing.svg",
+      "PackagePath": "staticwebassets/img/svg/processing.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/profile-1.png",
+      "PackagePath": "staticwebassets/img/svg/profile-1.png"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/pug.svg",
+      "PackagePath": "staticwebassets/img/svg/pug.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/report.svg",
+      "PackagePath": "staticwebassets/img/svg/report.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/team-spirit.svg",
+      "PackagePath": "staticwebassets/img/svg/team-spirit.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/img/svg/windows.svg",
+      "PackagePath": "staticwebassets/img/svg/windows.svg"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/FormValidation/AutoFocus.min.js",
+      "PackagePath": "staticwebassets/js/FormValidation/AutoFocus.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/FormValidation/Bootstrap5.min.js",
+      "PackagePath": "staticwebassets/js/FormValidation/Bootstrap5.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/FormValidation/FormValidation.min.js",
+      "PackagePath": "staticwebassets/js/FormValidation/FormValidation.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/all.min.js",
+      "PackagePath": "staticwebassets/js/all.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/auth-base.js",
+      "PackagePath": "staticwebassets/js/auth-base.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/auth-mobile.js",
+      "PackagePath": "staticwebassets/js/auth-mobile.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/Chart.min.js",
+      "PackagePath": "staticwebassets/js/chart/Chart.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/apexchart-sale.js",
+      "PackagePath": "staticwebassets/js/chart/apexchart-sale.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/apexchart-social.js",
+      "PackagePath": "staticwebassets/js/chart/apexchart-social.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/apexcharts.js",
+      "PackagePath": "staticwebassets/js/chart/apexcharts.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/chart-area.js",
+      "PackagePath": "staticwebassets/js/chart/chart-area.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/chart-bar.js",
+      "PackagePath": "staticwebassets/js/chart/chart-bar.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/chart-pie.js",
+      "PackagePath": "staticwebassets/js/chart/chart-pie.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/chart/chart-users.js",
+      "PackagePath": "staticwebassets/js/chart/chart-users.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/demo-toasts.js",
+      "PackagePath": "staticwebassets/js/demo-toasts.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/easymde.min.js",
+      "PackagePath": "staticwebassets/js/easymde.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/feather.min.js",
+      "PackagePath": "staticwebassets/js/feather.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/font-awesome.min.js",
+      "PackagePath": "staticwebassets/js/font-awesome.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/jquery.js",
+      "PackagePath": "staticwebassets/js/jquery.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/persian-date.js",
+      "PackagePath": "staticwebassets/js/persian-date.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/persian-datepicker.js",
+      "PackagePath": "staticwebassets/js/persian-datepicker.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/sb-customizer.js",
+      "PackagePath": "staticwebassets/js/sb-customizer.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/scripts.js",
+      "PackagePath": "staticwebassets/js/scripts.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/simple-datatables@demo.js",
+      "PackagePath": "staticwebassets/js/simple-datatables@demo.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/simple-datatables@latest.js",
+      "PackagePath": "staticwebassets/js/simple-datatables@latest.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/state-city.js",
+      "PackagePath": "staticwebassets/js/state-city.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/js/toasts.js",
+      "PackagePath": "staticwebassets/js/toasts.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/vahid/Project/animatefreeapiandadminpanel/Panel/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Panel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Panel.props",
+      "PackagePath": "build\\Panel.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Panel.props",
+      "PackagePath": "buildMultiTargeting\\Panel.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Panel.props",
+      "PackagePath": "buildTransitive\\Panel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

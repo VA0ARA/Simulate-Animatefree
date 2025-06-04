@@ -1,0 +1,50 @@
+﻿@model List<APAF.Domain.Core.Dtos.Matchs.MatchDto>
+
+@{
+}
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1> لیست مسابقات<h1>
+    </div>
+</div>
+<div class="container py-5">
+    @if (Model != null && Model.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>نام  </td>
+                    <td>امتیاز</td>
+                    @*                     <td>نام فایل </td> *@
+                    <td>شناسه</td>
+                    <td>نوع فایل </td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var match in Model)
+                {
+                    <tr>
+                        <td>@match.Name</td>
+                        <td>@match.Score</td>
+                        <td>@match.Id</td>
+                        @*                      <td>@match.AssetBundles.Name</td> *@
+                        <td>@match.Type.ToString()</td>
+                        <td>
+                            <a asp-area=""
+                               asp-controller="Match"
+                               asp-action="EditMatch"
+                               asp-route-id="@match.Id">
+                                ویرایش
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No Blog Posts Found!</p>
+    }
+
+</div>

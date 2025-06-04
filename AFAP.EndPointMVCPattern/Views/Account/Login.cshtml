@@ -1,0 +1,89 @@
+﻿@model APAF.Domain.Core.Dtos.Account.LoginDTO
+@{
+    ViewBag.Title = "Login";
+    ViewBag.CurrentUrl = "~/Account/Login";
+}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>صفحه ورود مدیران محصول</title>
+    <link rel="stylesheet" href="~/assets/css/fonts.css">
+    <link rel="stylesheet" href="~/assets/css/boxicons.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+</head>
+<body>
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container-xl px-4 mt-15 is-rtl">
+                    <div class="row justify-content-center ">
+                        <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center">
+                            <div class="flex-row text-center mx-auto">
+                                <img src="~/assets/img/register-cover1.png" alt="Auth Cover Bg color" width="520" class="mb-3 img-fluid authentication-cover-img" style="border: 2px solid #000;">
+                                <div class="mx-auto">
+                                    <h3>چند کلیک تا شروع</h3>
+                                    <p>
+                                        پنل مدیریت انیمیت فری -ساخت انیمیشن کوتاه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header justify-content-center"><h3 class="fw-light my-2">ورود به حساب کاربری</h3></div>
+                                <div class="card-body">
+                                    <form asp-controller="Account" asp-action="Login" asp-route-ReturnUrl="@Context.Request.Query["ReturnUrl"]" method="post">
+
+                                        <!-- نام ایمیل -->
+                                        <div class="mb-3">
+                                            <label asp-for="Email" class="form-label pt">ایمیل</label>
+                                            <input asp-for="Email" class="form-control text-start" dir="ltr" placeholder="نام کاربری خود را وارد کنید" />
+                                             <span asp-validation-for="Email" class="text-red"></span> 
+                                        </div>
+                                        <!-- رمز عبور -->
+                                        <div class="mb-3">
+                                            <label asp-for="Password" class="small mb-1" >رمز عبور</label>
+                                                <input asp-for="Password" type="password" class="form-control text-start" dir="ltr" placeholder="کلمه عبور را وارد کنید" aria-describedby="inputPassword">
+                                                 <span asp-validation-for="Password" class="text-red"></span> 
+                                        </div>
+                                        <button class="btn btn-primary btn-block w-100" type="submit">ورود</button>
+                                        @if (ViewBag.Errors != null)
+                                        {
+                                            <div class="text-red ml">
+                                                <ul>
+                                                    @foreach (string error in ViewBag.Errors)
+                                                    {
+                                                        <li class="ml">@error</li>
+                                                    }
+                                                </ul>
+                                            </div>
+                                        }
+                                    </form>
+                                 <div class="circle circle-two"></div>
+                                </div>
+@*                                 <div class="small">حساب ایجاد نکردید؟ <a href="../register/basic.html">ایجاد کنید</a></div> *@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </main>
+    </div>
+    <div id="layoutAuthentication_footer">
+        <footer class="footer-admin mt-auto is-rtl">
+            <div class="container-xl px-4">
+                <div class="row">
+                    <div class="col-md-6 small">طراحی مسابقات انیمیشن </div>
+                    <div class="col-md-6 text-md-end small">
+                        <a href="#!">پنل مدیریت کاربران ‍</a>
+                        ·
+                        <a href="#!">بارگذاری فایلها-داوری مسابقات</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/scripts.js"></script>
+    <script src="~/assets/js/jquery.js"></script>
+</body>

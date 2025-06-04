@@ -1,0 +1,167 @@
+2024-10-16 08:09:18.936 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-16 08:09:19.057 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-16 08:09:19.498 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-16 08:09:19.548 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-16 08:09:19.550 +03:30 [INF] Hosting environment: Development
+2024-10-16 08:09:19.598 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-16 08:09:24.840 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger - null null
+2024-10-16 08:09:24.986 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-16 08:09:25.402 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger - 404 0 null 576.8838ms
+2024-10-16 08:09:25.419 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5048/swagger, Response status code: 404
+2024-10-16 08:09:37.811 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-16 08:09:38.001 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 190.3546ms
+2024-10-16 08:09:38.327 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-16 08:09:38.618 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 291.2207ms
+2024-10-16 08:10:00.356 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/GetEditProfile - multipart/form-data; boundary=----WebKitFormBoundaryleFtLYSvpX9ElYvK 134
+2024-10-16 08:10:00.573 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetEditProfile (AFAPIUnity)'
+2024-10-16 08:10:00.754 +03:30 [INF] Route matched with {action = "GetEditProfile", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEditProfile(Int64, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 08:10:03.763 +03:30 [INF] Executed DbCommand (151ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-16 08:10:04.003 +03:30 [INF] Executing OkObjectResult, writing value of type 'APAF.Domain.Core.Dtos.Animators.AnimatorDTos'.
+2024-10-16 08:10:04.073 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GetEditProfile (AFAPIUnity) in 3312.2611ms
+2024-10-16 08:10:04.074 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetEditProfile (AFAPIUnity)'
+2024-10-16 08:10:04.087 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/GetEditProfile - 200 null application/json; charset=utf-8 3731.4216ms
+2024-10-16 08:12:30.397 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/PostEditeprofile - multipart/form-data; boundary=----WebKitFormBoundary85cvTssJsUeHYOXZ 959
+2024-10-16 08:12:30.408 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.PostEditProfile (AFAPIUnity)'
+2024-10-16 08:12:30.424 +03:30 [INF] Route matched with {action = "PostEditProfile", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostEditProfile(AFAPIUnity.Dtos.AnimatorDtoEdit, System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 08:12:30.729 +03:30 [INF] Executed DbCommand (93ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AvatarId], [a].[DoesItRemove], [a].[FullName], [a].[Gender], [a].[PhoneNumber], [a].[Score], [a].[TotalScore], [a].[VersionAPK]
+FROM [Animators] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-16 08:12:31.125 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 90)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Animators] SET [FullName] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-16 08:12:31.174 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-16 08:12:31.176 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.PostEditProfile (AFAPIUnity) in 751.5209ms
+2024-10-16 08:12:31.176 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.PostEditProfile (AFAPIUnity)'
+2024-10-16 08:12:31.177 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/LoginAndRegister/PostEditeprofile - 200 null text/plain; charset=utf-8 779.4132ms
+2024-10-16 08:54:46.668 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-16 08:54:46.788 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-16 08:54:47.318 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-16 08:54:47.326 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-16 08:54:47.327 +03:30 [INF] Hosting environment: Development
+2024-10-16 08:54:47.327 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-16 08:55:16.202 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-16 08:55:16.585 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 388.1329ms
+2024-10-16 08:55:16.886 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-16 08:55:17.069 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 183.2682ms
+2024-10-16 08:55:26.496 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/GetLastVersion - null null
+2024-10-16 08:55:26.507 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-16 08:55:26.921 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetLastVersion (AFAPIUnity)'
+2024-10-16 08:55:26.989 +03:30 [INF] Route matched with {action = "GetLastVersion", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastVersion(System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 08:55:29.976 +03:30 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-16 08:55:30.107 +03:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2024-10-16 08:55:30.117 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GetLastVersion (AFAPIUnity) in 3119.485ms
+2024-10-16 08:55:30.118 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetLastVersion (AFAPIUnity)'
+2024-10-16 08:55:30.131 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/GetLastVersion - 404 0 null 3635.0225ms
+2024-10-16 08:56:39.126 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-16 08:56:39.243 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-16 08:56:39.754 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-16 08:56:39.828 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-16 08:56:39.829 +03:30 [INF] Hosting environment: Development
+2024-10-16 08:56:39.829 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-16 08:57:08.919 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-10-16 08:57:09.111 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 196.0873ms
+2024-10-16 08:57:09.190 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-16 08:57:09.400 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 210.202ms
+2024-10-16 08:57:10.182 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-16 08:57:10.459 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 276.5913ms
+2024-10-16 08:57:18.577 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/GetLastVersion - null null
+2024-10-16 08:57:18.586 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-16 08:57:18.998 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetLastVersion (AFAPIUnity)'
+2024-10-16 08:57:19.067 +03:30 [INF] Route matched with {action = "GetLastVersion", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastVersion(System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 08:58:10.369 +03:30 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-16 08:58:28.727 +03:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2024-10-16 08:58:28.739 +03:30 [INF] Executed action AFAPIUnity.Controllers.LoginAndRegisterController.GetLastVersion (AFAPIUnity) in 69661.1334ms
+2024-10-16 08:58:28.741 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetLastVersion (AFAPIUnity)'
+2024-10-16 08:58:28.767 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/GetLastVersion - 404 0 null 70190.5476ms
+2024-10-16 08:59:21.651 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/LoginAndRegister/GetLastVersion - null null
+2024-10-16 08:59:32.656 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.LoginAndRegisterController.GetLastVersion (AFAPIUnity)'
+2024-10-16 08:59:32.719 +03:30 [INF] Route matched with {action = "GetLastVersion", controller = "LoginAndRegister"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastVersion(System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.LoginAndRegisterController (AFAPIUnity).
+2024-10-16 08:59:53.357 +03:30 [INF] Executed DbCommand (176ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]

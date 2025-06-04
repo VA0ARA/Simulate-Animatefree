@@ -1,0 +1,949 @@
+2024-10-07 08:02:06.147 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-07 08:02:06.156 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:02:06.156 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-07 08:02:06.157 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-07 08:02:06.159 +03:30 [INF] Executed ViewResult - view Index executed in 2.193ms.
+2024-10-07 08:02:06.159 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 2.5094ms
+2024-10-07 08:02:06.159 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:02:06.159 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 12.1865ms
+2024-10-07 08:05:59.428 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-07 08:05:59.483 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:05:59.502 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:05:59.695 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:05:59.696 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-07 08:05:59.701 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 4.9487ms.
+2024-10-07 08:05:59.701 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 196.7867ms
+2024-10-07 08:05:59.701 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:05:59.701 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 273.0552ms
+2024-10-07 08:06:04.428 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - null null
+2024-10-07 08:06:04.432 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:06:04.449 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:06:04.505 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:06:04.698 +03:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Name], [m].[Score], [m].[Type], [m].[AssetBundlesId]
+FROM [Matchs] AS [m]
+2024-10-07 08:06:04.710 +03:30 [INF] Executing ViewResult, running view EditAssetbundle.
+2024-10-07 08:06:04.884 +03:30 [INF] Executed ViewResult - view EditAssetbundle executed in 175.8569ms.
+2024-10-07 08:06:04.884 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 435.0717ms
+2024-10-07 08:06:04.884 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:06:04.885 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 200 null text/html; charset=utf-8 457.0117ms
+2024-10-07 08:06:04.919 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/23f32783-1929-48b3-9ec8-ff8a64380b91.png - null null
+2024-10-07 08:06:04.920 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/23f32783-1929-48b3-9ec8-ff8a64380b91.png - 404 0 null 1.7609ms
+2024-10-07 08:06:04.921 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/File/AssetBundelBanner/23f32783-1929-48b3-9ec8-ff8a64380b91.png, Response status code: 404
+2024-10-07 08:06:04.921 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/File.jpg - null null
+2024-10-07 08:06:04.973 +03:30 [INF] Sending file. Request path: '/assets/img/png/File.jpg'. Physical path: '/home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/wwwroot/assets/img/png/File.jpg'
+2024-10-07 08:06:04.973 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/assets/img/png/File.jpg - 200 14257 image/jpeg 52.4668ms
+2024-10-07 08:08:56.596 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - multipart/form-data; boundary=----WebKitFormBoundaryXXcmtLgX6WcFIxfG 5159400
+2024-10-07 08:08:56.598 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:08:56.699 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:08:57.473 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:08:57.551 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (Size = 1000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AssetBundels] SET [Banner] = @p0, [FilePath] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-10-07 08:08:57.586 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[AssetBundlesId], [m].[DoesItRemove], [m].[Name], [m].[Score], [m].[Type]
+FROM [Matchs] AS [m]
+WHERE [m].[Id] = @__id_0
+2024-10-07 08:08:57.687 +03:30 [INF] Executing RedirectResult, redirecting to /AssetBundle/AssetbundleShowDetailPanel.
+2024-10-07 08:08:57.692 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 991.8809ms
+2024-10-07 08:08:57.692 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:08:57.864 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 302 0 null 1268.6373ms
+2024-10-07 08:08:57.865 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-07 08:08:57.866 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:08:57.870 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:08:57.910 +03:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:08:57.925 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-07 08:08:57.975 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 50.7246ms.
+2024-10-07 08:08:57.976 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 105.3665ms
+2024-10-07 08:08:57.976 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:08:57.976 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 111.197ms
+2024-10-07 08:09:50.044 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - null null
+2024-10-07 08:09:50.076 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:09:50.077 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:09:50.135 +03:30 [INF] Executed DbCommand (54ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:09:50.251 +03:30 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Name], [m].[Score], [m].[Type], [m].[AssetBundlesId]
+FROM [Matchs] AS [m]
+2024-10-07 08:09:50.270 +03:30 [INF] Executing ViewResult, running view EditAssetbundle.
+2024-10-07 08:09:50.307 +03:30 [INF] Executed ViewResult - view EditAssetbundle executed in 36.6605ms.
+2024-10-07 08:09:50.308 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 230.837ms
+2024-10-07 08:09:50.309 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:09:50.310 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 200 null text/html; charset=utf-8 265.5983ms
+2024-10-07 08:09:50.349 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/d6358a9b-da67-480c-8778-959d35bda282.png - null null
+2024-10-07 08:09:50.351 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/d6358a9b-da67-480c-8778-959d35bda282.png - 404 0 null 1.6502ms
+2024-10-07 08:09:50.351 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/File/AssetBundelBanner/d6358a9b-da67-480c-8778-959d35bda282.png, Response status code: 404
+2024-10-07 08:10:41.676 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - multipart/form-data; boundary=----WebKitFormBoundaryLio7dryOOWSAhiiP 4531618
+2024-10-07 08:10:41.715 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:10:41.716 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:10:42.459 +03:30 [INF] Executed DbCommand (29ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:10:42.485 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[@p3='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (Size = 1000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AssetBundels] SET [Banner] = @p0, [FilePath] = @p1, [Name] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2024-10-07 08:10:42.521 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[AssetBundlesId], [m].[DoesItRemove], [m].[Name], [m].[Score], [m].[Type]
+FROM [Matchs] AS [m]
+WHERE [m].[Id] = @__id_0
+2024-10-07 08:10:42.524 +03:30 [INF] Executing RedirectResult, redirecting to /AssetBundle/AssetbundleShowDetailPanel.
+2024-10-07 08:10:42.525 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 808.3318ms
+2024-10-07 08:10:42.525 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:10:42.699 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 302 0 null 1023.2116ms
+2024-10-07 08:10:42.700 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-07 08:10:42.701 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:10:42.701 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:10:42.734 +03:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:10:42.746 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-07 08:10:42.750 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 5.4371ms.
+2024-10-07 08:10:42.751 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 49.2508ms
+2024-10-07 08:10:42.751 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:10:42.751 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 51.28ms
+2024-10-07 08:11:07.696 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - null null
+2024-10-07 08:11:07.698 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:11:07.702 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateAssetbundle() on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:11:07.705 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-07 08:11:07.828 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 125.4152ms.
+2024-10-07 08:11:07.829 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 126.794ms
+2024-10-07 08:11:07.830 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:11:07.830 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 133.9287ms
+2024-10-07 08:11:11.984 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundaryhuPIIANNpmx2Jju9 1309
+2024-10-07 08:11:11.987 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:11:12.002 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:11:12.013 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-07 08:11:12.023 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 10.119ms.
+2024-10-07 08:11:12.023 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 21.2629ms
+2024-10-07 08:11:12.023 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:11:12.024 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 39.1183ms
+2024-10-07 08:12:07.347 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundaryU5DsMtuBAOpGKbxE 4998910
+2024-10-07 08:12:07.368 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:12:07.377 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:12:08.083 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-07 08:12:08.092 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 9.3826ms.
+2024-10-07 08:12:08.092 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 715.3729ms
+2024-10-07 08:12:08.093 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:12:08.195 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 848.7181ms
+2024-10-07 08:13:10.521 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundaryO7baWd1kWdAjLEBV 9995830
+2024-10-07 08:13:10.558 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:13:10.559 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:13:11.823 +03:30 [INF] Executing ViewResult, running view CreateAssetbundle.
+2024-10-07 08:13:11.828 +03:30 [INF] Executed ViewResult - view CreateAssetbundle executed in 5.0383ms.
+2024-10-07 08:13:11.829 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 1269.7645ms
+2024-10-07 08:13:11.829 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:13:12.013 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 200 null text/html; charset=utf-8 1491.3534ms
+2024-10-07 08:13:39.353 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - multipart/form-data; boundary=----WebKitFormBoundary8rcqYFL27kna2BL7 5158951
+2024-10-07 08:13:39.413 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:13:39.428 +03:30 [INF] Route matched with {action = "CreateAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:13:40.238 +03:30 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Boolean), @p3='?' (Size = 1000), @p4='?' (Size = 4000), @p5='?' (DbType = Single), @p6='?' (Size = 500), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AssetBundels] ([Banner], [DoesItBlongsMatch], [DoesItRemove], [FilePath], [Name], [Price], [PurchaseReceipt], [Type], [UploadedOn])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2024-10-07 08:13:40.307 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:13:40.348 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Boolean), @p2='?' (Size = 30), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Matchs] ([AssetBundlesId], [DoesItRemove], [Name], [Score], [Type])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-10-07 08:13:40.380 +03:30 [INF] Executing RedirectResult, redirecting to /AssetBundle/AssetbundleShowDetailPanel.
+2024-10-07 08:13:40.382 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern) in 953.584ms
+2024-10-07 08:13:40.382 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.CreateAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:13:40.456 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/CreateAssetbundle - 302 0 null 1103.7669ms
+2024-10-07 08:13:40.457 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-07 08:13:40.458 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:13:40.458 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:13:40.466 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:13:40.479 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-07 08:13:40.484 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 5.3722ms.
+2024-10-07 08:13:40.484 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 25.5737ms
+2024-10-07 08:13:40.484 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:13:40.484 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 27.5471ms
+2024-10-07 08:15:23.730 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/2 - null null
+2024-10-07 08:15:23.769 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:23.770 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:15:23.857 +03:30 [INF] Executed DbCommand (31ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:15:23.986 +03:30 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Name], [m].[Score], [m].[Type], [m].[AssetBundlesId]
+FROM [Matchs] AS [m]
+2024-10-07 08:15:23.987 +03:30 [INF] Executing ViewResult, running view EditAssetbundle.
+2024-10-07 08:15:23.995 +03:30 [INF] Executed ViewResult - view EditAssetbundle executed in 7.7988ms.
+2024-10-07 08:15:23.995 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 210.8472ms
+2024-10-07 08:15:23.995 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:23.995 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/2 - 200 null text/html; charset=utf-8 265.3688ms
+2024-10-07 08:15:24.040 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/FileAssetBundelBanner507dad16-e0d0-42b4-8d5b-c5baeedc7500.png - null null
+2024-10-07 08:15:24.041 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:24.042 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:15:24.061 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:15:24.696 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 654.3238ms
+2024-10-07 08:15:24.697 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:24.699 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: assetbundel with id 0 not found
+   at APAF.Infrastructure.EFCore.Repositories.AssetBundleRepository.GetById(Int64 id, CancellationToken cancellationToken) in /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/APAF.Infrustructuer.EFCore/Repositories/AssetBundleRepository.cs:line 109
+   at APAF.Services.Domain.AssetBundleService.GetById(Int64 id, CancellationToken cancellationToken) in /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/APAF.Services.Doamin/AssetBundleService.cs:line 26
+   at APAF.AppServices.Domain.AssetBundleAppService.GetById(Int64 id, CancellationToken cancellationToken) in /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/APAF.AppServices.Domain/AssetBundleAppService.cs:line 28
+   at AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle(Int64 Id, CancellationToken cancellationToken) in /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern/Controllers/AssetBundle/AssetBundleController.cs:line 143
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-07 08:15:24.736 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/FileAssetBundelBanner507dad16-e0d0-42b4-8d5b-c5baeedc7500.png - 500 null text/plain; charset=utf-8 695.6447ms
+2024-10-07 08:15:38.276 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/2 - multipart/form-data; boundary=----WebKitFormBoundaryHLeRzbSMkkGyHP2Z 6781698
+2024-10-07 08:15:38.278 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:38.279 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:15:39.434 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:15:39.496 +03:30 [INF] Executed DbCommand (35ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (Size = 1000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AssetBundels] SET [Banner] = @p0, [FilePath] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-10-07 08:15:39.528 +03:30 [INF] Executed DbCommand (27ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[AssetBundlesId], [m].[DoesItRemove], [m].[Name], [m].[Score], [m].[Type]
+FROM [Matchs] AS [m]
+WHERE [m].[Id] = @__id_0
+2024-10-07 08:15:39.558 +03:30 [INF] Executing RedirectResult, redirecting to /AssetBundle/AssetbundleShowDetailPanel.
+2024-10-07 08:15:39.559 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 1280.2698ms
+2024-10-07 08:15:39.559 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:39.799 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/2 - 302 0 null 1523.4006ms
+2024-10-07 08:15:39.800 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-07 08:15:39.802 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:39.802 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:15:39.817 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:15:39.835 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-07 08:15:39.864 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 33.6581ms.
+2024-10-07 08:15:39.864 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 61.6128ms
+2024-10-07 08:15:39.865 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:15:39.865 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 64.8494ms
+2024-10-07 08:17:33.572 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - null null
+2024-10-07 08:17:33.573 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:17:33.574 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:17:33.617 +03:30 [INF] Executed DbCommand (38ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:17:33.698 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Name], [m].[Score], [m].[Type], [m].[AssetBundlesId]
+FROM [Matchs] AS [m]
+2024-10-07 08:17:33.801 +03:30 [INF] Executing ViewResult, running view EditAssetbundle.
+2024-10-07 08:17:33.851 +03:30 [INF] Executed ViewResult - view EditAssetbundle executed in 94.5673ms.
+2024-10-07 08:17:33.852 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 277.889ms
+2024-10-07 08:17:33.852 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:17:33.853 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 200 null text/html; charset=utf-8 280.6516ms
+2024-10-07 08:17:33.908 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/324bce9f-05de-4467-8cab-cae4915673fe.png - null null
+2024-10-07 08:17:33.909 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/324bce9f-05de-4467-8cab-cae4915673fe.png - 404 0 null 1.499ms
+2024-10-07 08:17:33.909 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/File/AssetBundelBanner/324bce9f-05de-4467-8cab-cae4915673fe.png, Response status code: 404
+2024-10-07 08:18:01.798 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - multipart/form-data; boundary=----WebKitFormBoundaryCZ1N7W21ExGYHfbG 1459503
+2024-10-07 08:18:01.815 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:01.839 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:18:02.118 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:18:02.200 +03:30 [INF] Executed DbCommand (20ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (Size = 1000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AssetBundels] SET [Banner] = @p0, [FilePath] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-10-07 08:18:02.244 +03:30 [INF] Executed DbCommand (21ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[AssetBundlesId], [m].[DoesItRemove], [m].[Name], [m].[Score], [m].[Type]
+FROM [Matchs] AS [m]
+WHERE [m].[Id] = @__id_0
+2024-10-07 08:18:02.277 +03:30 [INF] Executing RedirectResult, redirecting to /AssetBundle/AssetbundleShowDetailPanel.
+2024-10-07 08:18:02.277 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 438.4338ms
+2024-10-07 08:18:02.278 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:02.342 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 302 0 null 544.6641ms
+2024-10-07 08:18:02.343 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-07 08:18:02.344 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:02.344 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:18:02.380 +03:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:18:02.424 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-07 08:18:02.452 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 28.3073ms.
+2024-10-07 08:18:02.452 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 108.128ms
+2024-10-07 08:18:02.452 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:02.453 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 109.7126ms
+2024-10-07 08:18:37.006 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - null null
+2024-10-07 08:18:37.055 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:37.055 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:18:37.071 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:18:37.128 +03:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Name], [m].[Score], [m].[Type], [m].[AssetBundlesId]
+FROM [Matchs] AS [m]
+2024-10-07 08:18:37.157 +03:30 [INF] Executing ViewResult, running view EditAssetbundle.
+2024-10-07 08:18:37.161 +03:30 [INF] Executed ViewResult - view EditAssetbundle executed in 3.7474ms.
+2024-10-07 08:18:37.161 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 105.4908ms
+2024-10-07 08:18:37.162 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:37.162 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 200 null text/html; charset=utf-8 155.7495ms
+2024-10-07 08:18:37.207 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/fe329934-39d0-473b-999f-605b66d8ae1e.png - null null
+2024-10-07 08:18:37.209 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/File/AssetBundelBanner/fe329934-39d0-473b-999f-605b66d8ae1e.png - 404 0 null 1.3653ms
+2024-10-07 08:18:37.209 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://0.0.0.0:5047/File/AssetBundelBanner/fe329934-39d0-473b-999f-605b66d8ae1e.png, Response status code: 404
+2024-10-07 08:18:51.579 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - multipart/form-data; boundary=----WebKitFormBoundaryTBZN0YSBzLinDLMT 4531618
+2024-10-07 08:18:51.580 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:51.581 +03:30 [INF] Route matched with {action = "EditAssetbundle", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAssetbundle(APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:18:52.326 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Banner], [a].[DoesItBlongsMatch], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[Price], [a].[PurchaseReceipt], [a].[Type], [a].[UploadedOn]
+FROM [AssetBundels] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-10-07 08:18:52.369 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (Size = 1000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AssetBundels] SET [Banner] = @p0, [FilePath] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-10-07 08:18:52.401 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[AssetBundlesId], [m].[DoesItRemove], [m].[Name], [m].[Score], [m].[Type]
+FROM [Matchs] AS [m]
+WHERE [m].[Id] = @__id_0
+2024-10-07 08:18:52.409 +03:30 [INF] Executing RedirectResult, redirecting to /AssetBundle/AssetbundleShowDetailPanel.
+2024-10-07 08:18:52.410 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern) in 829.2217ms
+2024-10-07 08:18:52.410 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.EditAssetbundle (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:52.598 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/AssetBundle/EditAssetBundle/1 - 302 0 null 1019.136ms
+2024-10-07 08:18:52.599 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - null null
+2024-10-07 08:18:52.599 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:52.600 +03:30 [INF] Route matched with {action = "AssetbundleShowDetailPanel", controller = "AssetBundle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssetbundleShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController (AFAP.EndPointMVCPattern).
+2024-10-07 08:18:52.612 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-07 08:18:52.645 +03:30 [INF] Executing ViewResult, running view AssetbundleShowDetailPanel.
+2024-10-07 08:18:52.652 +03:30 [INF] Executed ViewResult - view AssetbundleShowDetailPanel executed in 7.0771ms.
+2024-10-07 08:18:52.653 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern) in 52.7249ms
+2024-10-07 08:18:52.654 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.AssetBundle.AssetBundleController.AssetbundleShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:18:52.659 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/AssetBundle/AssetbundleShowDetailPanel - 200 null text/html; charset=utf-8 60.1333ms
+2024-10-07 08:19:36.279 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-07 08:19:36.280 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:19:36.280 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-07 08:19:36.288 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-07 08:19:36.290 +03:30 [INF] Executed ViewResult - view Index executed in 1.6505ms.
+2024-10-07 08:19:36.290 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 9.7767ms
+2024-10-07 08:19:36.290 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:19:36.290 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 11.5367ms
+2024-10-07 08:19:42.904 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - null null
+2024-10-07 08:19:42.953 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:19:42.963 +03:30 [INF] Route matched with {action = "AvatarShowDetailPanel", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AvatarShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:19:42.996 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath], [a].[DoesItRemove], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+2024-10-07 08:19:43.049 +03:30 [INF] Executing ViewResult, running view AvatarShowDetailPanel.
+2024-10-07 08:19:43.112 +03:30 [INF] Executed ViewResult - view AvatarShowDetailPanel executed in 66.4987ms.
+2024-10-07 08:19:43.113 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern) in 149.7461ms
+2024-10-07 08:19:43.114 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:19:43.114 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - 200 null text/html; charset=utf-8 210.2514ms
+2024-10-07 08:19:45.942 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/1 - null null
+2024-10-07 08:19:45.947 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:19:45.956 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:19:45.994 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:19:46.039 +03:30 [INF] Executing ViewResult, running view EditAvatar.
+2024-10-07 08:19:46.093 +03:30 [INF] Executed ViewResult - view EditAvatar executed in 56.0291ms.
+2024-10-07 08:19:46.094 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 136.9274ms
+2024-10-07 08:19:46.095 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:19:46.096 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/1 - 200 null text/html; charset=utf-8 153.8186ms
+2024-10-07 08:20:05.123 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/1 - multipart/form-data; boundary=----WebKitFormBoundary7dIVvO3NkBACj2er 194325
+2024-10-07 08:20:05.124 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:05.175 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:05.259 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:20:05.312 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 500)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Avaters] SET [FilePath] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:20:05.315 +03:30 [INF] Executing RedirectResult, redirecting to /Avatar/AvatarShowDetailPanel.
+2024-10-07 08:20:05.315 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 139.9263ms
+2024-10-07 08:20:05.316 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:05.331 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/1 - 302 0 null 207.9777ms
+2024-10-07 08:20:05.331 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - null null
+2024-10-07 08:20:05.332 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:05.332 +03:30 [INF] Route matched with {action = "AvatarShowDetailPanel", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AvatarShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:05.343 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath], [a].[DoesItRemove], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+2024-10-07 08:20:05.358 +03:30 [INF] Executing ViewResult, running view AvatarShowDetailPanel.
+2024-10-07 08:20:05.366 +03:30 [INF] Executed ViewResult - view AvatarShowDetailPanel executed in 7.8808ms.
+2024-10-07 08:20:05.366 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern) in 33.5011ms
+2024-10-07 08:20:05.366 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:05.366 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - 200 null text/html; charset=utf-8 34.9072ms
+2024-10-07 08:20:08.474 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/2 - null null
+2024-10-07 08:20:08.475 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:08.475 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:08.499 +03:30 [INF] Executed DbCommand (20ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:20:08.515 +03:30 [INF] Executing ViewResult, running view EditAvatar.
+2024-10-07 08:20:08.544 +03:30 [INF] Executed ViewResult - view EditAvatar executed in 29.0433ms.
+2024-10-07 08:20:08.544 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 69.1196ms
+2024-10-07 08:20:08.544 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:08.545 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/2 - 200 null text/html; charset=utf-8 70.8609ms
+2024-10-07 08:20:15.569 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/2 - multipart/form-data; boundary=----WebKitFormBoundaryxIFIQYiCJy59N3MU 222237
+2024-10-07 08:20:15.571 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:15.572 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:15.652 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:20:15.763 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 500)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Avaters] SET [FilePath] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:20:15.768 +03:30 [INF] Executing RedirectResult, redirecting to /Avatar/AvatarShowDetailPanel.
+2024-10-07 08:20:15.770 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 197.9648ms
+2024-10-07 08:20:15.770 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:15.791 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/2 - 302 0 null 221.6025ms
+2024-10-07 08:20:15.792 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - null null
+2024-10-07 08:20:15.793 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:15.793 +03:30 [INF] Route matched with {action = "AvatarShowDetailPanel", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AvatarShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:15.800 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath], [a].[DoesItRemove], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+2024-10-07 08:20:15.845 +03:30 [INF] Executing ViewResult, running view AvatarShowDetailPanel.
+2024-10-07 08:20:15.851 +03:30 [INF] Executed ViewResult - view AvatarShowDetailPanel executed in 6.065ms.
+2024-10-07 08:20:15.851 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern) in 57.9019ms
+2024-10-07 08:20:15.851 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:15.852 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - 200 null text/html; charset=utf-8 59.9319ms
+2024-10-07 08:20:35.231 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/1 - null null
+2024-10-07 08:20:35.232 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:35.233 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:35.264 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:20:35.287 +03:30 [INF] Executing ViewResult, running view EditAvatar.
+2024-10-07 08:20:35.297 +03:30 [INF] Executed ViewResult - view EditAvatar executed in 10.232ms.
+2024-10-07 08:20:35.297 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 64.628ms
+2024-10-07 08:20:35.297 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:35.298 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/1 - 200 null text/html; charset=utf-8 66.4683ms
+2024-10-07 08:20:44.010 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/1 - multipart/form-data; boundary=----WebKitFormBoundaryb9AsSMRB2hHTvZym 222240
+2024-10-07 08:20:44.043 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:44.044 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:44.135 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:20:44.206 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 500)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Avaters] SET [FilePath] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:20:44.207 +03:30 [INF] Executing RedirectResult, redirecting to /Avatar/AvatarShowDetailPanel.
+2024-10-07 08:20:44.208 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 164.0158ms
+2024-10-07 08:20:44.208 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:44.224 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/1 - 302 0 null 214.5117ms
+2024-10-07 08:20:44.224 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - null null
+2024-10-07 08:20:44.229 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:44.229 +03:30 [INF] Route matched with {action = "AvatarShowDetailPanel", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AvatarShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:20:44.240 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath], [a].[DoesItRemove], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+2024-10-07 08:20:44.280 +03:30 [INF] Executing ViewResult, running view AvatarShowDetailPanel.
+2024-10-07 08:20:44.287 +03:30 [INF] Executed ViewResult - view AvatarShowDetailPanel executed in 8.5599ms.
+2024-10-07 08:20:44.287 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern) in 58.1581ms
+2024-10-07 08:20:44.287 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:20:44.288 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - 200 null text/html; charset=utf-8 63.422ms
+2024-10-07 08:21:01.325 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/1 - null null
+2024-10-07 08:21:01.329 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:01.329 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:21:01.339 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:21:01.400 +03:30 [INF] Executing ViewResult, running view EditAvatar.
+2024-10-07 08:21:01.476 +03:30 [INF] Executed ViewResult - view EditAvatar executed in 77.4126ms.
+2024-10-07 08:21:01.476 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 147.3811ms
+2024-10-07 08:21:01.476 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:01.477 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/EditAvatar/1 - 200 null text/html; charset=utf-8 151.6787ms
+2024-10-07 08:21:06.475 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/1 - multipart/form-data; boundary=----WebKitFormBoundaryTCv6EhK525aARQmW 194224
+2024-10-07 08:21:06.476 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:06.476 +03:30 [INF] Route matched with {action = "EditAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:21:06.555 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DoesItRemove], [a].[FilePath], [a].[Name], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+WHERE [a].[Id] = @__Id_0
+2024-10-07 08:21:06.602 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 500)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Avaters] SET [FilePath] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:21:06.608 +03:30 [INF] Executing RedirectResult, redirecting to /Avatar/AvatarShowDetailPanel.
+2024-10-07 08:21:06.608 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern) in 132.2738ms
+2024-10-07 08:21:06.609 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.EditAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:06.649 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/EditAvatar/1 - 302 0 null 174.423ms
+2024-10-07 08:21:06.650 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - null null
+2024-10-07 08:21:06.650 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:06.651 +03:30 [INF] Route matched with {action = "AvatarShowDetailPanel", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AvatarShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:21:06.664 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath], [a].[DoesItRemove], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+2024-10-07 08:21:06.688 +03:30 [INF] Executing ViewResult, running view AvatarShowDetailPanel.
+2024-10-07 08:21:06.724 +03:30 [INF] Executed ViewResult - view AvatarShowDetailPanel executed in 36.9667ms.
+2024-10-07 08:21:06.725 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern) in 73.9613ms
+2024-10-07 08:21:06.725 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:06.725 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - 200 null text/html; charset=utf-8 75.4548ms
+2024-10-07 08:21:50.837 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/CreateAvatar - null null
+2024-10-07 08:21:50.853 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2024-10-07 08:21:50.988 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-07 08:21:51.011 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-07 08:21:51.047 +03:30 [INF] Executed DbCommand (27ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-07 08:21:51.084 +03:30 [INF] Executed DbCommand (33ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-07 08:21:51.106 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:51.115 +03:30 [INF] Route matched with {action = "CreateAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAvatar(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:21:51.122 +03:30 [INF] Executing ViewResult, running view CreateAvatar.
+2024-10-07 08:21:51.171 +03:30 [INF] Executed ViewResult - view CreateAvatar executed in 49.8446ms.
+2024-10-07 08:21:51.171 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern) in 51.8771ms
+2024-10-07 08:21:51.171 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:21:51.171 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/CreateAvatar - 200 null text/html; charset=utf-8 334.2933ms
+2024-10-07 08:22:04.914 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - multipart/form-data; boundary=----WebKitFormBoundaryN2XaBNwNfl9MpwNk 181242
+2024-10-07 08:22:04.918 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:04.927 +03:30 [INF] Route matched with {action = "CreateAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:22:04.969 +03:30 [INF] Executing ViewResult, running view CreateAvatar.
+2024-10-07 08:22:04.973 +03:30 [INF] Executed ViewResult - view CreateAvatar executed in 4.1209ms.
+2024-10-07 08:22:04.974 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern) in 46.1291ms
+2024-10-07 08:22:04.974 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:05.007 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - 200 null text/html; charset=utf-8 92.608ms
+2024-10-07 08:22:09.542 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - multipart/form-data; boundary=----WebKitFormBoundaryb4klBgBhgSpNNTl7 695
+2024-10-07 08:22:09.544 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:09.545 +03:30 [INF] Route matched with {action = "CreateAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:22:09.547 +03:30 [INF] Executing ViewResult, running view CreateAvatar.
+2024-10-07 08:22:09.550 +03:30 [INF] Executed ViewResult - view CreateAvatar executed in 2.7036ms.
+2024-10-07 08:22:09.550 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern) in 4.8964ms
+2024-10-07 08:22:09.550 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:09.550 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - 200 null text/html; charset=utf-8 7.8493ms
+2024-10-07 08:22:20.435 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - multipart/form-data; boundary=----WebKitFormBoundarye2SK2SM4uuBhbQee 2343564
+2024-10-07 08:22:20.449 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:20.450 +03:30 [INF] Route matched with {action = "CreateAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:22:20.749 +03:30 [INF] Executing ViewResult, running view CreateAvatar.
+2024-10-07 08:22:20.751 +03:30 [INF] Executed ViewResult - view CreateAvatar executed in 2.9901ms.
+2024-10-07 08:22:20.752 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern) in 301.3961ms
+2024-10-07 08:22:20.752 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:20.901 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - 200 null text/html; charset=utf-8 466.4647ms
+2024-10-07 08:22:39.356 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - multipart/form-data; boundary=----WebKitFormBoundarybiiO0pcejfBJMO4W 127760
+2024-10-07 08:22:39.357 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:39.358 +03:30 [INF] Route matched with {action = "CreateAvatar", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAvatar(APAF.Domain.Core.Dtos.Avatars.AvatarDtos, Microsoft.AspNetCore.Http.IFormFile, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:22:39.431 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 500), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Avaters] ([DoesItRemove], [FilePath], [Name], [UploadedOn])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-10-07 08:22:39.441 +03:30 [INF] Executing RedirectResult, redirecting to /Avatar/AvatarShowDetailPanel.
+2024-10-07 08:22:39.442 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern) in 83.8258ms
+2024-10-07 08:22:39.442 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.CreateAvatar (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:39.458 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/Avatar/CreateAvatar - 302 0 null 101.9495ms
+2024-10-07 08:22:39.459 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - null null
+2024-10-07 08:22:39.459 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:39.460 +03:30 [INF] Route matched with {action = "AvatarShowDetailPanel", controller = "Avatar"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AvatarShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController (AFAP.EndPointMVCPattern).
+2024-10-07 08:22:39.475 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath], [a].[DoesItRemove], [a].[UploadedOn]
+FROM [Avaters] AS [a]
+2024-10-07 08:22:39.499 +03:30 [INF] Executing ViewResult, running view AvatarShowDetailPanel.
+2024-10-07 08:22:39.506 +03:30 [INF] Executed ViewResult - view AvatarShowDetailPanel executed in 10.3723ms.
+2024-10-07 08:22:39.506 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern) in 46.4242ms
+2024-10-07 08:22:39.506 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Avatar.AvatarController.AvatarShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:22:39.506 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Avatar/AvatarShowDetailPanel - 200 null text/html; charset=utf-8 47.877ms
+2024-10-07 08:23:03.571 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-07 08:23:03.574 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:03.574 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:03.575 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-07 08:23:03.576 +03:30 [INF] Executed ViewResult - view Index executed in 1.0777ms.
+2024-10-07 08:23:03.606 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 31.3522ms
+2024-10-07 08:23:03.633 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:03.633 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 61.4274ms
+2024-10-07 08:23:29.823 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-07 08:23:29.826 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:29.867 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:29.934 +03:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-07 08:23:30.023 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-07 08:23:30.074 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 56.9864ms.
+2024-10-07 08:23:30.074 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 205.7187ms
+2024-10-07 08:23:30.074 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:30.074 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 250.9036ms
+2024-10-07 08:23:35.511 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - null null
+2024-10-07 08:23:35.516 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:35.527 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:35.591 +03:30 [INF] Executed DbCommand (40ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:23:35.680 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:23:35.731 +03:30 [INF] Executed ViewResult - view EditAPK executed in 53.2087ms.
+2024-10-07 08:23:35.732 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 204.8315ms
+2024-10-07 08:23:35.732 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:35.732 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 220.9965ms
+2024-10-07 08:23:40.996 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 329
+2024-10-07 08:23:40.998 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:41.008 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:41.046 +03:30 [INF] Executed DbCommand (17ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:23:41.117 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [APKs] SET [VersionCode] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:23:41.185 +03:30 [INF] Executing RedirectResult, redirecting to /APK/APKShowDetailPanel.
+2024-10-07 08:23:41.185 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 176.4065ms
+2024-10-07 08:23:41.185 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:41.186 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 302 0 null 189.8102ms
+2024-10-07 08:23:41.192 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-07 08:23:41.193 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:41.194 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:41.201 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-07 08:23:41.238 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-07 08:23:41.247 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 10.3428ms.
+2024-10-07 08:23:41.247 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 52.7254ms
+2024-10-07 08:23:41.247 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:41.248 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 55.2686ms
+2024-10-07 08:23:46.256 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - null null
+2024-10-07 08:23:46.257 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:46.257 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:46.270 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:23:46.288 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:23:46.300 +03:30 [INF] Executed ViewResult - view EditAPK executed in 12.1435ms.
+2024-10-07 08:23:46.300 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 43.0849ms
+2024-10-07 08:23:46.301 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:46.301 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 44.7957ms
+2024-10-07 08:23:50.295 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 323
+2024-10-07 08:23:50.298 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:50.298 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:50.299 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:23:50.306 +03:30 [INF] Executed ViewResult - view EditAPK executed in 6.9966ms.
+2024-10-07 08:23:50.308 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 9.3518ms
+2024-10-07 08:23:50.308 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:50.309 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 13.8555ms
+2024-10-07 08:23:58.612 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 322
+2024-10-07 08:23:58.613 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:58.613 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:23:58.615 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:23:58.617 +03:30 [INF] Executed ViewResult - view EditAPK executed in 1.8783ms.
+2024-10-07 08:23:58.617 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 3.8266ms
+2024-10-07 08:23:58.617 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:23:58.618 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 5.5513ms
+2024-10-07 08:24:02.845 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 322
+2024-10-07 08:24:02.889 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:02.889 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:24:02.890 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:24:02.892 +03:30 [INF] Executed ViewResult - view EditAPK executed in 2.1823ms.
+2024-10-07 08:24:02.892 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 2.7516ms
+2024-10-07 08:24:02.892 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:02.892 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 47.4207ms
+2024-10-07 08:24:16.174 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-07 08:24:16.175 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:16.175 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:24:16.188 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-07 08:24:16.209 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-07 08:24:16.216 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 7.1964ms.
+2024-10-07 08:24:16.217 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 41.4412ms
+2024-10-07 08:24:16.217 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:16.218 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 44.5342ms
+2024-10-07 08:24:22.444 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - null null
+2024-10-07 08:24:22.445 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:22.446 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:24:22.454 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:24:22.455 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:24:22.458 +03:30 [INF] Executed ViewResult - view EditAPK executed in 3.1473ms.
+2024-10-07 08:24:22.459 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 12.7672ms
+2024-10-07 08:24:22.459 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:22.459 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 15.1837ms
+2024-10-07 08:24:26.056 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 323
+2024-10-07 08:24:26.059 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:26.059 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:24:26.060 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:24:26.064 +03:30 [INF] Executed ViewResult - view EditAPK executed in 3.8837ms.
+2024-10-07 08:24:26.064 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 4.5487ms
+2024-10-07 08:24:26.065 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:26.065 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 9.0744ms
+2024-10-07 08:24:42.907 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 325
+2024-10-07 08:24:42.908 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:42.908 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:24:42.921 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:24:42.975 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [APKs] SET [VersionCode] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:24:43.078 +03:30 [INF] Executing RedirectResult, redirecting to /APK/APKShowDetailPanel.
+2024-10-07 08:24:43.079 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 171.0633ms
+2024-10-07 08:24:43.080 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:43.080 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 302 0 null 172.885ms
+2024-10-07 08:24:43.086 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-07 08:24:43.087 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:43.087 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:24:43.099 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-07 08:24:43.121 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-07 08:24:43.154 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 33.3609ms.
+2024-10-07 08:24:43.154 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 67.0855ms
+2024-10-07 08:24:43.155 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:24:43.155 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 69.1802ms
+2024-10-07 08:25:19.637 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - null null
+2024-10-07 08:25:19.639 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:19.639 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:19.646 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:25:19.663 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:25:19.669 +03:30 [INF] Executed ViewResult - view EditAPK executed in 6.306ms.
+2024-10-07 08:25:19.669 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 30.0393ms
+2024-10-07 08:25:19.669 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:19.669 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 32.6147ms
+2024-10-07 08:25:23.891 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 321
+2024-10-07 08:25:23.894 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:23.895 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:23.895 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:25:23.900 +03:30 [INF] Executed ViewResult - view EditAPK executed in 4.8749ms.
+2024-10-07 08:25:23.901 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 6.1929ms
+2024-10-07 08:25:23.902 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:23.902 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 11.5325ms
+2024-10-07 08:25:31.814 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 325
+2024-10-07 08:25:31.816 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:31.821 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:31.858 +03:30 [INF] Executed DbCommand (33ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:25:31.913 +03:30 [INF] Executed DbCommand (24ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [APKs] SET [VersionCode] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:25:31.943 +03:30 [INF] Executing RedirectResult, redirecting to /APK/APKShowDetailPanel.
+2024-10-07 08:25:31.944 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 122.1659ms
+2024-10-07 08:25:31.944 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:31.946 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 302 0 null 132.1542ms
+2024-10-07 08:25:31.954 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-07 08:25:31.956 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:31.956 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:31.968 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-07 08:25:31.993 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-07 08:25:31.998 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 5.5918ms.
+2024-10-07 08:25:31.998 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 41.0555ms
+2024-10-07 08:25:31.998 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:31.998 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 44.2988ms
+2024-10-07 08:25:34.164 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - null null
+2024-10-07 08:25:34.165 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:34.165 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(Int64, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:34.179 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:25:34.191 +03:30 [INF] Executing ViewResult, running view EditAPK.
+2024-10-07 08:25:34.193 +03:30 [INF] Executed ViewResult - view EditAPK executed in 1.8874ms.
+2024-10-07 08:25:34.197 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 32.2394ms
+2024-10-07 08:25:34.198 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:34.202 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/EditAPK/3 - 200 null text/html; charset=utf-8 38.4862ms
+2024-10-07 08:25:38.570 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - application/x-www-form-urlencoded 326
+2024-10-07 08:25:38.571 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:38.571 +03:30 [INF] Route matched with {action = "EditAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:38.581 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[DoesItRemove], [a].[VersionCode]
+FROM [APKs] AS [a]
+WHERE CAST([a].[Id] AS bigint) = @__id_0
+2024-10-07 08:25:38.689 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 1000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [APKs] SET [Description] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-10-07 08:25:38.821 +03:30 [INF] Executing RedirectResult, redirecting to /APK/APKShowDetailPanel.
+2024-10-07 08:25:38.828 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern) in 256.9198ms
+2024-10-07 08:25:38.829 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.EditAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:38.829 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/EditAPK/3 - 302 0 null 258.7778ms
+2024-10-07 08:25:38.834 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-07 08:25:38.835 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:38.836 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:38.848 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-07 08:25:38.867 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-07 08:25:38.880 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 14.2929ms.
+2024-10-07 08:25:38.881 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 44.2573ms
+2024-10-07 08:25:38.881 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:38.881 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 47.1687ms
+2024-10-07 08:25:48.978 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/CreateAPK - null null
+2024-10-07 08:25:48.980 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:48.983 +03:30 [INF] Route matched with {action = "CreateAPK", controller = "APK"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateAPK() on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:25:48.987 +03:30 [INF] Executing ViewResult, running view CreateAPK.
+2024-10-07 08:25:49.048 +03:30 [INF] Executed ViewResult - view CreateAPK executed in 62.5389ms.
+2024-10-07 08:25:49.048 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern) in 64.059ms
+2024-10-07 08:25:49.048 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:25:49.049 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/CreateAPK - 200 null text/html; charset=utf-8 70.4515ms
+2024-10-07 08:26:00.854 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/CreateAPK - application/x-www-form-urlencoded 299
+2024-10-07 08:26:00.855 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:00.865 +03:30 [INF] Route matched with {action = "CreateAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:26:00.871 +03:30 [INF] Executing ViewResult, running view CreateAPK.
+2024-10-07 08:26:00.874 +03:30 [INF] Executed ViewResult - view CreateAPK executed in 2.9923ms.
+2024-10-07 08:26:00.875 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern) in 8.2564ms
+2024-10-07 08:26:00.879 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:00.881 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/CreateAPK - 200 null text/html; charset=utf-8 26.5323ms
+2024-10-07 08:26:12.129 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5047/APK/CreateAPK - application/x-www-form-urlencoded 376
+2024-10-07 08:26:12.130 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:12.130 +03:30 [INF] Route matched with {action = "CreateAPK", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAPK(APAF.Domain.Core.Dtos.APK.APKDto, System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:26:12.172 +03:30 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 1000), @p1='?' (DbType = Boolean), @p2='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [APKs] ([Description], [DoesItRemove], [VersionCode])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2024-10-07 08:26:12.231 +03:30 [INF] Executing RedirectResult, redirecting to /APK/APKShowDetailPanel.
+2024-10-07 08:26:12.233 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern) in 102.1997ms
+2024-10-07 08:26:12.233 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.CreateAPK (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:12.233 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5047/APK/CreateAPK - 302 0 null 104.2328ms
+2024-10-07 08:26:12.239 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - null null
+2024-10-07 08:26:12.240 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:12.240 +03:30 [INF] Route matched with {action = "APKShowDetailPanel", controller = "APK"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] APKShowDetailPanel(System.Threading.CancellationToken) on controller AFAP.EndPointMVCPattern.Controllers.APK.APKController (AFAP.EndPointMVCPattern).
+2024-10-07 08:26:12.250 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST([a].[Id] AS bigint) AS [Id], [a].[Description], [a].[VersionCode], [a].[DoesItRemove]
+FROM [APKs] AS [a]
+2024-10-07 08:26:12.281 +03:30 [INF] Executing ViewResult, running view APKShowDetailPanel.
+2024-10-07 08:26:12.287 +03:30 [INF] Executed ViewResult - view APKShowDetailPanel executed in 7.0497ms.
+2024-10-07 08:26:12.287 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern) in 47.0494ms
+2024-10-07 08:26:12.287 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.APK.APKController.APKShowDetailPanel (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:12.289 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/APK/APKShowDetailPanel - 200 null text/html; charset=utf-8 50.0581ms
+2024-10-07 08:26:39.167 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-07 08:26:39.168 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:39.168 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AFAP.EndPointMVCPattern.Controllers.HomeController (AFAP.EndPointMVCPattern).
+2024-10-07 08:26:39.168 +03:30 [INF] Executing ViewResult, running view Index.
+2024-10-07 08:26:39.169 +03:30 [INF] Executed ViewResult - view Index executed in 1.0881ms.
+2024-10-07 08:26:39.169 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern) in 1.3214ms
+2024-10-07 08:26:39.170 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.HomeController.Index (AFAP.EndPointMVCPattern)'
+2024-10-07 08:26:39.170 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 200 null text/html; charset=utf-8 3.1297ms
+2024-10-07 08:27:22.692 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Logout - null null
+2024-10-07 08:27:22.693 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern)'
+2024-10-07 08:27:22.693 +03:30 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-07 08:27:22.693 +03:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-07 08:27:22.694 +03:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-07 08:27:22.694 +03:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-07 08:27:22.694 +03:30 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2024-10-07 08:27:22.694 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern) in 0.9311ms
+2024-10-07 08:27:22.694 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Logout (AFAP.EndPointMVCPattern)'
+2024-10-07 08:27:22.694 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Logout - 302 0 null 2.6431ms
+2024-10-07 08:27:22.724 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login - null null
+2024-10-07 08:27:22.725 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-07 08:27:22.725 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-07 08:27:22.728 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-07 08:27:22.731 +03:30 [INF] Executed ViewResult - view Login executed in 4.9701ms.
+2024-10-07 08:27:22.732 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 6.3228ms
+2024-10-07 08:27:22.732 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-07 08:27:22.732 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login - 200 null text/html; charset=utf-8 7.4755ms
+2024-10-07 08:55:25.145 +03:30 [INF] User profile is available. Using '/home/abedinara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-07 08:55:25.594 +03:30 [INF] Now listening on: http://0.0.0.0:5047
+2024-10-07 08:55:25.601 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 08:55:25.603 +03:30 [INF] Hosting environment: Development
+2024-10-07 08:55:25.604 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAP.EndPointMVCPattern
+2024-10-07 08:55:27.392 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/ - null null
+2024-10-07 08:55:27.404 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-07 08:55:27.506 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Owner|Admin)
+2024-10-07 08:55:27.579 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-10-07 08:55:27.588 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/ - 302 0 null 197.4586ms
+2024-10-07 08:55:27.621 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - null null
+2024-10-07 08:55:27.719 +03:30 [INF] Executing endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-07 08:55:27.798 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AFAP.EndPointMVCPattern.Controllers.Account.AccountController (AFAP.EndPointMVCPattern).
+2024-10-07 08:55:28.210 +03:30 [INF] Executing ViewResult, running view Login.
+2024-10-07 08:55:28.610 +03:30 [INF] Executed ViewResult - view Login executed in 406.8717ms.
+2024-10-07 08:55:28.611 +03:30 [INF] Executed action AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern) in 811.0635ms
+2024-10-07 08:55:28.611 +03:30 [INF] Executed endpoint 'AFAP.EndPointMVCPattern.Controllers.Account.AccountController.Login (AFAP.EndPointMVCPattern)'
+2024-10-07 08:55:28.618 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5047/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 996.2894ms

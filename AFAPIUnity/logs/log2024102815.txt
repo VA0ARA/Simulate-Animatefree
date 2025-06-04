@@ -1,0 +1,120 @@
+2024-10-28 15:24:04.781 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-28 15:24:04.903 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-28 15:24:05.410 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-28 15:24:05.500 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-28 15:24:05.501 +03:30 [INF] Hosting environment: Development
+2024-10-28 15:24:05.502 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-28 15:24:26.912 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/ - null null
+2024-10-28 15:24:27.088 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/ - 301 0 null 185.458ms
+2024-10-28 15:24:27.152 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-28 15:24:27.397 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 244.9068ms
+2024-10-28 15:24:27.919 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-10-28 15:24:27.954 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-28 15:24:27.956 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 499 665 image/png 36.1222ms
+2024-10-28 15:24:27.987 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-28 15:24:28.228 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 240.5132ms
+2024-10-28 15:24:33.144 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllAssetBundel - null null
+2024-10-28 15:24:33.156 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-28 15:24:33.597 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-10-28 15:24:33.609 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-28 15:24:33.610 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllAssetBundel - 401 0 null 465.7575ms
+2024-10-28 15:24:45.291 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllFreeAssetBundel - null null
+2024-10-28 15:24:45.324 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-10-28 15:24:45.325 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-28 15:24:45.326 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllFreeAssetBundel - 401 0 null 34.8378ms
+2024-10-28 15:25:30.078 +03:30 [ERR] An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+2024-10-28 15:25:30.203 +03:30 [INF] Key ring failed to load during application startup.
+System.UnauthorizedAccessException: Access to the path '/root/.aspnet/DataProtection-Keys' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.DirectoryInfo.Create()
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCore(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+2024-10-28 15:25:30.678 +03:30 [INF] Now listening on: http://0.0.0.0:5048
+2024-10-28 15:25:30.797 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-28 15:25:30.799 +03:30 [INF] Hosting environment: Development
+2024-10-28 15:25:30.800 +03:30 [INF] Content root path: /home/abedinara/App/AdminAPIRepo/animatefreeapiandadminpanel/AFAPIUnity
+2024-10-28 15:25:41.371 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/index.html - null null
+2024-10-28 15:25:41.656 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/index.html - 200 null text/html;charset=utf-8 289.6956ms
+2024-10-28 15:25:42.081 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - null null
+2024-10-28 15:25:42.118 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-28 15:25:42.118 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/favicon-16x16.png - 499 665 image/png 36.7945ms
+2024-10-28 15:25:42.169 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - null null
+2024-10-28 15:25:42.487 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 317.264ms
+2024-10-28 15:25:48.611 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - multipart/form-data; boundary=---------------------------38346235516792504024010334429 169
+2024-10-28 15:25:48.625 +03:30 [WRN] Failed to determine the https port for redirect.
+2024-10-28 15:25:49.045 +03:30 [INF] Authorization failed. These requirements were not met:
+UserOnlyAttribute
+2024-10-28 15:25:49.064 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-28 15:25:49.065 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - 401 0 null 454.0007ms
+2024-10-28 15:25:52.164 +03:30 [INF] Request starting HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - multipart/form-data; boundary=---------------------------321969934340122767882226255392 172
+2024-10-28 15:25:52.192 +03:30 [INF] Authorization failed. These requirements were not met:
+UserOnlyAttribute
+2024-10-28 15:25:52.194 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-28 15:25:52.195 +03:30 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:5048/FileDownload/SendAnimatorProfileDetail - 401 0 null 31.4582ms
+2024-10-28 15:26:00.373 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllAssetBundel - null null
+2024-10-28 15:26:00.395 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.FileDownloadController.GenerateListOfAllAssetBundel (AFAPIUnity)'
+2024-10-28 15:26:00.473 +03:30 [INF] Route matched with {action = "GenerateListOfAllAssetBundel", controller = "FileDownload"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateListOfAllAssetBundel(System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.FileDownloadController (AFAPIUnity).
+2024-10-28 15:26:03.476 +03:30 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-28 15:26:03.610 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Collections.Generic.List`1[[APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, APAF.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-28 15:26:03.673 +03:30 [INF] Executed action AFAPIUnity.Controllers.FileDownloadController.GenerateListOfAllAssetBundel (AFAPIUnity) in 3193.9326ms
+2024-10-28 15:26:03.674 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.FileDownloadController.GenerateListOfAllAssetBundel (AFAPIUnity)'
+2024-10-28 15:26:03.688 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllAssetBundel - 200 null application/json; charset=utf-8 3314.5557ms
+2024-10-28 15:26:11.877 +03:30 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllFreeAssetBundel - null null
+2024-10-28 15:26:11.878 +03:30 [INF] Executing endpoint 'AFAPIUnity.Controllers.FileDownloadController.GenerateListOfAllFreeAssetBundel (AFAPIUnity)'
+2024-10-28 15:26:11.892 +03:30 [INF] Route matched with {action = "GenerateListOfAllFreeAssetBundel", controller = "FileDownload"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateListOfAllFreeAssetBundel(System.Threading.CancellationToken) on controller AFAPIUnity.Controllers.FileDownloadController (AFAPIUnity).
+2024-10-28 15:26:12.001 +03:30 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[FilePath] AS [filepath], [a].[UploadedOn], [a].[Price], [a].[DoesItRemove], [a].[Type], [a].[Banner], [a].[PurchaseReceipt] AS [purche], [a].[DoesItBlongsMatch] AS [doesitblongethematch]
+FROM [AssetBundels] AS [a]
+2024-10-28 15:26:12.004 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Collections.Generic.List`1[[APAF.Domain.Core.Dtos.AssetBundles.AssetBundelDTos, APAF.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-28 15:26:12.005 +03:30 [INF] Executed action AFAPIUnity.Controllers.FileDownloadController.GenerateListOfAllFreeAssetBundel (AFAPIUnity) in 112.7123ms
+2024-10-28 15:26:12.006 +03:30 [INF] Executed endpoint 'AFAPIUnity.Controllers.FileDownloadController.GenerateListOfAllFreeAssetBundel (AFAPIUnity)'
+2024-10-28 15:26:12.007 +03:30 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5048/FileDownload/GenerateListOfAllFreeAssetBundel - 200 null application/json; charset=utf-8 129.4689ms

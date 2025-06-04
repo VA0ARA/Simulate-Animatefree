@@ -1,0 +1,49 @@
+﻿@model APAF.Domain.Core.Dtos.Owner.OwnerDto
+@{
+}
+@using APAF.Domain.Core.Enums
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1>Add New Tag - Admin Functionality</h1>
+    </div>
+</div>
+<div class="container py-5">
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">نام و نام خانوادگی</label>
+            <input type="text" class="form-control" id="FullName" asp-for="FullName" required />
+            <span class="text-danger" asp-validation-for="FullName"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">نام کاربری</label>
+            <input type="text" class="form-control" id="UserName" asp-for="UserName" required />
+            <span class="text-danger" asp-validation-for="UserName"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">رمز ورود</label>
+            <input type="text" class="form-control" id="Password" asp-for="Password" required />
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">وضعیت فعالیت</label>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" data-val="true" id="DoesItRemove" name="DoesItRemove" value="true">
+                <label class="form-check-label" for="flexSwitchCheckDefault">فعال</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" data-val="false" id="DoesItRemove" name="DoesItRemove" value="false">
+                <label class="form-check-label" for="flexSwitchCheckDefault">غیر فعال</label>
+            </div>
+        </div>
+@*         <div class="mb-3">
+            <labal asp-for="role" class="control-labal"></labal>
+            <select asp-for="role" class="form-control" asp-items="Html.GetEnumSelectList<Roll>()" multiple>
+                <option value="">لطفا انتخاب کنید</option>
+            </select>
+        </div> *@
+        <div class="mb-3">
+            <button type="submit" class="btn btn-dark">ذخیره شود</button>
+        </div>
+    </form>
+</div>

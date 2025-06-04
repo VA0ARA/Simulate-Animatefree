@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APAF.AppServices.Domain\APAF.AppServices.Domain.csproj" />
+    <ProjectReference Include="..\APAF.Infrustructuer.EFCore\APAF.Infrastructure.EFCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="RemoveDueToNDA\" />
+  </ItemGroup>
+
+</Project>
