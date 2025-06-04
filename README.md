@@ -56,7 +56,7 @@ Connected to Unity game to handle:
 
 This diagram shows the core database structure used in the back-end system:
 
-![Database Diagram](Panel\wwwroot/data.png)
+![Database Diagram](Panel/wwwroot/data.png)
 
 ## ⚠️ Disclaimer
 
